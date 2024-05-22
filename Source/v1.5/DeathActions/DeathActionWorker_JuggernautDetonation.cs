@@ -13,6 +13,7 @@ namespace ArtificialBeings
         public override void PawnDied(Corpse corpse, Lord prevLord)
         {
             GenExplosion.DoExplosion(radius: 16.9f, center: corpse.Position, map: corpse.Map, damType: DamageDefOf.Bomb, preExplosionSpawnThingDef: ThingDefOf.Shell_AntigrainWarhead, preExplosionSpawnChance: 0.01f, instigator: corpse.InnerPawn);
+            corpse.Destroy();
         }
     }
 }

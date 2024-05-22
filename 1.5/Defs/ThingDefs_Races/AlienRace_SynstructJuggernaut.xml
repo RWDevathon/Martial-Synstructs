@@ -84,7 +84,7 @@
 			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
 			<ArmorRating_Blunt>1.00</ArmorRating_Blunt>
             <ArmorRating_Heat>1.50</ArmorRating_Heat>
-            <InjuryHealingFactor>0.1</InjuryHealingFactor>
+            <InjuryHealingFactor>0.05</InjuryHealingFactor>
             <IncomingDamageFactor>0.4</IncomingDamageFactor>
 			<GlobalLearningFactor>0.2</GlobalLearningFactor>
             <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0</StaggerDurationFactor>
@@ -136,7 +136,6 @@
 			<baseHealthScale>7.5</baseHealthScale>
 			<baseBodySize>5</baseBodySize>
 			<needsRest>false</needsRest>
-            <hasCorpse>false</hasCorpse>
             <bloodDef IsNull="True"/>
 			<hediffGiverSets Inherit="False">
 				<li>ABF_Synstruct_AblativeActiveArmor</li>
