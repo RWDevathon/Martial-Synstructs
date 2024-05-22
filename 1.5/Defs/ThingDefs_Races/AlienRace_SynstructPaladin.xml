@@ -166,7 +166,7 @@
 			<baseBodySize>2.2</baseBodySize>
 			<hediffGiverSets>
 				<li>ABF_SynstructStandard</li>
-				<li>ABF_HediffGiverSet_AblativeActiveArmor</li>
+				<li>ABF_Synstruct_AblativeActiveArmor</li>
 			</hediffGiverSets>
             <hasGenders>false</hasGenders>
 		</race>

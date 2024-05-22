@@ -2,7 +2,19 @@
 <Defs>
 
 	<HediffGiverSetDef>
-        <defName>ABF_HediffGiverSet_AblativeActiveArmor</defName>
+        <defName>ABF_Synstruct_BleedsMechanites</defName>
+	    <hediffGivers>
+			<li Class="ArtificialBeings.HediffGiver_Leaking">
+				<hediff>ABF_RepleneshingMechanites</hediff>
+                <riseRatePerDay>1</riseRatePerDay>
+                <fallRatePerDay>15</fallRatePerDay>
+                <iconPath>UI/Icons/BleedingCoolant</iconPath>
+			</li>
+	    </hediffGivers>
+	</HediffGiverSetDef>
+
+	<HediffGiverSetDef>
+        <defName>ABF_Synstruct_AblativeActiveArmor</defName>
 	    <hediffGivers>
 			<li Class="ArtificialBeings.HediffGiver_AblativeActiveArmor">
 				<hediff>ABF_AblativeActiveArmor</hediff>

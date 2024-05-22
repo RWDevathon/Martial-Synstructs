@@ -137,8 +137,9 @@
 			<baseBodySize>5</baseBodySize>
 			<needsRest>false</needsRest>
             <hasCorpse>false</hasCorpse>
+            <bloodDef IsNull="True"/>
 			<hediffGiverSets Inherit="False">
-				<li>ABF_HediffGiverSet_AblativeActiveArmor</li>
+				<li>ABF_Synstruct_AblativeActiveArmor</li>
 			</hediffGiverSets>
             <deathAction>
                 <workerClass>ArtificialBeings.DeathActionWorker_JuggernautDetonation</workerClass>
@@ -164,10 +165,17 @@
                 <vulnerableToEMP>false</vulnerableToEMP>
                 <droneSkillLevel>16</droneSkillLevel>
                 <blacklistedNeeds>
+                    <li>Mood</li>
+                    <li>Joy</li>
+                    <li>Beauty</li>
                     <li>DrugDesire</li>
                     <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
                     <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
                     <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                    <li>RoomSize</li>
+                    <li>Comfort</li>
+                    <li>Outdoors</li>
+                    <li>Indoors</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
                     <li><key>ABF_Coolant</key><value>80</value></li>

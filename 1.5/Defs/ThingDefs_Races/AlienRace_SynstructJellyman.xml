@@ -104,7 +104,8 @@
 			<baseHungerRate>0.4</baseHungerRate>
             <hasCorpse>false</hasCorpse>
 			<hediffGiverSets Inherit="False">
-				<li>ABF_HediffGiverSet_AblativeActiveArmor</li>
+                <li>ABF_Synstruct_BleedsMechanites</li>
+				<li>ABF_Synstruct_AblativeActiveArmor</li>
 			</hediffGiverSets>
 		</race>
 		<modExtensions>
