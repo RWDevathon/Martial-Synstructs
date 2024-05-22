@@ -131,4 +131,23 @@
 		</spawnCategories>
 	</BackstoryDef>
 
+    <!-- Juggernaut -->
+
+	<BackstoryDef>
+		<defName>ABF_Synstruct_Adulthood_JuggernautDrone</defName>
+		<title>juggernaut</title>
+		<titleShort>drone</titleShort>
+		<baseDesc>{PAWN_nameDef} is a juggernaut, built and abandoned for an unknown reason. {PAWN_pronoun} exists only to fight, and perish violently.</baseDesc>
+		<slot>Adulthood</slot>
+        <shuffleable>false</shuffleable>
+        <bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+		<workDisables>
+			<li>AllWork</li>
+		</workDisables>
+	</BackstoryDef>
+
 </Defs>

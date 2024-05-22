@@ -48,6 +48,12 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+        <fixedChildBackstories>
+            <li>ABF_Synstruct_Childhood_GenericDrone</li>
+        </fixedChildBackstories>
+        <fixedAdultBackstories>
+            <li>ABF_Synstruct_Adulthood_JuggernautDrone</li>
+        </fixedAdultBackstories>
 		<aiAvoidCover>true</aiAvoidCover>
 		<weaponMoney>
 			<min>9999</min>
