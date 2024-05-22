@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BodyPartDef>
+        <defName>ABF_CoreIntegrityCage</defName>
+        <label>core cage</label>
+        <hitPoints>50</hitPoints>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <skinCovered>false</skinCovered>
+        <bleedRate>0</bleedRate>
+        <solid>true</solid>
+    </BodyPartDef>
+
+    <BodyPartDef>
+        <defName>ABF_SynstructLimb</defName>
+        <label>limb</label>
+        <hitPoints>20</hitPoints>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <skinCovered>false</skinCovered>
+        <tags>
+            <li>MovingLimbCore</li>
+            <li>ManipulationLimbCore</li>
+        </tags>
+        <bleedRate>0</bleedRate>
+        <solid>true</solid>
+    </BodyPartDef>
+
+    <BodyPartDef>
+        <defName>ABF_SynstructGripper</defName>
+        <label>manipulator</label>
+        <hitPoints>10</hitPoints>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <skinCovered>false</skinCovered>
+        <frostbiteVulnerability>0.01</frostbiteVulnerability>
+        <tags>
+            <li>MovingLimbSegment</li>
+            <li>ManipulationLimbSegment</li>
+        </tags>
+        <bleedRate>0</bleedRate>
+        <solid>true</solid>
+    </BodyPartDef>
+
+    <BodyPartDef>
+        <defName>ABF_MechaniteTorso</defName>
+        <label>central mass</label>
+        <hitPoints>50</hitPoints>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <skinCovered>false</skinCovered>
+        <frostbiteVulnerability>0.01</frostbiteVulnerability>
+        <tags>
+            <li>MovingLimbCore</li>
+            <li>ManipulationLimbCore</li>
+        </tags>
+        <bleedRate>0</bleedRate>
+        <solid>true</solid>
+    </BodyPartDef>
+
+    <BodyPartDef>
+        <defName>ABF_MechaniteHead</defName>
+        <label>upper mass</label>
+        <hitPoints>25</hitPoints>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <skinCovered>false</skinCovered>
+        <frostbiteVulnerability>0.01</frostbiteVulnerability>
+        <bleedRate>0</bleedRate>
+        <solid>true</solid>
+    </BodyPartDef>
+
+</Defs>

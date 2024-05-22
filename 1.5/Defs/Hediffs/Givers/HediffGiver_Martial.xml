@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffGiverSetDef>
+        <defName>ABF_HediffGiverSet_AblativeActiveArmor</defName>
+	    <hediffGivers>
+			<li Class="ArtificialBeings.HediffGiver_AblativeActiveArmor">
+				<hediff>ABF_AblativeActiveArmor</hediff>
+			</li>
+	    </hediffGivers>
+	</HediffGiverSetDef>
+
+</Defs>

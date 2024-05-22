@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
+		<defName>ABF_Synstruct_Paladin</defName>
+		<label>synstruct paladin</label>
+		<description>The very first military variant idealized, blueprinted, and created by artifical intelligences alone, the paladin design is as unique as it is aesthetically lacking: a rectangular prism with two forward arms and four large manipulators. It has a very odd design choice: rather than being heavily armored to prevent taking damage, paladins instead have a highly reactive hyperweave-infused chassis that significantly reduces incoming damage. The more damage it sustains, the more resilient against damage it becomes - making each paladin a warfighting champion. Specialized hardware vastly increases rate of fire.\n\nThe earliest paladins - contrary to expectation - took to their military role eagerly, and quickly developed a militaristic perspective that often is likened to ancient chivalric customs. Duels, ritualistic combat, and contempt for civilians are common. While paladins exhibit no strong moralistic tendencies as a group, violence should be expected from individuals that are insulted or suffer breakdowns.\n\nDue to their large size and shape, they earned the nickname "Warwagon" - but the proud paladins demand to be referred to by their self-given name. Few are brave enough to challenge their choice. Many have died for making unflattering comparisons between paladins and mechanoid centipedes.\n\nSynstruct paladins may be formatted into the following types:\n - Sapients</description>
+		<alienRace>
+			<raceRestriction>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<apparelList>
+				</apparelList>
+			</raceRestriction>
+			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
+                <body>
+                    <path>Things/Pawns/Humanlikes/Paladin/body/Naked_None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Paladin/body/Naked_None</Male>
+                        <Female>Things/Pawns/Humanlikes/Paladin/body/Naked_None</Female>
+                    </genderGraphics>
+                </body>
+                <head>
+                    <path>Things/Pawns/Humanlikes/Paladin/head/None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Paladin/head/None</Male>
+                        <Female>Things/Pawns/Humanlikes/Paladin/head/None</Female>
+                    </genderGraphics>
+                </head>
+                <skinShader>Cutout</skinShader>
+                <apparel>
+                    <bodyTypeFallback>Male</bodyTypeFallback>
+                </apparel>
+            </graphicPaths>
+            <generalSettings>
+                <alienPartGenerator>
+					<headBodyPartDef>ABF_SynstructHead</headBodyPartDef>
+                    <customHeadDrawSize>1.25</customHeadDrawSize>
+                    <headOffset>(0, 0.06)</headOffset>
+                    <headOffsetDirectional>
+                        <north>
+                            <layerOffset>-0.05</layerOffset>
+                        </north>
+                        <east>
+                            <offset>(0.4, 0)</offset>
+                        </east>
+                        <west>
+                            <offset>(-0.4, 0)</offset>
+                        </west>
+                    </headOffsetDirectional>
+                    <colorChannels Inherit="False">
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li> <!--White-->
+										<weight>4</weight>
+										<min>RGBA(180, 180, 180, 255)</min>
+										<max>RGBA(180, 180, 180, 255)</max>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>100</weight>
+										<min>RGBA(255, 255, 255, 255)</min>
+										<max>RGBA(255, 255, 255, 255)</max>
+									</li>
+								</options>
+							</second>
+						</li>
+					</colorChannels>
+					<customDrawSize>(2)</customDrawSize>
+                </alienPartGenerator>
+            </generalSettings>
+		</alienRace>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<MoveSpeed>2.50</MoveSpeed>
+			<ComfyTemperatureMin>-60</ComfyTemperatureMin>
+			<ComfyTemperatureMax>65</ComfyTemperatureMax>
+			<MentalBreakThreshold>0.21</MentalBreakThreshold>
+			<GlobalLearningFactor>0.9</GlobalLearningFactor>
+			<WorkSpeedGlobal>0.45</WorkSpeedGlobal>
+			<SocialImpact>0.8</SocialImpact>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+            <IncomingDamageFactor>0.8</IncomingDamageFactor>
+            <InjuryHealingFactor>4</InjuryHealingFactor>
+            <ABF_CoherenceRetention>1.75</ABF_CoherenceRetention>
+            <ABF_NutritionalIntakeEfficiency>1.2</ABF_NutritionalIntakeEfficiency>
+            <ABF_ChargingSpeed>1.5</ABF_ChargingSpeed>
+            <AimingDelayFactor>0.5</AimingDelayFactor>
+            <RangedCooldownFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</RangedCooldownFactor>
+            <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</StaggerDurationFactor>
+			<Mass>210.0</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>right hand</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left hand</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>manipulator</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Stab</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<chanceFactor>0.75</chanceFactor>
+			</li>
+			<li>
+				<label>bodyslam</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>ABF_PaladinBody</body>
+			<baseHealthScale>3</baseHealthScale>
+			<baseBodySize>2.2</baseBodySize>
+			<hediffGiverSets>
+				<li>ABF_SynstructStandard</li>
+				<li>ABF_HediffGiverSet_AblativeActiveArmor</li>
+			</hediffGiverSets>
+            <hasGenders>false</hasGenders>
+		</race>
+        <recipes>
+            <li>ABF_CoolantInjection</li>
+            <li>ABF_LubricantInjection</li>
+        </recipes>
+        <comps>
+            <li>
+                <compClass>ArtificialBeings.CompCoherenceNeed</compClass>
+            </li>
+        </comps>
+		<modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
+                <canBeDrone>false</canBeDrone>
+                <canBeReprogrammable>false</canBeReprogrammable>
+                <blacklistedNeeds>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                    <li>Outdoors</li>
+                    <li>Indoors</li>
+                    <li>Comfort</li>
+                    <li>RoomSize</li>
+                </blacklistedNeeds>
+                <artificialNeeds>
+                    <li><key>ABF_Coolant</key><value>5</value></li>
+                    <li><key>ABF_Lubricant</key><value>7.5</value></li>
+                </artificialNeeds>
+                <medicineList>
+                    <li>ABF_RepairStimSimple</li>
+                    <li>ABF_RepairStimIntermediate</li>
+                    <li>ABF_RepairStimAdvanced</li>
+                </medicineList>
+                <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
+                <hediffReplacements>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                </hediffReplacements>
+            </li>
+            <li Class="ArtificialBeings.ABF_SynstructExtension">
+                <sapientChildhoodBackstoryDef>ABF_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
+                <sapientAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
+            </li>
+		</modExtensions>
+		<butcherProducts>
+			<Plasteel>40</Plasteel>
+			<Uranium>10</Uranium>
+			<ComponentIndustrial>6</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+		</butcherProducts>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

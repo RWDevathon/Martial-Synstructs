@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
+		<defName>ABF_SynstructBishop</defName>
+		<label>synstruct bishop</label>
+		<description>Bishops vaguely resemble humans from afar unlike warriors or paladins, albeit ones that are unusually tall and thin. With six limbs that interchangeably act as legs and arms and backup internalized visual sensors, these slender war units are exceedingly tough to incapacitate. Where warriors are cheap and quick to assemble, bishops favor quality and rapid dynamism. These are units crafted for combat, both defensively and offensively, and can hold or push a line with steely determination.\n\nDue to their thin build and considerable height, they have earned the nicknames "deathstick" and "warpole," while their distinctive "head" segment is the source of their common name.\n\nSynstruct bishops may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
+		<alienRace>
+			<raceRestriction>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<apparelList>
+				</apparelList>
+			</raceRestriction>
+			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
+                <body>
+                    <path>Things/Pawns/Humanlikes/Bishop/body/Naked_None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Bishop/body/Naked_None</Male>
+                        <Female>Things/Pawns/Humanlikes/Bishop/body/Naked_None</Female>
+                    </genderGraphics>
+                </body>
+                <head>
+                    <path>Things/Pawns/Humanlikes/Bishop/head/None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Bishop/head/None</Male>
+                        <Female>Things/Pawns/Humanlikes/Bishop/head/None</Female>
+                    </genderGraphics>
+                </head>
+                <skinShader>CutoutComplex</skinShader>
+                <apparel>
+                    <bodyTypeFallback>Male</bodyTypeFallback>
+                </apparel>
+            </graphicPaths>
+            <generalSettings>
+                <alienPartGenerator>
+					<headBodyPartDef>ABF_SynstructHead</headBodyPartDef>
+                    <headOffset>(0, 0.34)</headOffset>
+                    <headOffsetDirectional>
+                        <east>
+                            <offset>(-0.085, 0)</offset>
+                        </east>
+                        <west>
+                            <offset>(0.085, 0)</offset>
+                        </west>
+                    </headOffsetDirectional>
+                    <colorChannels Inherit="False">
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li> <!--Crimson-->
+										<weight>4</weight>
+										<min>RGBA(180, 60, 60, 255)</min>
+										<max>RGBA(120, 40, 40, 255)</max>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>100</weight>
+										<min>RGBA(255, 255, 255, 255)</min>
+										<max>RGBA(255, 255, 255, 255)</max>
+									</li>
+								</options>
+							</second>
+						</li>
+					</colorChannels>
+                </alienPartGenerator>
+            </generalSettings>
+		</alienRace>
+		<statBases>
+			<MarketValue>1300</MarketValue>
+			<MoveSpeed>4.60</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<MentalBreakThreshold>0.14</MentalBreakThreshold>
+			<GlobalLearningFactor>0.3</GlobalLearningFactor>
+			<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+			<SocialImpact>0.05</SocialImpact>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+            <IncomingDamageFactor>0.9</IncomingDamageFactor>
+            <ABF_CoherenceRetention>1.25</ABF_CoherenceRetention>
+            <ABF_NutritionalIntakeEfficiency>1.2</ABF_NutritionalIntakeEfficiency>
+            <ABF_ChargingSpeed>1.3</ABF_ChargingSpeed>
+            <ABF_ComplexityLimit>15</ABF_ComplexityLimit>
+            <ABF_SkillLimit>5</ABF_SkillLimit>
+			<Mass>70.0</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>manipulator</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>0.75</cooldownTime>
+				<linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>10</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>manipulator</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>12</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<chanceFactor>0.75</chanceFactor>
+			</li>
+			<li>
+				<label>bodyslam</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>ABF_BishopBody</body>
+			<baseHealthScale>1.3</baseHealthScale>
+			<baseHungerRate>0.8</baseHungerRate>
+		</race>
+        <recipes>
+            <li>ABF_CoolantInjection</li>
+            <li>ABF_LubricantInjection</li>
+        </recipes>
+        <comps>
+            <li>
+                <compClass>ArtificialBeings.CompCoherenceNeed</compClass>
+            </li>
+        </comps>
+		<modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
+                <maxDirectives>5</maxDirectives>
+                <inherentWorkTypes><li>Hunting</li></inherentWorkTypes>
+                <inherentSkills>
+                    <li><key>Shooting</key><value>6</value></li>
+                    <li><key>Melee</key><value>6</value></li>
+                </inherentSkills>
+                <droneSkillLevel>4</droneSkillLevel>
+                <blacklistedNeeds>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                    <li>RoomSize</li>
+                    <li>Comfort</li>
+                    <li>Outdoors</li>
+                    <li>Indoors</li>
+                </blacklistedNeeds>
+                <blacklistedDroneNeeds>
+                    <li>Mood</li>
+                    <li>Joy</li>
+                    <li>Beauty</li>
+                </blacklistedDroneNeeds>
+                <artificialNeeds>
+                    <li><key>ABF_Coolant</key><value>1</value></li>
+                    <li><key>ABF_Lubricant</key><value>2</value></li>
+                </artificialNeeds>
+                <medicineList>
+                    <li>ABF_RepairStimSimple</li>
+                    <li>ABF_RepairStimIntermediate</li>
+                    <li>ABF_RepairStimAdvanced</li>
+                </medicineList>
+                <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
+                <hediffReplacements>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                </hediffReplacements>
+            </li>
+            <li Class="ArtificialBeings.ABF_SynstructExtension">
+                <droneChildhoodBackstoryDef>ABF_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
+                <droneAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
+                <sapientChildhoodBackstoryDef>ABF_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
+                <sapientAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
+            </li>
+		</modExtensions>
+		<butcherProducts>
+            <Steel>40</Steel>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</butcherProducts>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

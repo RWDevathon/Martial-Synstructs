@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
+		<defName>ABF_Synstruct_Warrior_Newboot</defName>
+		<label>warrior newboot</label>
+		<race>ABF_SynstructWarrior</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
+		<defName>ABF_Synstruct_Bishop_Newboot</defName>
+		<label>bishop newboot</label>
+		<race>ABF_SynstructBishop</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
+		<defName>ABF_Synstruct_Paladin_Newboot</defName>
+		<label>paladin newboot</label>
+		<race>ABF_Synstruct_Paladin</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Refugee">
+		<defName>ABF_Synstruct_Jellyman_Crash</defName>
+		<label>jellyman</label>
+		<race>ABF_SynstructJellyman</race>
+        <minGenerationAge>30</minGenerationAge>
+        <maxGenerationAge>200</maxGenerationAge>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ABF_Synstruct_Jellyman</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Refugee">
+		<defName>ABF_Synstruct_Juggernaut_Crash</defName>
+		<label>juggernaut</label>
+		<race>ABF_SynstructJuggernaut</race>
+		<combatPower>1000</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>9999</ecoSystemWeight>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ABF_Synstruct_Paladin</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<aiAvoidCover>true</aiAvoidCover>
+		<weaponMoney>
+			<min>9999</min>
+			<max>9999</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>ABF_JuggernautWeapon</li>
+		</weaponTags>
+	</PawnKindDef>
+
+</Defs>

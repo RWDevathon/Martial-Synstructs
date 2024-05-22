@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ABF_SynstructBishops</defName>
+		<label>synstruct bishops</label>
+		<tab>ABF_SynstructResearch</tab>
+		<description>Bishops vaguely resemble humans from afar, albeit ones that are unusually tall and thin. With six limbs that interchangeably act as legs and arms and backup internalized visual sensors, these slender war units are exceedingly tough to incapacitate. Where warriors are cheap and quick to assemble, bishops favor quality and rapid dynamism.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+            <li>ABF_SynstructWarriors</li>
+            <li>ABF_SynstructStandardization</li>
+            <li>Fabrication</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1.5</researchViewY>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+	</ResearchProjectDef>
+
+</Defs>

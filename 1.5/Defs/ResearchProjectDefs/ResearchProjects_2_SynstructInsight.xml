@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ABF_SynstructWarriors</defName>
+		<label>synstruct warriors</label>
+		<tab>ABF_SynstructResearch</tab>
+		<description>Warrior drones are standardized and automated combat synstructs - cheap, durable, and powerful. These are units crafted for war and war alone, and they are very good at it.</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>ABF_SynstructInsight</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

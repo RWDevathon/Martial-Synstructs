@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
+		<defName>ABF_SynstructJellyman</defName>
+		<label>synstruct jellyman</label>
+		<description>Jellymen were an accident, originally borne of an ultratech society's misadventure with archotech research. This semi-gelatinous mass of mechanites takes human form, and has a plethora of odd properties. Devoid of coolant and distinct limbs, uniquely psychically gifted with a very human-like brain that can absorb archotech devices like mechlinks and neuroformers, possessed of a body that reacts to harm like paladins do, immune to overheating and freezing, and even able to eject a mass of mechanites to incapacitate a foe in close combat, these are powerful beings indeed. The process for their creation is not well understood - but raving prophets claim these agglomerates are hierophants, and can be "naturally born" by the true gift of the archotechs.\n\nDespite everything, as a group, they behave like and have the desires of normal individuals. The given name for their kind does not bother them as long as they can participate in society on equal terms.</description>
+		<alienRace>
+			<raceRestriction>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<apparelList>
+				</apparelList>
+			</raceRestriction>
+			<graphicPaths>
+                <body>
+                    <path>Things/Pawns/Humanlikes/Jellyman/body/Naked_None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Jellyman/body/Naked_Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Jellyman/body/Naked_Female</Female>
+                        <None>Things/Pawns/Humanlikes/Jellyman/body/Naked_None</None>
+                    </genderGraphics>
+                </body>
+                <head>
+                    <path>Things/Pawns/Humanlikes/Jellyman/head/None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Jellyman/head/Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Jellyman/head/Female</Female>
+                        <None>Things/Pawns/Humanlikes/Jellyman/head/None</None>
+                    </genderGraphics>
+                </head>
+                <skinShader>Cutout</skinShader>
+                <apparel>
+                    <bodyTypeFallback>Male</bodyTypeFallback>
+                    <femaleBodyTypeFallback>Female</femaleBodyTypeFallback>
+                </apparel>
+            </graphicPaths>
+            <generalSettings>
+				<immuneToAge>true</immuneToAge>
+                <abilities>
+                    <li>ABF_EjectMechanites</li>
+                </abilities>
+                <alienPartGenerator>
+					<headBodyPartDef>ABF_MechaniteHead</headBodyPartDef>
+                    <colorChannels Inherit="False">
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li> <!--Gray-->
+										<weight>4</weight>
+										<min>RGBA(127, 127, 127, 255)</min>
+										<max>RGBA(127, 127, 127, 255)</max>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>100</weight>
+										<min>RGBA(255, 255, 255, 255)</min>
+										<max>RGBA(255, 255, 255, 255)</max>
+									</li>
+								</options>
+							</second>
+						</li>
+					</colorChannels>
+                </alienPartGenerator>
+            </generalSettings>
+		</alienRace>
+		<statBases>
+			<MarketValue>4000</MarketValue>
+			<MoveSpeed>6.50</MoveSpeed>
+			<PsychicSensitivity>2</PsychicSensitivity>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<MentalBreakThreshold>0.42</MentalBreakThreshold>
+			<GlobalLearningFactor>2</GlobalLearningFactor>
+			<WorkSpeedGlobal>2</WorkSpeedGlobal>
+			<SocialImpact>2</SocialImpact>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+            <ABF_CoherenceRetention>4</ABF_CoherenceRetention>
+            <ABF_NutritionalIntakeEfficiency>1.6</ABF_NutritionalIntakeEfficiency>
+            <ABF_ChargingSpeed>2</ABF_ChargingSpeed>
+			<Mass>30.0</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>bodyslam</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+		</tools>
+		<race>
+			<body>ABF_JellymanBody</body>
+			<makesFootprints>false</makesFootprints>
+			<bloodDef>ABF_DeadMechanites</bloodDef>
+			<baseHealthScale>5</baseHealthScale>
+			<baseHungerRate>0.4</baseHungerRate>
+            <hasCorpse>false</hasCorpse>
+			<hediffGiverSets Inherit="False">
+				<li>ABF_HediffGiverSet_AblativeActiveArmor</li>
+			</hediffGiverSets>
+		</race>
+		<modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
+                <canBeDrone>false</canBeDrone>
+                <canBeReprogrammable>false</canBeReprogrammable>
+                <vulnerableToEMP>false</vulnerableToEMP>
+                <blacklistedNeeds>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                </blacklistedNeeds>
+                <blacklistedSapientNeeds>
+                    <li>Outdoors</li>
+                    <li>Indoors</li>
+                    <li>RoomSize</li>
+                </blacklistedSapientNeeds>
+                <medicineList>
+                    <li>ABF_RepairStimSimple</li>
+                    <li>ABF_RepairStimIntermediate</li>
+                    <li>ABF_RepairStimAdvanced</li>
+                </medicineList>
+                <hediffReplacements>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                </hediffReplacements>
+            </li>
+            <li Class="ArtificialBeings.ABF_SynstructExtension">
+                <sapientChildhoodBackstoryDef>ABF_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
+                <sapientAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
+            </li>
+		</modExtensions>
+		<butcherProducts>
+            <Hyperweave>80</Hyperweave>
+			<Neutroamine>140</Neutroamine>
+			<AIPersonaCore>1</AIPersonaCore>
+			<ComponentSpacer>2</ComponentSpacer>
+		</butcherProducts>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>
