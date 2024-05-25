@@ -140,8 +140,13 @@
 			<hediffGiverSets Inherit="False">
 				<li>ABF_Synstruct_AblativeActiveArmor</li>
 			</hediffGiverSets>
-            <deathAction>
-                <workerClass>ArtificialBeings.DeathActionWorker_JuggernautDetonation</workerClass>
+            <deathAction Class="ArtificialBeings.DeathActionProperties_DeadSynstructSwitch">
+                <explosionRadius>16.9</explosionRadius>
+                <damageType>Bomb</damageType>
+                <preExplosionSpawnThingDef>Shell_AntigrainWarhead</preExplosionSpawnThingDef>
+                <preExplosionSpawnChance>0.01</preExplosionSpawnChance>
+                <ignoreThingsOfSameDef>true</ignoreThingsOfSameDef>
+                <destroyCorpse>true</destroyCorpse>
             </deathAction>
 			<ageGenerationCurve>
 				<points>

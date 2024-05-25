@@ -183,7 +183,6 @@
   <ItemGroup>
     <Compile Include="Comps\AbilityComps\CompAbilityEffect_ApplyHediffsToTargetAndUser.cs" />
     <Compile Include="Comps\AbilityComps\CompProperties\CompProperties_AbilityApplyHediffsToTargetAndUser.cs" />
-    <Compile Include="DeathActions\DeathActionWorker_JuggernautDetonation.cs" />
     <Compile Include="Hediffs\HediffGiver_AblativeActiveArmor.cs" />
     <Compile Include="JuggernautUtilities\OrbitalStrike_JuggernautDescent.cs" />
     <Compile Include="JuggernautUtilities\MoteMaker_JuggernautDescent.cs" />
