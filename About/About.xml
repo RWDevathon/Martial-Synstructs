@@ -7,15 +7,15 @@
     </supportedVersions>
     <modDependencies>
         <li>
-            <packageId>Killathon.ArtificialBeings.SynstructsCore</packageId>
+            <packageId>Killathon.ArtificialBeings.SynCore</packageId>
             <displayName>ABF: Synstructs Core</displayName>
             <!-- <steamWorkshopUrl></steamWorkshopUrl> -->
             <downloadUrl>https://github.com/RWDevathon/Synstructs-Core</downloadUrl>
         </li>
     </modDependencies>
-    <packageId>Killathon.ArtificialBeings.SynstructsCore.MartialSynstructs</packageId>
+    <packageId>Killathon.ArtificialBeings.SynCore.Martial</packageId>
     <loadAfter>
-        <li>Killathon.ArtificialBeings.SynstructsCore</li><!-- Dependency -->
+        <li>Killathon.ArtificialBeings.SynCore</li><!-- Dependency -->
     </loadAfter>
     <description><![CDATA[Synstructs have long been integrated into human societies, including its violent tendencies. Synstructs who take a shine to battle partake in the martial traditions of humanity, and often find themselves desiring a more purpose-built body. No one lives forever, but their battle-ready frames sure make an attempt at it.
 
