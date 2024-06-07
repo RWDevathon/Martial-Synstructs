@@ -2,10 +2,10 @@
 <Defs>
 
 	<ResearchProjectDef>
-		<defName>ABF_ResearchProject_Synstruct_AdvancedMartial</defName>
-		<label>advanced martial synstructs</label>
+		<defName>ABF_ResearchProject_Synstruct_UltraMartial</defName>
+		<label>ultra martial synstructs</label>
 		<tab>ABF_SynstructResearch</tab>
-		<description>The evolution of warfare has always been as much a topic of interest to synstructs as it is for their organic creators, and those who become obsessed with it invariably seek out ways to optimize themselves or their heirs for it. Entire societies of synstructs are dedicated to the rigorous study and practice of war, and these synstructs are well suited for it.</description>
+		<description>Assemble ultratech martial synstructs to dominate the battlefield.</description>
 		<baseCost>2800</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>

@@ -3,14 +3,13 @@
 
 	<ResearchProjectDef>
 		<defName>ABF_ResearchProject_Synstruct_BasicMartial</defName>
-		<label>basic martial synstructs</label>
+		<label>martial synstructs</label>
 		<tab>ABF_SynstructResearch</tab>
-		<description>Martial synstructs were developed well after the introduction of more civil variants and as those synstructs came to take on humanity's tendency for violent pursuits. The wWarrior synstruct is a simple drone designed for quantity over quality, while the so-called Bishop could possess sapience or be brought online as a drone to handle tasks where quality was more important.</description>
+		<description>Assemble synstruct drones to fill combat roles.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
             <li>ABF_SynstructStandardization</li>
-            <li>Fabrication</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<researchViewX>3</researchViewX>

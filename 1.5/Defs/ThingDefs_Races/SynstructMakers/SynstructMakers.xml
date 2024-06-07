@@ -75,7 +75,7 @@
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
-            <researchPrerequisite>ABF_ResearchProject_Synstruct_AdvancedMartial</researchPrerequisite>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_UltraMartial</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>40</Steel>
