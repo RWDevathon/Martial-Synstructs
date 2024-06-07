@@ -46,14 +46,6 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_MechaniteStorage</def>
-                    <coverage>0.0005</coverage>
-                    <depth>Inside</depth>
-                    <groups>
-                        <li>Torso</li>
-                    </groups>
-                </li>
-                <li>
                     <def>ABF_CoreIntelligence</def>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
