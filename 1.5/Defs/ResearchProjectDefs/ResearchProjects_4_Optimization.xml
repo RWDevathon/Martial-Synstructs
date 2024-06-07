@@ -13,7 +13,7 @@
             <li>ABF_ResearchProject_Synstruct_BasicMartial</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>6</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>1.5</researchViewY>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
