@@ -2,7 +2,7 @@
 <Defs>
 
     <AbilityDef>
-        <defName>ABF_EjectMechanites</defName>
+        <defName>ABF_Ability_Synstruct_EjectMechanites</defName>
         <label>eject mechanites</label>
         <description>In close proximity to a pawn, eject a mass of mechanites that will restrict the target's movement of key joints, severely reducing their movement and manipulation. The amount of mass required for this depends on the target's body size, and directly correlates to the amount of lost mechanites.\n\nTargets double this pawn's size are immune, due to the sheer amount of mechanites that would be required to restrain them.</description>
         <jobDef>CastAbilityOnThingMelee</jobDef>
@@ -21,8 +21,8 @@
         </verbProperties>
         <comps>
             <li Class="ArtificialBeings.CompProperties_AbilityApplyHediffsToTargetAndUser">
-              <hediffDefToApply>ABF_RestrictiveMechanites</hediffDefToApply>
-              <hediffDefToSuffer>ABF_RepleneshingMechanites</hediffDefToSuffer>
+              <hediffDefToApply>ABF_Hediff_Synstruct_RestrictiveMechanites</hediffDefToApply>
+              <hediffDefToSuffer>ABF_Hediff_Synstruct_ReplenishingMechanites</hediffDefToSuffer>
               <affectedByBodySize>True</affectedByBodySize>
               <bodySizeRatioEffect>0.5</bodySizeRatioEffect>
             </li>

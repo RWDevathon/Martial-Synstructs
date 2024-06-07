@@ -2,7 +2,7 @@
 <Defs>
 
     <SoundDef>
-      <defName>ABF_AutocannonBlast</defName>
+      <defName>ABF_Sound_Synstruct_Juggernaut_AutocannonBlast</defName>
       <context>MapOnly</context>
       <eventNames />
       <subSounds>
@@ -29,7 +29,7 @@
     </SoundDef>
 
     <SoundDef>
-      <defName>ABF_ShrapnelBlast</defName>
+      <defName>ABF_Sound_Synstruct_Juggernaut_ShrapnelBlast</defName>
       <context>MapOnly</context>
       <eventNames />
       <subSounds>

@@ -5,9 +5,9 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/RecipeDef[@Name="ABF_SurgerySynstructBase"]/recipeUsers</xpath>
         <value>
-            <li>ABF_SynstructWarrior</li>
-            <li>ABF_SynstructBishop</li>
-            <li>ABF_Synstruct_Paladin</li>
+            <li>ABF_Thing_Synstruct_Warrior</li>
+            <li>ABF_Thing_Synstruct_Bishop</li>
+            <li>ABF_Thing_Synstruct_Paladin</li>
         </value>
     </Operation>
 

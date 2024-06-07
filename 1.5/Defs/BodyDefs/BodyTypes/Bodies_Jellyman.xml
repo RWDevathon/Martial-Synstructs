@@ -2,24 +2,16 @@
 <Defs>
 
     <BodyDef>
-        <defName>ABF_JellymanBody</defName>
+        <defName>ABF_Body_Synstruct_Jellyman</defName>
         <label>jellyman mass</label>
         <corePart>
-            <def>ABF_CoreIntegrityCage</def>
+            <def>ABF_BodyPart_Synstruct_CoreCage</def>
             <height>Middle</height>
             <depth>Outside</depth>
             <groups>
                 <li>Torso</li>
             </groups>
             <parts>
-                <li>
-                    <def>ABF_MechaniteCore</def>
-                    <coverage>0.0003</coverage>
-                    <depth>Inside</depth>
-                    <groups>
-                        <li>Torso</li>
-                    </groups>
-                </li>
                 <li>
                     <def>ABF_SynstructVisualSensor</def>
                     <customLabel>mechanite visual sense</customLabel>
@@ -37,7 +29,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_MechaniteTorso</def>
+                    <def>ABF_BodyPart_Synstruct_MechaniteTorso</def>
                     <coverage>0.999</coverage>
                     <depth>Outside</depth>
                     <groups>
@@ -45,7 +37,7 @@
                     </groups>
                     <parts>
                         <li>
-                            <def>ABF_MechaniteHead</def>
+                            <def>ABF_BodyPart_Synstruct_MechaniteHead</def>
                             <coverage>0.12</coverage>
                             <groups>
                                 <li>UpperHead</li>

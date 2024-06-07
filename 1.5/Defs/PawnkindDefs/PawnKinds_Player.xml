@@ -2,49 +2,49 @@
 <Defs>
 
 	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
-		<defName>ABF_Synstruct_Warrior_Newboot</defName>
+		<defName>ABF_PawnKind_Synstruct_Warrior_Newboot</defName>
 		<label>warrior newboot</label>
-		<race>ABF_SynstructWarrior</race>
+		<race>ABF_Thing_Synstruct_Warrior</race>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
-		<defName>ABF_Synstruct_Bishop_Newboot</defName>
+		<defName>ABF_PawnKind_Synstruct_Bishop_Newboot</defName>
 		<label>bishop newboot</label>
-		<race>ABF_SynstructBishop</race>
+		<race>ABF_Thing_Synstruct_Bishop</race>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
-		<defName>ABF_Synstruct_Paladin_Newboot</defName>
+		<defName>ABF_PawnKind_Synstruct_Paladin_Newboot</defName>
 		<label>paladin newboot</label>
-		<race>ABF_Synstruct_Paladin</race>
+		<race>ABF_Thing_Synstruct_Paladin</race>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Refugee">
-		<defName>ABF_Synstruct_Jellyman_Crash</defName>
+		<defName>ABF_PawnKind_Synstruct_Jellyman_QuestCrash</defName>
 		<label>jellyman</label>
-		<race>ABF_SynstructJellyman</race>
+		<race>ABF_Thing_Synstruct_Jellyman</race>
         <minGenerationAge>30</minGenerationAge>
         <maxGenerationAge>200</maxGenerationAge>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
-					<li>ABF_Synstruct_Jellyman</li>
+					<li>ABF_SpawnCategory_Synstruct_Jellyman</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Refugee">
-		<defName>ABF_Synstruct_Juggernaut_Crash</defName>
+		<defName>ABF_PawnKind_Synstruct_Juggernaut_Calldown</defName>
 		<label>juggernaut</label>
-		<race>ABF_SynstructJuggernaut</race>
+		<race>ABF_Thing_Synstruct_Juggernaut</race>
 		<combatPower>1000</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>9999</ecoSystemWeight>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
-					<li>ABF_Synstruct_Paladin</li>
+					<li>ABF_SpawnCategory_Synstruct_Paladin</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -52,7 +52,7 @@
             <li>ABF_Synstruct_Childhood_GenericDrone</li>
         </fixedChildBackstories>
         <fixedAdultBackstories>
-            <li>ABF_Synstruct_Adulthood_JuggernautDrone</li>
+            <li>ABF_Backstory_Synstruct_Adulthood_Juggernaut</li>
         </fixedAdultBackstories>
 		<aiAvoidCover>true</aiAvoidCover>
 		<weaponMoney>
@@ -60,7 +60,7 @@
 			<max>9999</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>ABF_JuggernautWeapon</li>
+			<li>ABF_WeaponTag_Synstruct_Juggernaut</li>
 		</weaponTags>
 	</PawnKindDef>
 

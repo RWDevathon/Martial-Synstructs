@@ -2,7 +2,7 @@
 <Defs>
 
     <HediffDef>
-        <defName>ABF_AblativeActiveArmor</defName>
+        <defName>ABF_Hediff_Synstruct_AblativeActiveArmor</defName>
         <label>active armor</label>
         <description>This unit's entire body is actively reacting to damage it has taken, significantly reducing the amount of future damage it will take as a result. Sustained damage will greatly reduce coherence retention as the chassis continually warps to protect surviving systems.</description>
         <initialSeverity>1</initialSeverity>
@@ -72,9 +72,9 @@
     </HediffDef>
 
     <HediffDef>
-        <defName>ABF_RepleneshingMechanites</defName>
+        <defName>ABF_Hediff_Synstruct_ReplenishingMechanites</defName>
         <hediffClass>HediffWithComps</hediffClass>
-        <label>Mechanites replenishing</label>
+        <label>mechanites replenishing</label>
         <description>Many mechanites that form the mass of this pawn's body have been lost. Until they are replaced, the unit will be vulnerable and unable to operate fully.</description>
         <isBad>false</isBad>
         <scenarioCanAdd>false</scenarioCanAdd>
@@ -136,9 +136,9 @@
     </HediffDef>
 
     <HediffDef>
-        <defName>ABF_RestrictiveMechanites</defName>
+        <defName>ABF_Hediff_Synstruct_RestrictiveMechanites</defName>
         <hediffClass>HediffWithComps</hediffClass>
-        <label>Restrictive mechanites</label>
+        <label>restrictive mechanites</label>
         <description>Mechanites coat this pawn's joints, severely impairing movement and manipulation. Cut off from the original host, the mechanites will slowly decay over the span of a day.</description>
         <isBad>true</isBad>
         <scenarioCanAdd>false</scenarioCanAdd>

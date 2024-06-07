@@ -2,10 +2,10 @@
 <Defs>
 
     <BodyDef>
-        <defName>ABF_BishopBody</defName>
+        <defName>ABF_Body_Synstruct_Bishop</defName>
         <label>bishop body</label>
         <corePart>
-            <def>ABF_CoreIntegrityCage</def>
+            <def>ABF_BodyPart_Synstruct_CoreCage</def>
             <height>Middle</height>
             <depth>Outside</depth>
             <groups>
@@ -168,7 +168,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructLimb</def>
+                            <def>ABF_BodyPart_Synstruct_Limb</def>
                             <customLabel>first limb</customLabel>
                             <coverage>0.06</coverage>
                             <groups>
@@ -178,7 +178,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructGripper</def>
+                                    <def>ABF_BodyPart_Synstruct_Gripper</def>
                                     <customLabel>first manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
@@ -189,7 +189,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructLimb</def>
+                            <def>ABF_BodyPart_Synstruct_Limb</def>
                             <customLabel>second limb</customLabel>
                             <coverage>0.06</coverage>
                             <groups>
@@ -199,7 +199,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructGripper</def>
+                                    <def>ABF_BodyPart_Synstruct_Gripper</def>
                                     <customLabel>second manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
@@ -210,7 +210,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructLimb</def>
+                            <def>ABF_BodyPart_Synstruct_Limb</def>
                             <customLabel>third limb</customLabel>
                             <coverage>0.06</coverage>
                             <groups>
@@ -220,7 +220,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructGripper</def>
+                                    <def>ABF_BodyPart_Synstruct_Gripper</def>
                                     <customLabel>third manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
@@ -231,7 +231,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructLimb</def>
+                            <def>ABF_BodyPart_Synstruct_Limb</def>
                             <customLabel>fourth limb</customLabel>
                             <coverage>0.06</coverage>
                             <groups>
@@ -241,7 +241,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructGripper</def>
+                                    <def>ABF_BodyPart_Synstruct_Gripper</def>
                                     <customLabel>fourth manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
@@ -252,7 +252,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructLimb</def>
+                            <def>ABF_BodyPart_Synstruct_Limb</def>
                             <customLabel>fifth limb</customLabel>
                             <coverage>0.06</coverage>
                             <groups>
@@ -262,7 +262,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructGripper</def>
+                                    <def>ABF_BodyPart_Synstruct_Gripper</def>
                                     <customLabel>fifth manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
@@ -273,7 +273,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructLimb</def>
+                            <def>ABF_BodyPart_Synstruct_Limb</def>
                             <customLabel>sixth limb</customLabel>
                             <coverage>0.06</coverage>
                             <groups>
@@ -283,7 +283,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructGripper</def>
+                                    <def>ABF_BodyPart_Synstruct_Gripper</def>
                                     <customLabel>sixth manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>

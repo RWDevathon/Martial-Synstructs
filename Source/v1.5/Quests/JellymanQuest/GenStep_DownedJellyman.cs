@@ -17,7 +17,7 @@ namespace ArtificialBeings
                 DownedJellymanComp component = map.Parent.GetComponent<DownedJellymanComp>();
                 if (component == null || !component.pawn.Any)
                 {
-                    pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(ABF_PawnKindDefOf.ABF_Synstruct_Jellyman_Crash, Faction.OfAncients, PawnGenerationContext.NonPlayer, map.Tile, forceGenerateNewPawn: true, canGeneratePawnRelations: false, mustBeCapableOfViolence: false, allowFood: false, allowAddictions: false));
+                    pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(ABF_PawnKindDefOf.ABF_PawnKind_Synstruct_Jellyman_QuestCrash, Faction.OfAncients, PawnGenerationContext.NonPlayer, map.Tile, forceGenerateNewPawn: true, canGeneratePawnRelations: false, mustBeCapableOfViolence: false, allowFood: false, allowAddictions: false));
                 }
                 else
                 {

@@ -2,7 +2,7 @@
 <Defs>
 
     <ThingDef ParentName="OrbitalStrikeBase">
-        <defName>ABF_JuggernautDescentBeam</defName>
+        <defName>ABF_Thing_Synstruct_Juggernaut_DescentBeam</defName>
         <label>juggernaut descent</label>
         <thingClass>ArtificialBeings.OrbitalStrike_JuggernautDescent</thingClass>
         <comps>
@@ -26,7 +26,7 @@
     </ThingDef>
 
     <ThingDef ParentName="OrbitalUtilityBase">
-        <defName>ABF_OrbitalTargeterJuggernautDescent</defName>
+        <defName>ABF_Thing_Synstruct_Juggernaut_DescentTargeter</defName>
         <label>juggernaut deployment beacon</label>
         <description>A targetting unit for a juggernaut that has drawn close to the planet. The device indicates one is standing by for the signal to drop. Devices like these are infamous for uploading improper commands, resulting in the juggernaut going rogue.</description>
         <graphicData>

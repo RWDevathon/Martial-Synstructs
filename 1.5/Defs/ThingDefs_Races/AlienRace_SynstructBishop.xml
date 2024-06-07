@@ -2,7 +2,7 @@
 <Defs>
 
 	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
-		<defName>ABF_SynstructBishop</defName>
+		<defName>ABF_Thing_Synstruct_Bishop</defName>
 		<label>synstruct bishop</label>
 		<description>Bishops vaguely resemble humans from afar unlike warriors or paladins, albeit ones that are unusually tall and thin. With six limbs that interchangeably act as legs and arms and backup internalized visual sensors, these slender war units are exceedingly tough to incapacitate. Where warriors are cheap and quick to assemble, bishops favor quality and rapid dynamism. These are units crafted for combat, both defensively and offensively, and can hold or push a line with steely determination.\n\nDue to their thin build and considerable height, they have earned the nicknames "deathstick" and "warpole," while their distinctive "head" segment is the source of their common name.\n\nSynstruct bishops may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
 		<alienRace>
@@ -37,10 +37,10 @@
                     <headOffset>(0, 0.34)</headOffset>
                     <headOffsetDirectional>
                         <east>
-                            <offset>(-0.085, 0)</offset>
+                            <offset>(-0.035, 0)</offset>
                         </east>
                         <west>
-                            <offset>(0.085, 0)</offset>
+                            <offset>(0.035, 0)</offset>
                         </west>
                     </headOffsetDirectional>
                     <colorChannels Inherit="False">
@@ -137,7 +137,7 @@
 			</li>
 		</tools>
 		<race>
-			<body>ABF_BishopBody</body>
+			<body>ABF_Body_Synstruct_Bishop</body>
 			<baseHealthScale>1.3</baseHealthScale>
 			<baseHungerRate>0.8</baseHungerRate>
 		</race>

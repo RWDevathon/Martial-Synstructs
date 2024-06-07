@@ -2,7 +2,7 @@
 <Defs>
 
 	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
-		<defName>ABF_SynstructJellyman</defName>
+		<defName>ABF_Thing_Synstruct_Jellyman</defName>
 		<label>synstruct jellyman</label>
 		<description>Jellymen were an accident, originally borne of an ultratech society's misadventure with archotech research. This semi-gelatinous mass of mechanites takes human form, and has a plethora of odd properties. Devoid of coolant and distinct limbs, uniquely psychically gifted with a very human-like brain that can absorb archotech devices like mechlinks and neuroformers, possessed of a body that reacts to harm like paladins do, immune to overheating and freezing, and even able to eject a mass of mechanites to incapacitate a foe in close combat, these are powerful beings indeed. The process for their creation is not well understood - but raving prophets claim these agglomerates are hierophants, and can be "naturally born" by the true gift of the archotechs.\n\nDespite everything, as a group, they behave like and have the desires of normal individuals. The given name for their kind does not bother them as long as they can participate in society on equal terms.</description>
 		<alienRace>
@@ -37,10 +37,10 @@
             <generalSettings>
 				<immuneToAge>true</immuneToAge>
                 <abilities>
-                    <li>ABF_EjectMechanites</li>
+                    <li>ABF_Ability_Synstruct_EjectMechanites</li>
                 </abilities>
                 <alienPartGenerator>
-					<headBodyPartDef>ABF_MechaniteHead</headBodyPartDef>
+					<headBodyPartDef>ABF_BodyPart_Synstruct_MechaniteHead</headBodyPartDef>
                     <colorChannels Inherit="False">
 						<li>
 							<name>skin</name>
@@ -97,15 +97,15 @@
 			</li>
 		</tools>
 		<race>
-			<body>ABF_JellymanBody</body>
+			<body>ABF_Body_Synstruct_Jellyman</body>
 			<makesFootprints>false</makesFootprints>
-			<bloodDef>ABF_DeadMechanites</bloodDef>
+			<bloodDef>ABF_Thing_Synstruct_MechaniteFilth</bloodDef>
 			<baseHealthScale>5</baseHealthScale>
 			<baseHungerRate>0.4</baseHungerRate>
             <hasCorpse>false</hasCorpse>
 			<hediffGiverSets Inherit="False">
-                <li>ABF_Synstruct_BleedsMechanites</li>
-				<li>ABF_Synstruct_AblativeActiveArmor</li>
+                <li>ABF_HediffGiverSet_Synstruct_LeaksMechanites</li>
+				<li>ABF_HediffGiverSet_Synstruct_AblativeActiveArmor</li>
 			</hediffGiverSets>
 		</race>
 		<modExtensions>

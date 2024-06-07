@@ -2,7 +2,7 @@
 <Defs>
 
     <SitePartDef>
-        <defName>ABF_JellymanCrash</defName>
+        <defName>ABF_SitePart_Synstruct_JellymanCrash</defName>
         <label>enigmatic crashsite</label>
         <description>The location that seems to be beckoning across time and space. What could possibly land and make this happen?</description>
         <workerClass>ArtificialBeings.SitePartWorker_JellymanCrash</workerClass>
@@ -12,13 +12,13 @@
         <increasesPopulation>true</increasesPopulation>
         <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
         <tags>
-            <li>ABF_JellymanCrash</li>
+            <li>ABF_SitePartTag_Synstruct_JellymanCrash</li>
         </tags>
     </SitePartDef>
 
     <GenStepDef>
-        <defName>ABF_JellymanCrash</defName>
-        <linkWithSite>ABF_JellymanCrash</linkWithSite>
+        <defName>ABF_GenStep_Synstruct_JellymanCrash</defName>
+        <linkWithSite>ABF_SitePart_Synstruct_JellymanCrash</linkWithSite>
         <order>480</order>
         <genStep Class="ArtificialBeings.GenStep_DownedJellyman">
             <count>1</count>

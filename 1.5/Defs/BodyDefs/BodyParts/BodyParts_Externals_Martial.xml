@@ -2,7 +2,7 @@
 <Defs>
 
     <BodyPartDef>
-        <defName>ABF_CoreIntegrityCage</defName>
+        <defName>ABF_BodyPart_Synstruct_CoreCage</defName>
         <label>core cage</label>
         <hitPoints>50</hitPoints>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -12,7 +12,7 @@
     </BodyPartDef>
 
     <BodyPartDef>
-        <defName>ABF_SynstructLimb</defName>
+        <defName>ABF_BodyPart_Synstruct_Limb</defName>
         <label>limb</label>
         <hitPoints>20</hitPoints>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -26,8 +26,8 @@
     </BodyPartDef>
 
     <BodyPartDef>
-        <defName>ABF_SynstructGripper</defName>
-        <label>manipulator</label>
+        <defName>ABF_BodyPart_Synstruct_Gripper</defName>
+        <label>gripper</label>
         <hitPoints>10</hitPoints>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
         <skinCovered>false</skinCovered>
@@ -41,7 +41,7 @@
     </BodyPartDef>
 
     <BodyPartDef>
-        <defName>ABF_MechaniteTorso</defName>
+        <defName>ABF_BodyPart_Synstruct_MechaniteTorso</defName>
         <label>central mass</label>
         <hitPoints>50</hitPoints>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -56,7 +56,7 @@
     </BodyPartDef>
 
     <BodyPartDef>
-        <defName>ABF_MechaniteHead</defName>
+        <defName>ABF_BodyPart_Synstruct_MechaniteHead</defName>
         <label>upper mass</label>
         <hitPoints>25</hitPoints>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>

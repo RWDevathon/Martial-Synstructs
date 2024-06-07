@@ -5,13 +5,13 @@
 
     <!-- Childhood -->
 	<BackstoryDef>
-		<defName>ABF_Synstruct_Childhood_PaladinGallant</defName>
+		<defName>ABF_Backstory_Synstruct_Childhood_PaladinGallant</defName>
 		<title>paladin gallant</title>
 		<titleShort>gallant</titleShort>
 		<baseDesc>{PAWN_nameDef} was forged and activated a member of the warrior society of paladins - a society born not of faction, culture, or ideology, but of body and purpose. By virtue of creation, {PAWN_pronoun} was a gallant - yet to earn the title of paladin.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-            <li>ABF_Synstruct_Paladin</li>
+            <li>ABF_SpawnCategory_Synstruct_Paladin</li>
 		</spawnCategories>
         <skillGains>
 			<Shooting>8</Shooting>
@@ -30,7 +30,7 @@
 
     <!-- Adulthood -->
 	<BackstoryDef>
-		<defName>ABF_Synstruct_Adulthood_PaladinBattlemaster</defName>
+		<defName>ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster</defName>
 		<title>paladin battlemaster</title>
 		<titleShort>battlemaster</titleShort>
 		<baseDesc>{PAWN_nameDef} is a paladin battlemaster, a clique that revels in war and bloodshed as an end in of itself. {PAWN_pronoun} seeks to leave a triumphant legacy of victories, and will do nothing besides fight - and mentally prepare for the next fight.</baseDesc>
@@ -38,7 +38,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Adulthood</slot>
 		<spawnCategories>
-			<li>ABF_Synstruct_Paladin</li>
+			<li>ABF_SpawnCategory_Synstruct_Paladin</li>
 		</spawnCategories>
         <skillGains>
 			<Shooting>8</Shooting>
@@ -50,7 +50,7 @@
 	</BackstoryDef>
 
 	<BackstoryDef>
-		<defName>ABF_Synstruct_Adulthood_PaladinSentinel</defName>
+		<defName>ABF_Backstory_Synstruct_Adulthood_PaladinSentinel</defName>
 		<title>paladin sentinel</title>
 		<titleShort>sentinel</titleShort>
 		<baseDesc>{PAWN_nameDef} is a paladin sentinel, a clique that sees paladins as natural guardians and protectors. {PAWN_pronoun} will fight to protect {PAWN_possessive} comrades, and sees no task as beneath {PAWN_objective}.</baseDesc>
@@ -58,12 +58,12 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Adulthood</slot>
 		<spawnCategories>
-			<li>ABF_Synstruct_Paladin</li>
+			<li>ABF_SpawnCategory_Synstruct_Paladin</li>
 		</spawnCategories>
 	</BackstoryDef>
 
 	<BackstoryDef>
-		<defName>ABF_Synstruct_Adulthood_PaladinHospitaller</defName>
+		<defName>ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller</defName>
 		<title>paladin hospitaller</title>
 		<titleShort>hospitaller</titleShort>
 		<baseDesc>{PAWN_nameDef} is a paladin hospitaller, a clique that sees combat as inevitable but self-defeating. {PAWN_pronoun} seeks to end fights as swiftly as possible, to preserve well-being and to give mercy to opponents. Hospitallers adhere to a strict regime of tending and crafting.</baseDesc>
@@ -71,7 +71,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Adulthood</slot>
 		<spawnCategories>
-			<li>ABF_Synstruct_Paladin</li>
+			<li>ABF_SpawnCategory_Synstruct_Paladin</li>
 		</spawnCategories>
         <skillGains>
 			<Medicine>4</Medicine>
@@ -94,13 +94,13 @@
     <!-- Jellyman -->
 
 	<BackstoryDef>
-		<defName>ABF_Synstruct_Childhood_Jellyman</defName>
+		<defName>ABF_Backstory_Synstruct_Childhood_Jellyman</defName>
 		<title>naturalborn jellyman</title>
 		<titleShort>Naturalborn</titleShort>
 		<baseDesc>{PAWN_nameDef} was born a jellyman, an assemblage of mechanites forming a sapient being. With natural aptitude and a capable body, {PAWN_pronoun} is capable of nearly anything.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-            <li>ABF_Synstruct_Jellyman</li>
+            <li>ABF_SpawnCategory_Synstruct_Jellyman</li>
 		</spawnCategories>
         <skillGains>
             <Shooting>2</Shooting>
@@ -119,7 +119,7 @@
 	</BackstoryDef>
 
 	<BackstoryDef>
-		<defName>ABF_Synstruct_Adulthood_Jellyman</defName>
+		<defName>ABF_Backstory_Synstruct_Adulthood_Jellyman</defName>
 		<title>jellyman</title>
 		<titleShort>jellyman</titleShort>
 		<baseDesc>{PAWN_nameDef} is a jellyman, an assemblage of mechanites forming a sapient being. Their generic nature does not lead to a particular specialty, or any particular drawbacks.</baseDesc>
@@ -127,14 +127,14 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Adulthood</slot>
 		<spawnCategories>
-			<li>ABF_Synstruct_Jellyman</li>
+			<li>ABF_SpawnCategory_Synstruct_Jellyman</li>
 		</spawnCategories>
 	</BackstoryDef>
 
     <!-- Juggernaut -->
 
 	<BackstoryDef>
-		<defName>ABF_Synstruct_Adulthood_JuggernautDrone</defName>
+		<defName>ABF_Backstory_Synstruct_Adulthood_Juggernaut</defName>
 		<title>juggernaut</title>
 		<titleShort>drone</titleShort>
 		<baseDesc>{PAWN_nameDef} is a juggernaut, built and abandoned for an unknown reason. {PAWN_pronoun} exists only to fight, and perish violently.</baseDesc>

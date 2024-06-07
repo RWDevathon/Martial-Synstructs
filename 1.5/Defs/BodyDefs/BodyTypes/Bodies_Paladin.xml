@@ -2,10 +2,10 @@
 <Defs>
 
     <BodyDef>
-        <defName>ABF_PaladinBody</defName>
+        <defName>ABF_Body_Synstruct_Paladin</defName>
         <label>paladin body</label>
         <corePart>
-            <def>ABF_CoreIntegrityCage</def>
+            <def>ABF_BodyPart_Synstruct_CoreCage</def>
             <height>Middle</height>
             <depth>Outside</depth>
             <groups>
@@ -320,7 +320,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructLimb</def>
+                            <def>ABF_BodyPart_Synstruct_Limb</def>
                             <customLabel>forward left limb</customLabel>
                             <coverage>0.06</coverage>
                             <groups>
@@ -330,7 +330,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructGripper</def>
+                                    <def>ABF_BodyPart_Synstruct_Gripper</def>
                                     <customLabel>forward left manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
@@ -341,7 +341,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructLimb</def>
+                            <def>ABF_BodyPart_Synstruct_Limb</def>
                             <customLabel>forward right limb</customLabel>
                             <coverage>0.06</coverage>
                             <groups>
@@ -351,7 +351,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructGripper</def>
+                                    <def>ABF_BodyPart_Synstruct_Gripper</def>
                                     <customLabel>forward right manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
@@ -362,7 +362,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructLimb</def>
+                            <def>ABF_BodyPart_Synstruct_Limb</def>
                             <customLabel>rear left limb</customLabel>
                             <coverage>0.06</coverage>
                             <groups>
@@ -372,7 +372,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructGripper</def>
+                                    <def>ABF_BodyPart_Synstruct_Gripper</def>
                                     <customLabel>rear left manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
@@ -383,7 +383,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructLimb</def>
+                            <def>ABF_BodyPart_Synstruct_Limb</def>
                             <customLabel>rear right limb</customLabel>
                             <coverage>0.06</coverage>
                             <groups>
@@ -393,7 +393,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructGripper</def>
+                                    <def>ABF_BodyPart_Synstruct_Gripper</def>
                                     <customLabel>rear right manipulator</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>

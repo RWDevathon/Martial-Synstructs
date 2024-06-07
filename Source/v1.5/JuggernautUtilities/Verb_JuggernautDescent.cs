@@ -11,7 +11,7 @@ namespace ArtificialBeings
             {
                 return false;
             }
-            OrbitalStrike_JuggernautDescent mechfall = (OrbitalStrike_JuggernautDescent)GenSpawn.Spawn(ABF_ThingDefOf.ABF_JuggernautDescentBeam, currentTarget.Cell, caster.Map);
+            OrbitalStrike_JuggernautDescent mechfall = (OrbitalStrike_JuggernautDescent)GenSpawn.Spawn(ABF_ThingDefOf.ABF_Thing_Synstruct_Juggernaut_DescentBeam, currentTarget.Cell, caster.Map);
             mechfall.duration = DurationTicks;
             mechfall.instigator = caster;
             mechfall.weaponDef = EquipmentSource?.def;

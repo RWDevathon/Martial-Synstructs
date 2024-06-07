@@ -2,15 +2,15 @@
 <Defs>
 
 	<ResearchProjectDef>
-		<defName>ABF_Synstruct_Paladins</defName>
-		<label>synstruct paladins</label>
+		<defName>ABF_ResearchProject_Synstruct_AdvancedMartial</defName>
+		<label>advanced martial synstructs</label>
 		<tab>ABF_SynstructResearch</tab>
-		<description>Paladins were the first sapient synstructs idealized, blueprinted, and created by synstruct researchers alone, and is as unique as it is aesthetically lacking in the form of a rectangular prism with two forward arms and four large manipulators. Those synstruct researchers were later publicly scolded by their own kind for creating such a cold, heartless, and ultimately bland design.</description>
+		<description>The evolution of warfare has always been as much a topic of interest to synstructs as it is for their organic creators, and those who become obsessed with it invariably seek out ways to optimize themselves or their heirs for it. Entire societies of synstructs are dedicated to the rigorous study and practice of war, and these synstructs are well suited for it.</description>
 		<baseCost>2800</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
             <li>ABF_SynstructOptimization</li>
-            <li>ABF_SynstructBishops</li>
+            <li>ABF_ResearchProject_Synstruct_BasicMartial</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<researchViewX>6</researchViewX>

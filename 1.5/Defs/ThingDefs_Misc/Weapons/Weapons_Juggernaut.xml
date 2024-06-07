@@ -7,9 +7,6 @@
         <relicChance>0</relicChance>
         <tradeability>None</tradeability>
         <smeltable>false</smeltable>
-        <thingCategories>
-            <li>ABF_WeaponsJuggernaut</li>
-        </thingCategories>
         <useHitPoints>false</useHitPoints>
 		<statBases>
             <MarketValue>200</MarketValue>
@@ -18,15 +15,15 @@
 			<Beauty>-6</Beauty>
 		</statBases>
         <weaponTags>
-            <li>ABF_JuggernautWeapon</li>
+            <li>ABF_WeaponTag_Synstruct_Juggernaut</li>
         </weaponTags>
         <destroyOnDrop>true</destroyOnDrop>
 	</ThingDef>
 
     <!-- Rotary Autocannon -->
 	<ThingDef ParentName="BaseBullet">
-        <defName>ABF_AutocannonShell</defName>
-        <label>autocannon shell</label>
+        <defName>ABF_Thing_Synstruct_Juggernaut_AutocannonRound</defName>
+        <label>autocannon round</label>
         <graphicData>
             <texPath>Things/Projectile/ShellHighExplosive</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -41,7 +38,7 @@
     </ThingDef>
 
     <ThingDef ParentName="ABF_BaseGunJuggernaut">
-        <defName>ABF_RotaryAutocannon</defName>
+        <defName>ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon</defName>
         <label>rotary autocannon</label>
         <description>This massive weapon, larger than entire humans, is designed to bring even the largest opponents down under a barrage of direct-fire artillery shells. Rotating barrels integrated with a high efficiency autoloading magazine ensure steady rate of lethal fire.\n\nDue to a design flaw - typical for juggernauts - this weapon will self-destruct if it leaves the hands of a juggernaut.</description>
         <graphicData>
@@ -61,12 +58,12 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>ABF_AutocannonShell</defaultProjectile>
+                <defaultProjectile>ABF_Thing_Synstruct_Juggernaut_AutocannonRound</defaultProjectile>
                 <warmupTime>1</warmupTime>
                 <range>30.9</range>
                 <ticksBetweenBurstShots>25</ticksBetweenBurstShots>
                 <burstShotCount>2</burstShotCount>
-                <soundCast>ABF_AutocannonBlast</soundCast>
+                <soundCast>ABF_Sound_Synstruct_Juggernaut_AutocannonBlast</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>18</muzzleFlashScale>
             </li>
@@ -101,7 +98,7 @@
 
     <!-- Rotary Shrapnelcannon -->
 	<ThingDef ParentName="BaseBullet">
-        <defName>ABF_ShrapnelcannonChunk</defName>
+        <defName>ABF_Thing_Synstruct_Juggernaut_ShrapnelRound</defName>
         <label>shrapnel chunk</label>
         <graphicData>
             <texPath>Things/Projectile/Bullet_big</texPath>
@@ -117,7 +114,7 @@
     </ThingDef>
 
     <ThingDef ParentName="ABF_BaseGunJuggernaut">
-        <defName>ABF_RotaryShrapnelcannon</defName>
+        <defName>ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon</defName>
         <label>rotary shrapnelcannon</label>
         <description>This massive weapon, larger than entire humans, is designed to shred densely packed targets with a barrage of shrapnel the size of a bench. Rotating barrels integrated with a high efficiency autoloading magazine ensure steady rate of lethal fire.\n\nDue to a design flaw - typical for juggernauts - this weapon will self-destruct if it leaves the hands of a juggernaut.</description>
         <graphicData>
@@ -137,12 +134,12 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>ABF_ShrapnelcannonChunk</defaultProjectile>
+                <defaultProjectile>ABF_Thing_Synstruct_Juggernaut_ShrapnelRound</defaultProjectile>
                 <warmupTime>1</warmupTime>
                 <range>22.9</range>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <burstShotCount>6</burstShotCount>
-                <soundCast>ABF_ShrapnelBlast</soundCast>
+                <soundCast>ABF_Sound_Synstruct_Juggernaut_ShrapnelBlast</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>
@@ -177,7 +174,7 @@
 
     <!-- Headhunter Cannon -->
     <ThingDef ParentName="ABF_BaseGunJuggernaut">
-        <defName>ABF_HeadhunterCannon</defName>
+        <defName>ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon</defName>
         <label>headhunter cannon</label>
         <description>This massive weapon, the size of a full-grown human, is designed to fire long-range direct-fire artillery shells with pinpoint accuracy to take out key targets before they can retaliate. With a great deal of internal auto-correcting components, this weapon is a tank-buster by nature.\n\nDue to a design flaw - typical for juggernauts - this weapon will self-destruct if it leaves the hands of a juggernaut.</description>
         <graphicData>
@@ -197,10 +194,10 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>ABF_AutocannonShell</defaultProjectile>
+                <defaultProjectile>ABF_Thing_Synstruct_Juggernaut_AutocannonRound</defaultProjectile>
                 <warmupTime>1</warmupTime>
                 <range>59.9</range>
-                <soundCast>ABF_AutocannonBlast</soundCast>
+                <soundCast>ABF_Sound_Synstruct_Juggernaut_AutocannonBlast</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>20</muzzleFlashScale>
             </li>
@@ -235,13 +232,10 @@
 
     <!-- Juggernaut Poleaxe -->
   	<ThingDef ParentName="BaseWeapon">
-		<defName>ABF_JuggernautPoleaxe</defName>
-		<label>Juggernaut poleaxe</label>
+		<defName>ABF_Thing_Synstruct_Juggernaut_Poleaxe</defName>
+		<label>juggernaut poleaxe</label>
         <description>This massive weapon, the size of a full-grown human, serves the exact same purpose its smaller cousins serve: to close with the enemy and hack them apart. Of course, this tool is better at it than its ancestors - it is made of fine glitterworld grade materials and honed to perfection... and is large enough to splatter people rather than need to stab or cut.\n\nDue to a design flaw - typical for juggernauts - this weapon will self-destruct if it leaves the hands of a juggernaut.</description>
         <techLevel>Ultra</techLevel>
-        <thingCategories>
-            <li>ABF_WeaponsJuggernaut</li>
-        </thingCategories>
         <useHitPoints>false</useHitPoints>
         <relicChance>0</relicChance>
         <tradeability>None</tradeability>
@@ -251,7 +245,7 @@
             <drawSize>3.5</drawSize>
 		</graphicData>
         <weaponTags>
-            <li>ABF_JuggernautWeapon</li>
+            <li>ABF_WeaponTag_Synstruct_Juggernaut</li>
         </weaponTags>
 		<statBases>
             <MarketValue>200</MarketValue>

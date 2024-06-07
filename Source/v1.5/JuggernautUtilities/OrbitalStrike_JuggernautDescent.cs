@@ -47,7 +47,7 @@ namespace ArtificialBeings
 
         public void SpawnPawn()
         {
-            PawnGenerationRequest request = new PawnGenerationRequest(ABF_PawnKindDefOf.ABF_Synstruct_Juggernaut_Crash, instigator.Faction, PawnGenerationContext.NonPlayer);
+            PawnGenerationRequest request = new PawnGenerationRequest(ABF_PawnKindDefOf.ABF_PawnKind_Synstruct_Juggernaut_Calldown, instigator.Faction, PawnGenerationContext.NonPlayer);
             Pawn pawn = PawnGenerator.GeneratePawn(request);
             FilthMaker.TryMakeFilth(Position, Map, ThingDefOf.Filth_RubbleBuilding, 30);
 

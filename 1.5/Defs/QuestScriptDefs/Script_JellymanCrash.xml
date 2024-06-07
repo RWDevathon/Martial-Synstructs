@@ -2,7 +2,7 @@
 <Defs>
 
     <QuestScriptDef>
-        <defName>ABF_OpportunitySite_JellymanCrash</defName>
+        <defName>ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash</defName>
         <rootSelectionWeight>8</rootSelectionWeight>
         <rootMinPoints>2400</rootMinPoints>
         <rootIncreasesPopulation>true</rootIncreasesPopulation>
@@ -10,7 +10,7 @@
         <minRefireDays>120</minRefireDays>
         <questNameRules>
             <rulesStrings>
-                <li>questName->Mechanite Meteorite</li>
+                <li>questName->Meteoric Mechanites</li>
             </rulesStrings>
         </questNameRules>
         <questDescriptionRules>
@@ -57,7 +57,7 @@
                     <storeFactionAs>siteFaction</storeFactionAs>
                     <sitePartsTags>
                         <li>
-                            <tag>ABF_JellymanCrash</tag>
+                            <tag>ABF_SitePartTag_Synstruct_JellymanCrash</tag>
                         </li>
                         <li>
                             <tag>DownedRefugeeQuestThreat</tag>

@@ -2,10 +2,10 @@
 <Defs>
 
     <BodyDef>
-        <defName>ABF_WarriorBody</defName>
+        <defName>ABF_Body_Synstruct_Warrior</defName>
         <label>warrior body</label>
         <corePart>
-            <def>ABF_CoreIntegrityCage</def>
+            <def>ABF_BodyPart_Synstruct_CoreCage</def>
             <height>Middle</height>
             <depth>Outside</depth>
             <groups>
