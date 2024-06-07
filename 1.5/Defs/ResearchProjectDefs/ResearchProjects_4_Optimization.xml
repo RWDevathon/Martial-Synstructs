@@ -9,7 +9,7 @@
 		<baseCost>2800</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
-            <li>ABF_SynstructOptimization</li>
+            <li>ABF_ResearchProject_Synstruct_Optimization</li>
             <li>ABF_ResearchProject_Synstruct_BasicMartial</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
