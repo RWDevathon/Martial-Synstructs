@@ -13,7 +13,7 @@
             </groups>
             <parts>
                 <li>
-                    <def>ABF_InternalGenerator</def>
+                    <def>ABF_BodyPart_Synstruct_Generator</def>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -21,7 +21,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_InternalCorePump</def>
+                    <def>ABF_BodyPart_Synstruct_CoolantPump</def>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -29,7 +29,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_SynstructHeatsink</def>
+                    <def>ABF_BodyPart_Synstruct_Heatsink</def>
                     <customLabel>internal heatsink</customLabel>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
@@ -38,7 +38,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_InternalBattery</def>
+                    <def>ABF_BodyPart_Synstruct_Battery</def>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -46,7 +46,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_CoreIntelligence</def>
+                    <def>ABF_BodyPart_Synstruct_Core</def>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -54,7 +54,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_SynstructVisualSensor</def>
+                    <def>ABF_BodyPart_Synstruct_VisualSensor</def>
                     <customLabel>internal visual sensor</customLabel>
                     <coverage>0.0005</coverage>
                     <groups>
@@ -62,7 +62,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_SynstructTorso</def>
+                    <def>ABF_BodyPart_Synstruct_Torso</def>
                     <coverage>0.993</coverage>
                     <depth>Outside</depth>
                     <groups>
@@ -70,7 +70,7 @@
                     </groups>
                     <parts>
                         <li>
-                            <def>ABF_SynstructHeatsink</def>
+                            <def>ABF_BodyPart_Synstruct_Heatsink</def>
                             <customLabel>left heatsink</customLabel>
                             <coverage>0.005</coverage>
                             <depth>Inside</depth>
@@ -79,7 +79,7 @@
                             </groups>
                         </li>
                         <li>
-                            <def>ABF_SynstructHeatsink</def>
+                            <def>ABF_BodyPart_Synstruct_Heatsink</def>
                             <customLabel>right heatsink</customLabel>
                             <coverage>0.005</coverage>
                             <depth>Inside</depth>
@@ -88,7 +88,7 @@
                             </groups>
                         </li>
                         <li>
-                            <def>ABF_SynstructVisualSensor</def>
+                            <def>ABF_BodyPart_Synstruct_VisualSensor</def>
                             <customLabel>external visual sensor</customLabel>
                             <coverage>0.005</coverage>
                             <groups>
@@ -96,7 +96,7 @@
                             </groups>
                         </li>
                         <li>
-                            <def>ABF_SynstructHead</def>
+                            <def>ABF_BodyPart_Synstruct_Head</def>
                             <coverage>0.08</coverage>
                             <groups>
                                 <li>UpperHead</li>
@@ -106,7 +106,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructVoiceSynthesizer</def>
+                                    <def>ABF_BodyPart_Synstruct_Vocalizer</def>
                                     <coverage>0.14</coverage>
                                     <groups>
                                         <li>Teeth</li>
@@ -115,7 +115,7 @@
                                     </groups>
                                 </li>
                                 <li>
-                                    <def>ABF_SynstructVisualSensor</def>
+                                    <def>ABF_BodyPart_Synstruct_VisualSensor</def>
                                     <customLabel>left visual sensor</customLabel>
                                     <coverage>0.13</coverage>
                                     <groups>
@@ -124,7 +124,7 @@
                                     </groups>
                                 </li>
                                 <li>
-                                    <def>ABF_SynstructVisualSensor</def>
+                                    <def>ABF_BodyPart_Synstruct_VisualSensor</def>
                                     <customLabel>right visual sensor</customLabel>
                                     <coverage>0.13</coverage>
                                     <groups>
@@ -133,8 +133,8 @@
                                     </groups>
                                 </li>
                                 <li>
-                                    <def>ABF_SynstructAudioSensor</def>
-                                    <customLabel>left audio sensor</customLabel>
+                                    <def>ABF_BodyPart_Synstruct_AudialSensor</def>
+                                    <customLabel>left audial sensor</customLabel>
                                     <coverage>0.10</coverage>
                                     <groups>
                                         <li>UpperHead</li>
@@ -142,18 +142,11 @@
                                     </groups>
                                 </li>
                                 <li>
-                                    <def>ABF_SynstructAudioSensor</def>
-                                    <customLabel>right audio sensor</customLabel>
+                                    <def>ABF_BodyPart_Synstruct_AudialSensor</def>
+                                    <customLabel>right audial sensor</customLabel>
                                     <coverage>0.10</coverage>
                                     <groups>
                                         <li>UpperHead</li>
-                                        <li>FullHead</li>
-                                    </groups>
-                                </li>
-                                <li>
-                                    <def>ABF_SynstructSmellSensor</def>
-                                    <coverage>0.10</coverage>
-                                    <groups>
                                         <li>FullHead</li>
                                     </groups>
                                 </li>

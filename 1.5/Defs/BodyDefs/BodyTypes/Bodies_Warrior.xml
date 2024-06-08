@@ -13,7 +13,7 @@
             </groups>
             <parts>
                 <li>
-                    <def>ABF_InternalGenerator</def>
+                    <def>ABF_BodyPart_Synstruct_Generator</def>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -21,7 +21,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_InternalCorePump</def>
+                    <def>ABF_BodyPart_Synstruct_CoolantPump</def>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -29,7 +29,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_SynstructHeatsink</def>
+                    <def>ABF_BodyPart_Synstruct_Heatsink</def>
                     <customLabel>internal heatsink</customLabel>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
@@ -38,7 +38,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_InternalBattery</def>
+                    <def>ABF_BodyPart_Synstruct_Battery</def>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -46,7 +46,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_CoreIntelligence</def>
+                    <def>ABF_BodyPart_Synstruct_Core</def>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -54,7 +54,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_SynstructTorso</def>
+                    <def>ABF_BodyPart_Synstruct_Torso</def>
                     <coverage>0.993</coverage>
                     <depth>Outside</depth>
                     <groups>
@@ -62,7 +62,7 @@
                     </groups>
                     <parts>
                         <li>
-                            <def>ABF_SynstructHeatsink</def>
+                            <def>ABF_BodyPart_Synstruct_Heatsink</def>
                             <customLabel>left heatsink</customLabel>
                             <coverage>0.005</coverage>
                             <depth>Inside</depth>
@@ -71,7 +71,7 @@
                             </groups>
                         </li>
                         <li>
-                            <def>ABF_SynstructHeatsink</def>
+                            <def>ABF_BodyPart_Synstruct_Heatsink</def>
                             <customLabel>right heatsink</customLabel>
                             <coverage>0.005</coverage>
                             <depth>Inside</depth>
@@ -80,7 +80,7 @@
                             </groups>
                         </li>
                         <li>
-                            <def>ABF_SynstructHead</def>
+                            <def>ABF_BodyPart_Synstruct_Head</def>
                             <coverage>0.08</coverage>
                             <groups>
                                 <li>UpperHead</li>
@@ -90,7 +90,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructVoiceSynthesizer</def>
+                                    <def>ABF_BodyPart_Synstruct_Vocalizer</def>
                                     <coverage>0.14</coverage>
                                     <groups>
                                         <li>Teeth</li>
@@ -99,7 +99,7 @@
                                     </groups>
                                 </li>
                                 <li>
-                                    <def>ABF_SynstructVisualSensor</def>
+                                    <def>ABF_BodyPart_Synstruct_VisualSensor</def>
                                     <customLabel>left visual sensor</customLabel>
                                     <coverage>0.13</coverage>
                                     <groups>
@@ -108,7 +108,7 @@
                                     </groups>
                                 </li>
                                 <li>
-                                    <def>ABF_SynstructVisualSensor</def>
+                                    <def>ABF_BodyPart_Synstruct_VisualSensor</def>
                                     <customLabel>right visual sensor</customLabel>
                                     <coverage>0.13</coverage>
                                     <groups>
@@ -117,8 +117,8 @@
                                     </groups>
                                 </li>
                                 <li>
-                                    <def>ABF_SynstructAudioSensor</def>
-                                    <customLabel>left audio sensor</customLabel>
+                                    <def>ABF_BodyPart_Synstruct_AudialSensor</def>
+                                    <customLabel>left audial sensor</customLabel>
                                     <coverage>0.10</coverage>
                                     <groups>
                                         <li>UpperHead</li>
@@ -126,25 +126,18 @@
                                     </groups>
                                 </li>
                                 <li>
-                                    <def>ABF_SynstructAudioSensor</def>
-                                    <customLabel>right audio sensor</customLabel>
+                                    <def>ABF_BodyPart_Synstruct_AudialSensor</def>
+                                    <customLabel>right audial sensor</customLabel>
                                     <coverage>0.10</coverage>
                                     <groups>
                                         <li>UpperHead</li>
-                                        <li>FullHead</li>
-                                    </groups>
-                                </li>
-                                <li>
-                                    <def>ABF_SynstructSmellSensor</def>
-                                    <coverage>0.10</coverage>
-                                    <groups>
                                         <li>FullHead</li>
                                     </groups>
                                 </li>
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructShoulder</def>
+                            <def>ABF_BodyPart_Synstruct_Shoulder</def>
                             <customLabel>left shoulder</customLabel>
                             <coverage>0.12</coverage>
                             <groups>
@@ -152,7 +145,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructArm</def>
+                                    <def>ABF_BodyPart_Synstruct_Arm</def>
                                     <customLabel>left arm</customLabel>
                                     <coverage>0.85</coverage>
                                     <groups>
@@ -160,7 +153,7 @@
                                     </groups>
                                     <parts>
                                         <li>
-                                            <def>ABF_SynstructHand</def>
+                                            <def>ABF_BodyPart_Synstruct_Hand</def>
                                             <customLabel>left hand</customLabel>
                                             <coverage>0.2</coverage>
                                             <height>Bottom</height>
@@ -169,7 +162,7 @@
                                             </groups>
                                             <parts>
                                                 <li>
-                                                    <def>ABF_SynstructFinger</def>
+                                                    <def>ABF_BodyPart_Synstruct_Finger</def>
                                                     <customLabel>left pinky</customLabel>
                                                     <coverage>0.06</coverage>
                                                     <groups>
@@ -178,7 +171,7 @@
                                                     </groups>
                                                 </li>
                                                 <li>
-                                                    <def>ABF_SynstructFinger</def>
+                                                    <def>ABF_BodyPart_Synstruct_Finger</def>
                                                     <customLabel>left ring finger</customLabel>
                                                     <coverage>0.07</coverage>
                                                     <groups>
@@ -187,7 +180,7 @@
                                                     </groups>
                                                 </li>
                                                 <li>
-                                                    <def>ABF_SynstructFinger</def>
+                                                    <def>ABF_BodyPart_Synstruct_Finger</def>
                                                     <customLabel>left middle finger</customLabel>
                                                     <coverage>0.08</coverage>
                                                     <groups>
@@ -196,7 +189,7 @@
                                                     </groups>
                                                 </li>
                                                 <li>
-                                                    <def>ABF_SynstructFinger</def>
+                                                    <def>ABF_BodyPart_Synstruct_Finger</def>
                                                     <customLabel>left index finger</customLabel>
                                                     <coverage>0.07</coverage>
                                                     <groups>
@@ -205,7 +198,7 @@
                                                     </groups>
                                                 </li>
                                                 <li>
-                                                    <def>ABF_SynstructFinger</def>
+                                                    <def>ABF_BodyPart_Synstruct_Finger</def>
                                                     <customLabel>left thumb</customLabel>
                                                     <coverage>0.08</coverage>
                                                     <groups>
@@ -220,7 +213,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructShoulder</def>
+                            <def>ABF_BodyPart_Synstruct_Shoulder</def>
                             <customLabel>right shoulder</customLabel>
                             <coverage>0.12</coverage>
                             <groups>
@@ -228,7 +221,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructArm</def>
+                                    <def>ABF_BodyPart_Synstruct_Arm</def>
                                     <customLabel>right arm</customLabel>
                                     <coverage>0.85</coverage>
                                     <groups>
@@ -236,7 +229,7 @@
                                     </groups>
                                     <parts>
                                         <li>
-                                            <def>ABF_SynstructHand</def>
+                                            <def>ABF_BodyPart_Synstruct_Hand</def>
                                             <customLabel>right hand</customLabel>
                                             <coverage>0.2</coverage>
                                             <height>Bottom</height>
@@ -245,7 +238,7 @@
                                             </groups>
                                             <parts>
                                                 <li>
-                                                    <def>ABF_SynstructFinger</def>
+                                                    <def>ABF_BodyPart_Synstruct_Finger</def>
                                                     <customLabel>right pinky</customLabel>
                                                     <coverage>0.15</coverage>
                                                     <groups>
@@ -254,7 +247,7 @@
                                                     </groups>
                                                 </li>
                                                 <li>
-                                                    <def>ABF_SynstructFinger</def>
+                                                    <def>ABF_BodyPart_Synstruct_Finger</def>
                                                     <customLabel>right ring finger</customLabel>
                                                     <coverage>0.15</coverage>
                                                     <groups>
@@ -263,7 +256,7 @@
                                                     </groups>
                                                 </li>
                                                 <li>
-                                                    <def>ABF_SynstructFinger</def>
+                                                    <def>ABF_BodyPart_Synstruct_Finger</def>
                                                     <customLabel>right middle finger</customLabel>
                                                     <coverage>0.15</coverage>
                                                     <groups>
@@ -272,7 +265,7 @@
                                                     </groups>
                                                 </li>
                                                 <li>
-                                                    <def>ABF_SynstructFinger</def>
+                                                    <def>ABF_BodyPart_Synstruct_Finger</def>
                                                     <customLabel>right index finger</customLabel>
                                                     <coverage>0.15</coverage>
                                                     <groups>
@@ -281,7 +274,7 @@
                                                     </groups>
                                                 </li>
                                                 <li>
-                                                    <def>ABF_SynstructFinger</def>
+                                                    <def>ABF_BodyPart_Synstruct_Finger</def>
                                                     <customLabel>right thumb</customLabel>
                                                     <coverage>0.15</coverage>
                                                     <groups>
@@ -296,7 +289,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructWaist</def>
+                            <def>ABF_BodyPart_Synstruct_Waist</def>
                             <coverage>0</coverage>
                             <height>Bottom</height>
                             <groups>
@@ -304,7 +297,7 @@
                             </groups>
                         </li>
                         <li>
-                            <def>ABF_SynstructLeg</def>
+                            <def>ABF_BodyPart_Synstruct_Leg</def>
                             <customLabel>left leg</customLabel>
                             <coverage>0.16</coverage>
                             <height>Bottom</height>
@@ -313,7 +306,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructFoot</def>
+                                    <def>ABF_BodyPart_Synstruct_Foot</def>
                                     <customLabel>left foot</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>
@@ -323,7 +316,7 @@
                             </parts>
                         </li>
                         <li>
-                            <def>ABF_SynstructLeg</def>
+                            <def>ABF_BodyPart_Synstruct_Leg</def>
                             <customLabel>right leg</customLabel>
                             <coverage>0.16</coverage>
                             <height>Bottom</height>
@@ -332,7 +325,7 @@
                             </groups>
                             <parts>
                                 <li>
-                                    <def>ABF_SynstructFoot</def>
+                                    <def>ABF_BodyPart_Synstruct_Foot</def>
                                     <customLabel>right foot</customLabel>
                                     <coverage>0.3</coverage>
                                     <groups>

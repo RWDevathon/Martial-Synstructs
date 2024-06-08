@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
 		<defName>ABF_Thing_Synstruct_Jellyman</defName>
 		<label>synstruct jellyman</label>
 		<description>Jellymen were an accident, originally borne of an ultratech society's misadventure with archotech research. This semi-gelatinous mass of mechanites takes human form, and has a plethora of odd properties. Devoid of coolant and distinct limbs, uniquely psychically gifted with a very human-like brain that can absorb archotech devices like mechlinks and neuroformers, possessed of a body that reacts to harm like paladins do, immune to overheating and freezing, and even able to eject a mass of mechanites to incapacitate a foe in close combat, these are powerful beings indeed. The process for their creation is not well understood - but raving prophets claim these agglomerates are hierophants, and can be "naturally born" by the true gift of the archotechs.\n\nDespite everything, as a group, they behave like and have the desires of normal individuals. The given name for their kind does not bother them as long as they can participate in society on equal terms.</description>
@@ -79,9 +79,9 @@
 			<SocialImpact>2</SocialImpact>
 			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
 			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-            <ABF_CoherenceRetention>4</ABF_CoherenceRetention>
-            <ABF_NutritionalIntakeEfficiency>1.6</ABF_NutritionalIntakeEfficiency>
-            <ABF_ChargingSpeed>2</ABF_ChargingSpeed>
+            <ABF_Stat_Synstruct_CoherenceRetention>4</ABF_Stat_Synstruct_CoherenceRetention>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.6</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <ABF_Stat_Synstruct_ChargingSpeed>2</ABF_Stat_Synstruct_ChargingSpeed>
 			<Mass>30.0</Mass>
 		</statBases>
 		<tools>
@@ -125,18 +125,18 @@
                     <li>RoomSize</li>
                 </blacklistedSapientNeeds>
                 <medicineList>
-                    <li>ABF_RepairStimSimple</li>
-                    <li>ABF_RepairStimIntermediate</li>
-                    <li>ABF_RepairStimAdvanced</li>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
                 </medicineList>
                 <hediffReplacements>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
                 </hediffReplacements>
             </li>
             <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <sapientChildhoodBackstoryDef>ABF_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
-                <sapientAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
+                <sapientChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
+                <sapientAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
             </li>
 		</modExtensions>
 		<butcherProducts>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
 		<defName>ABF_Thing_Synstruct_Paladin</defName>
 		<label>synstruct paladin</label>
 		<description>The very first combat variant idealized, blueprinted, and created by artifical intelligences alone, the paladin design is as unique as it is aesthetically lacking: a rectangular prism with two forward arms and four large manipulators. It has a very odd design choice: rather than being heavily armored to prevent taking damage, paladins instead have a highly reactive hyperweave-infused chassis that significantly reduces incoming damage. The more damage it sustains, the more resilient against damage it becomes - making each paladin a warfighting champion. Specialized hardware vastly increases rate of fire.\n\nThe earliest paladins - contrary to expectation - took to their military role eagerly, and quickly developed a militaristic worldview that often is likened to ancient chivalric customs. Duels, ritualistic combat, and contempt for civilians are common. While paladins exhibit no strong moralistic tendencies as a group, violence should be expected from individuals that are insulted or suffer breakdowns.\n\nDue to their large size and shape, they earned the nickname "Warwagon" - but the proud paladins demand to be referred to by their self-given name. Few are brave enough to challenge their choice. Many have died for making unflattering comparisons between paladins and mechanoid centipedes.\n\nSynstruct paladins may be formatted into the following types:\n - Sapients</description>
@@ -33,7 +33,7 @@
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
-					<headBodyPartDef>ABF_SynstructHead</headBodyPartDef>
+					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
                     <customHeadDrawSize>1.25</customHeadDrawSize>
                     <headOffset>(0, 0.06)</headOffset>
                     <headOffsetDirectional>
@@ -86,9 +86,9 @@
 			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
             <IncomingDamageFactor>0.8</IncomingDamageFactor>
             <InjuryHealingFactor>4</InjuryHealingFactor>
-            <ABF_CoherenceRetention>1.75</ABF_CoherenceRetention>
-            <ABF_NutritionalIntakeEfficiency>1.2</ABF_NutritionalIntakeEfficiency>
-            <ABF_ChargingSpeed>1.5</ABF_ChargingSpeed>
+            <ABF_Stat_Synstruct_CoherenceRetention>1.75</ABF_Stat_Synstruct_CoherenceRetention>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.2</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <ABF_Stat_Synstruct_ChargingSpeed>1.5</ABF_Stat_Synstruct_ChargingSpeed>
             <AimingDelayFactor>0.5</AimingDelayFactor>
             <RangedCooldownFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</RangedCooldownFactor>
             <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</StaggerDurationFactor>
@@ -165,14 +165,14 @@
 			<baseHealthScale>3</baseHealthScale>
 			<baseBodySize>2.2</baseBodySize>
 			<hediffGiverSets>
-				<li>ABF_SynstructStandard</li>
+                <li>ABF_HediffGiverSet_Synstruct_TemperatureVulnerable</li>
 				<li>ABF_HediffGiverSet_Synstruct_AblativeActiveArmor</li>
 			</hediffGiverSets>
             <hasGenders>false</hasGenders>
 		</race>
         <recipes>
-            <li>ABF_CoolantInjection</li>
-            <li>ABF_LubricantInjection</li>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
+            <li>ABF_Recipe_Synstruct_InjectLubricant</li>
         </recipes>
         <comps>
             <li>
@@ -194,23 +194,23 @@
                     <li>RoomSize</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Coolant</key><value>5</value></li>
-                    <li><key>ABF_Lubricant</key><value>7.5</value></li>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>5</value></li>
+                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>7.5</value></li>
                 </artificialNeeds>
                 <medicineList>
-                    <li>ABF_RepairStimSimple</li>
-                    <li>ABF_RepairStimIntermediate</li>
-                    <li>ABF_RepairStimAdvanced</li>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
                 </medicineList>
                 <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
                 <hediffReplacements>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
                 </hediffReplacements>
             </li>
             <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <sapientChildhoodBackstoryDef>ABF_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
-                <sapientAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
+                <sapientChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
+                <sapientAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
             </li>
 		</modExtensions>
 		<butcherProducts>

@@ -55,9 +55,9 @@ namespace ArtificialBeings
             if (Rand.Chance(0.2f))
             {
                 pawn.SetFactionDirect(Faction.OfAncientsHostile);
-                pawn.mindState.mentalStateHandler.TryStartMentalState(ABF_MentalStateDefOf.ABF_MentalState_Exterminator, transitionSilently: true);
+                pawn.mindState.mentalStateHandler.TryStartMentalState(ABF_MentalStateDefOf.ABF_MentalState_Synstruct_Exterminator, transitionSilently: true);
 
-                Hediff hediff = HediffMaker.MakeHediff(ABF_HediffDefOf.ABF_RemainingCharge, pawn, null);
+                Hediff hediff = HediffMaker.MakeHediff(ABF_HediffDefOf.ABF_Hediff_Synstruct_RemainingCharge, pawn, null);
                 hediff.Severity = 1f;
                 pawn.health.AddHediff(hediff, null, null);
 

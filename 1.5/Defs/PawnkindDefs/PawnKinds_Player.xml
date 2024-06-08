@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
-		<defName>ABF_PawnKind_Synstruct_Warrior_Newboot</defName>
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_NewbootBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Warrior_Newboot</defName>
 		<label>warrior newboot</label>
 		<race>ABF_Thing_Synstruct_Warrior</race>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
-		<defName>ABF_PawnKind_Synstruct_Bishop_Newboot</defName>
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_NewbootBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Bishop_Newboot</defName>
 		<label>bishop newboot</label>
 		<race>ABF_Thing_Synstruct_Bishop</race>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Newboot">
-		<defName>ABF_PawnKind_Synstruct_Paladin_Newboot</defName>
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_NewbootBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Paladin_Newboot</defName>
 		<label>paladin newboot</label>
 		<race>ABF_Thing_Synstruct_Paladin</race>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Refugee">
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_RefugeeBase">
 		<defName>ABF_PawnKind_Synstruct_Jellyman_QuestCrash</defName>
 		<label>jellyman</label>
 		<race>ABF_Thing_Synstruct_Jellyman</race>
@@ -34,7 +34,7 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="ABF_PlayerPawnKindBase_Synstruct_Refugee">
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_RefugeeBase">
 		<defName>ABF_PawnKind_Synstruct_Juggernaut_Calldown</defName>
 		<label>juggernaut</label>
 		<race>ABF_Thing_Synstruct_Juggernaut</race>
@@ -49,7 +49,7 @@
 			</li>
 		</backstoryFiltersOverride>
         <fixedChildBackstories>
-            <li>ABF_Synstruct_Childhood_GenericDrone</li>
+            <li>ABF_Backstory_Synstruct_Childhood_GenericDrone</li>
         </fixedChildBackstories>
         <fixedAdultBackstories>
             <li>ABF_Backstory_Synstruct_Adulthood_Juggernaut</li>

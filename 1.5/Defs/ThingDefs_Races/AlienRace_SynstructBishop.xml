@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
 		<defName>ABF_Thing_Synstruct_Bishop</defName>
 		<label>synstruct bishop</label>
 		<description>Bishops vaguely resemble humans from afar unlike warriors or paladins, albeit ones that are unusually tall and thin. With six limbs that interchangeably act as legs and arms and backup internalized visual sensors, these slender war units are exceedingly tough to incapacitate. Where warriors are cheap and quick to assemble, bishops favor quality and rapid dynamism. These are units crafted for combat, both defensively and offensively, and can hold or push a line with steely determination.\n\nDue to their thin build and considerable height, they have earned the nicknames "deathstick" and "warpole," while their distinctive "head" segment is the source of their common name.\n\nSynstruct bishops may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
@@ -33,7 +33,7 @@
             </graphicPaths>
             <generalSettings>
                 <alienPartGenerator>
-					<headBodyPartDef>ABF_SynstructHead</headBodyPartDef>
+					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
                     <headOffset>(0, 0.34)</headOffset>
                     <headOffsetDirectional>
                         <east>
@@ -81,11 +81,11 @@
 			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
             <IncomingDamageFactor>0.9</IncomingDamageFactor>
-            <ABF_CoherenceRetention>1.25</ABF_CoherenceRetention>
-            <ABF_NutritionalIntakeEfficiency>1.2</ABF_NutritionalIntakeEfficiency>
-            <ABF_ChargingSpeed>1.3</ABF_ChargingSpeed>
-            <ABF_ComplexityLimit>15</ABF_ComplexityLimit>
-            <ABF_SkillLimit>5</ABF_SkillLimit>
+            <ABF_Stat_Synstruct_CoherenceRetention>1.25</ABF_Stat_Synstruct_CoherenceRetention>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.2</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <ABF_Stat_Synstruct_ChargingSpeed>1.3</ABF_Stat_Synstruct_ChargingSpeed>
+            <ABF_Stat_Artificial_ComplexityLimit>15</ABF_Stat_Artificial_ComplexityLimit>
+            <ABF_Stat_Artificial_SkillLimit>5</ABF_Stat_Artificial_SkillLimit>
 			<Mass>70.0</Mass>
 		</statBases>
 		<tools>
@@ -141,10 +141,10 @@
 			<baseHealthScale>1.3</baseHealthScale>
 			<baseHungerRate>0.8</baseHungerRate>
 		</race>
-        <recipes>
-            <li>ABF_CoolantInjection</li>
-            <li>ABF_LubricantInjection</li>
-        </recipes>
+        <!-- <recipes>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
+            <li>ABF_Recipe_Synstruct_InjectLubricant</li>
+        </recipes> -->
         <comps>
             <li>
                 <compClass>ArtificialBeings.CompCoherenceNeed</compClass>
@@ -175,25 +175,25 @@
                     <li>Beauty</li>
                 </blacklistedDroneNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Coolant</key><value>1</value></li>
-                    <li><key>ABF_Lubricant</key><value>2</value></li>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>1</value></li>
+                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>2</value></li>
                 </artificialNeeds>
                 <medicineList>
-                    <li>ABF_RepairStimSimple</li>
-                    <li>ABF_RepairStimIntermediate</li>
-                    <li>ABF_RepairStimAdvanced</li>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
                 </medicineList>
                 <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
                 <hediffReplacements>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
                 </hediffReplacements>
             </li>
             <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <droneChildhoodBackstoryDef>ABF_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
-                <droneAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
-                <sapientChildhoodBackstoryDef>ABF_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
-                <sapientAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
+                <droneChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
+                <droneAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
+                <sapientChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
+                <sapientAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
             </li>
 		</modExtensions>
 		<butcherProducts>

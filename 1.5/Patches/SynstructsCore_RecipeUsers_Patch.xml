@@ -3,7 +3,7 @@
 
     <!-- Warriors, Bishops, and Paladins use standard Synstruct recipes -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/RecipeDef[@Name="ABF_SurgerySynstructBase"]/recipeUsers</xpath>
+        <xpath>Defs/RecipeDef[@Name="ABF_Recipe_Synstruct_SurgeryBase"]/recipeUsers</xpath>
         <value>
             <li>ABF_Thing_Synstruct_Warrior</li>
             <li>ABF_Thing_Synstruct_Bishop</li>

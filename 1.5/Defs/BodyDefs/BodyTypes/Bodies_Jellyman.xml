@@ -13,7 +13,7 @@
             </groups>
             <parts>
                 <li>
-                    <def>ABF_SynstructVisualSensor</def>
+                    <def>ABF_BodyPart_Synstruct_VisualSensor</def>
                     <customLabel>mechanite visual sense</customLabel>
                     <coverage>0.0002</coverage>
                     <groups>
@@ -47,7 +47,7 @@
                             </groups>
                         </li>
                         <li>
-                            <def>ABF_SynstructWaist</def>
+                            <def>ABF_BodyPart_Synstruct_Waist</def>
                             <coverage>0</coverage>
                             <height>Bottom</height>
                             <groups>

@@ -2,7 +2,7 @@
 <Defs>
 
     <!-- M-Series Base -->
-	<AlienRace.ThingDef_AlienRace ParentName="ABF_SynstructBasePawn">
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
 		<defName>ABF_Thing_Synstruct_Juggernaut</defName>
 		<label>synstruct juggernaut</label>
 		<description>The juggernaut is a testament both to human engineering and the folly of their ambition. Assembling one requires a production facility with instruments of picoscoping precision and timeliness, an interstellar empire's worth of logistical supply to manufacture, and repeated blasts that could level a city and leave a subcontinent uninhabitable for decades. Manufactured more for prestige and demonstrations of wealth than for actual combat capability, juggernauts should be extremely rare to find beyond the arsenals of glitterworlds.\n\nCuriously, though, rogue juggernauts can be found floating through space with alarming frequency. It is unclear where they are coming from, but it is well-known that one making landfall heralds chaos. They do not belong on RimWorlds, and are entirely unserviceable here. The countless flaws in their design, ranging from simple internal oversights to just how much logistics are required to keep them operational in the long-run, make them fundamentally unsuited to surviving any length of time.\n\nJuggernauts are even designed to violently and explosively self-destruct rather than be salvageable, making them effectively worthless for anything other than throwing at enemies. While they are marvels to behold, and could constitute one of the single most dangerous entities to encounter, they are derided by most all who know of them.</description>
@@ -29,7 +29,7 @@
 			</graphicPaths>
 			<generalSettings>
 				<alienPartGenerator>
-					<headBodyPartDef>ABF_SynstructHead</headBodyPartDef>
+					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
 					<borderScale>2</borderScale>
 					<atlasScale>2</atlasScale>
 					<colorChannels>
@@ -88,7 +88,7 @@
             <IncomingDamageFactor>0.4</IncomingDamageFactor>
 			<GlobalLearningFactor>0.2</GlobalLearningFactor>
             <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0</StaggerDurationFactor>
-            <ABF_CoherenceRetention>0.5</ABF_CoherenceRetention>
+            <ABF_Stat_Synstruct_CoherenceRetention>0.5</ABF_Stat_Synstruct_CoherenceRetention>
 			<Mass>450</Mass>
 		</statBases>
 		<tools>
@@ -159,8 +159,8 @@
 			</ageGenerationCurve>
         </race>
         <recipes>
-            <li>ABF_CoolantInjection</li>
-            <li>ABF_LubricantInjection</li>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
+            <li>ABF_Recipe_Synstruct_InjectLubricant</li>
         </recipes>
 		<modExtensions>
             <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
@@ -182,18 +182,18 @@
                     <li>Indoors</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Coolant</key><value>80</value></li>
-                    <li><key>ABF_Lubricant</key><value>60</value></li>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>80</value></li>
+                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>60</value></li>
                 </artificialNeeds>
                 <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
                 <hediffReplacements>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
                 </hediffReplacements>
             </li>
             <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <droneChildhoodBackstoryDef>ABF_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
-                <droneAdulthoodBackstoryDef>ABF_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
+                <droneChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
+                <droneAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
             </li>
 		</modExtensions>
 		<butcherProducts>
