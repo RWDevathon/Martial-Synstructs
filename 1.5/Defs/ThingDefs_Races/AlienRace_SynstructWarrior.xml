@@ -37,12 +37,15 @@
                     <headOffset>(0, -0.1)</headOffset>
                     <headOffsetDirectional>
                         <east>
-                            <offset>(-0.1, 0)</offset>
+                            <offset>(-0.09, 0)</offset>
                         </east>
                         <west>
-                            <offset>(0.1, 0)</offset>
+                            <offset>(0.09, 0)</offset>
                         </west>
                     </headOffsetDirectional>
+                    <bodyTypes Inherit="False">
+                        <li>Thin</li>
+                    </bodyTypes>
                     <colorChannels Inherit="False">
 						<li>
 							<name>skin</name>
