@@ -12,7 +12,7 @@
             <li>ABF_ResearchProject_Synstruct_Infrastructure</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>2</researchViewX>
+		<researchViewX>1</researchViewX>
 		<researchViewY>1.5</researchViewY>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
