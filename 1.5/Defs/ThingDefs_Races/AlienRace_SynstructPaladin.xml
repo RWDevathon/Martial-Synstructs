@@ -168,7 +168,6 @@
                 <li>ABF_HediffGiverSet_Synstruct_TemperatureVulnerable</li>
 				<li>ABF_HediffGiverSet_Synstruct_AblativeActiveArmor</li>
 			</hediffGiverSets>
-            <hasGenders>false</hasGenders>
 		</race>
         <recipes>
             <li>ABF_Recipe_Synstruct_InjectCoolant</li>

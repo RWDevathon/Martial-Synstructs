@@ -74,9 +74,9 @@
 			<li>ABF_SpawnCategory_Synstruct_Paladin</li>
 		</spawnCategories>
         <skillGains>
-			<Medicine>4</Medicine>
-			<Crafting>4</Crafting>
-			<Social>8</Social>
+			<Medicine>2</Medicine>
+			<Crafting>2</Crafting>
+			<Social>4</Social>
         </skillGains>
 		<workDisables>
 			<li>Intellectual</li>
