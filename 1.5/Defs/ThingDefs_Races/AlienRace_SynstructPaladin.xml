@@ -209,8 +209,7 @@
                 </hediffReplacements>
             </li>
             <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <sapientChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
-                <sapientAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
+                <playerSapientPawnKindDef>ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base</playerSapientPawnKindDef>
             </li>
 		</modExtensions>
 		<butcherProducts>

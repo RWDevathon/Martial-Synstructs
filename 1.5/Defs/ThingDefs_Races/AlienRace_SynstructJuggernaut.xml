@@ -191,10 +191,6 @@
                     <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
                 </hediffReplacements>
             </li>
-            <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <droneChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
-                <droneAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
-            </li>
 		</modExtensions>
 		<butcherProducts>
 			<Plasteel>160</Plasteel>

@@ -134,10 +134,6 @@
                     <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
                 </hediffReplacements>
             </li>
-            <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <sapientChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
-                <sapientAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
-            </li>
 		</modExtensions>
 		<butcherProducts>
             <Hyperweave>80</Hyperweave>

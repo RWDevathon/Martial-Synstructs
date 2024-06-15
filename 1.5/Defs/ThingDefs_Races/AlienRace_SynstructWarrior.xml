@@ -192,8 +192,8 @@
                 </hediffReplacements>
             </li>
             <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <droneChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
-                <droneAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
+                <playerDronePawnKindDef>ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base</playerDronePawnKindDef>
+                <playerReprogrammableDronePawnKindDef>ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base</playerReprogrammableDronePawnKindDef>
             </li>
 		</modExtensions>
 		<butcherProducts>

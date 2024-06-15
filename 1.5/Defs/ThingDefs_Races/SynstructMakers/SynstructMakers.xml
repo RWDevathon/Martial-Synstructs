@@ -25,7 +25,7 @@
         </costList>
         <comps>
             <li Class="ArtificialBeings.CompProperties_PawnSpawner">
-                <pawnKind>ABF_PawnKind_Synstruct_Player_Warrior_Newboot</pawnKind>
+                <pawnKind>ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base</pawnKind>
                 <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
             </li>
         </comps>
@@ -58,7 +58,7 @@
         </costList>
         <comps>
             <li Class="ArtificialBeings.CompProperties_PawnSpawner">
-                <pawnKind>ABF_PawnKind_Synstruct_Player_Bishop_Newboot</pawnKind>
+                <pawnKind>ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base</pawnKind>
                 <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
             </li>
         </comps>
@@ -92,7 +92,7 @@
         </costList>
         <comps>
             <li Class="ArtificialBeings.CompProperties_PawnSpawner">
-                <pawnKind>ABF_PawnKind_Synstruct_Player_Paladin_Newboot</pawnKind>
+                <pawnKind>ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base</pawnKind>
                 <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
             </li>
         </comps>

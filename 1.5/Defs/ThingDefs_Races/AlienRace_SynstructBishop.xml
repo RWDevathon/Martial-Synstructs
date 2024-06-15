@@ -193,10 +193,9 @@
                 </hediffReplacements>
             </li>
             <li Class="ArtificialBeings.ABF_SynstructExtension">
-                <droneChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_GenericDrone</droneChildhoodBackstoryDef>
-                <droneAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_GenericDrone</droneAdulthoodBackstoryDef>
-                <sapientChildhoodBackstoryDef>ABF_Backstory_Synstruct_Childhood_Newboot</sapientChildhoodBackstoryDef>
-                <sapientAdulthoodBackstoryDef>ABF_Backstory_Synstruct_Adulthood_Newboot</sapientAdulthoodBackstoryDef>
+                <playerDronePawnKindDef>ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base</playerDronePawnKindDef>
+                <playerReprogrammableDronePawnKindDef>ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base</playerReprogrammableDronePawnKindDef>
+                <playerSapientPawnKindDef>ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base</playerSapientPawnKindDef>
             </li>
 		</modExtensions>
 		<butcherProducts>
