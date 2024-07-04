@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Paladin.label>synstruct paladin</ABF_Thing_Synstruct_Paladin.label>
+  <ABF_Thing_Synstruct_Paladin.description>The very first combat variant idealized, blueprinted, and created by artifical intelligences alone, the paladin design is as unique as it is aesthetically lacking: a rectangular prism with two forward arms and four large manipulators. It has a very odd design choice: rather than being heavily armored to prevent taking damage, paladins instead have a highly reactive hyperweave-infused chassis that significantly reduces incoming damage. The more damage it sustains, the more resilient against damage it becomes - making each paladin a warfighting champion. Specialized hardware vastly increases rate of fire.\n\nThe earliest paladins - contrary to expectation - took to their military role eagerly, and quickly developed a militaristic worldview that often is likened to ancient chivalric customs. Duels, ritualistic combat, and contempt for civilians are common. While paladins exhibit no strong moralistic tendencies as a group, violence should be expected from individuals that are insulted or suffer breakdowns.\n\nDue to their large size and shape, they earned the nickname "Warwagon" - but the proud paladins demand to be referred to by their self-given name. Few are brave enough to challenge their choice. Many have died for making unflattering comparisons between paladins and mechanoid centipedes.\n\nSynstruct paladins may be formatted into the following types:\n - Sapients</ABF_Thing_Synstruct_Paladin.description>
+  <ABF_Thing_Synstruct_Paladin.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</ABF_Thing_Synstruct_Paladin.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ABF_Thing_Synstruct_Paladin.tools.0.label>right hand</ABF_Thing_Synstruct_Paladin.tools.0.label>
+  <ABF_Thing_Synstruct_Paladin.tools.1.label>left hand</ABF_Thing_Synstruct_Paladin.tools.1.label>
+  <ABF_Thing_Synstruct_Paladin.tools.2.label>manipulator</ABF_Thing_Synstruct_Paladin.tools.2.label>
+  <ABF_Thing_Synstruct_Paladin.tools.3.label>bodyslam</ABF_Thing_Synstruct_Paladin.tools.3.label>
+
+
+</LanguageData>

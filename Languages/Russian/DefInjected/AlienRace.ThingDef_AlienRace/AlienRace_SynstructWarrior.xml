@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Warrior.label>synstruct warrior</ABF_Thing_Synstruct_Warrior.label>
+  <ABF_Thing_Synstruct_Warrior.description>Synstruct warriors are the standard baseline for fully autonomous combat drones - cheap, durable, and powerful. These are units crafted for war and war alone, and they are very good at it.\n\nIts small, box-like shape earned it the nicknames of "battle-box" and "blaster-bucket," while its default red paint color and military role earned it the affectionate name "Redcoat." The unusual shape also prevents wearing humanlike apparel.\n\nSynstruct warriors may be formatted into the following types:\n - Drones\n - Reprogrammable drones</ABF_Thing_Synstruct_Warrior.description>
+  <ABF_Thing_Synstruct_Warrior.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</ABF_Thing_Synstruct_Warrior.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <ABF_Thing_Synstruct_Warrior.tools.0.label>right fist</ABF_Thing_Synstruct_Warrior.tools.0.label>
+  <ABF_Thing_Synstruct_Warrior.tools.1.label>left fist</ABF_Thing_Synstruct_Warrior.tools.1.label>
+  <ABF_Thing_Synstruct_Warrior.tools.2.label>body</ABF_Thing_Synstruct_Warrior.tools.2.label>
+
+
+</LanguageData>

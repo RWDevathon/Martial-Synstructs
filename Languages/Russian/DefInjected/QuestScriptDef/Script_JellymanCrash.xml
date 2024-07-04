@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.5.node.name>siteThreatChance</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.5.node.name>
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.5.elseNode.name>siteThreatChance</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.5.elseNode.name>
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.10.node.nodes.0.label>Quest expired: [resolvedQuestName]</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.10.node.nodes.0.label>
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.10.node.nodes.0.text>The mysterious force beckoning you to the crashsite of the ominous meteorite has suddenly ceased. The quest [resolvedQuestName] has expired.</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.10.node.nodes.0.text>
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.questDescriptionRules.rulesStrings.0>questDescription-&gt;With a screetching roar, a fiery ball hurtles through the sky. The very air seems to quake and inactive mechanites fall like ash. It did not seem to come from space. Eventually, it lands beyond the horizon - and yet somehow its exact landing spot is known to you. A name and nature is known to you, but how could you know this?
+                \nInexplicably, you sense that [allSitePartsDescriptionsExceptFirst]</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.questDescriptionRules.rulesStrings.0>
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.questNameRules.rulesStrings.0>questName-&gt;Meteoric Mechanites</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.questNameRules.rulesStrings.0>
+
+
+</LanguageData>

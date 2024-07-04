@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Body_Synstruct_Paladin.label>paladin body</ABF_Body_Synstruct_Paladin.label>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.2.customLabel>internal heatsink</ABF_Body_Synstruct_Paladin.corePart.parts.2.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.5.customLabel>internal visual sensor</ABF_Body_Synstruct_Paladin.corePart.parts.5.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.0.customLabel>left heatsink</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.1.customLabel>right heatsink</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.1.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.2.customLabel>external visual sensor</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.2.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.1.customLabel>left visual sensor</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.1.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.2.customLabel>right visual sensor</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.2.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.3.customLabel>left audial sensor</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.3.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.4.customLabel>right audial sensor</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.4.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.customLabel>left shoulder</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.customLabel>left arm</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.customLabel>left hand</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.0.customLabel>left pinky</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.1.customLabel>left ring finger</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.2.customLabel>left middle finger</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.3.customLabel>left index finger</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.4.customLabel>left thumb</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.customLabel>right shoulder</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.customLabel>right arm</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.customLabel>right hand</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.0.customLabel>right pinky</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.1.customLabel>right ring finger</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.2.customLabel>right middle finger</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.3.customLabel>right index finger</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.4.customLabel>right thumb</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.6.customLabel>forward left limb</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.6.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.6.parts.0.customLabel>forward left manipulator</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.7.customLabel>forward right limb</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.7.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.7.parts.0.customLabel>forward right manipulator</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.7.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.8.customLabel>rear left limb</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.8.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.8.parts.0.customLabel>rear left manipulator</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.8.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.9.customLabel>rear right limb</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.9.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.9.parts.0.customLabel>rear right manipulator</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.9.parts.0.customLabel>
+
+
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Ability_Synstruct_EjectMechanites.label>eject mechanites</ABF_Ability_Synstruct_EjectMechanites.label>
+  <ABF_Ability_Synstruct_EjectMechanites.description>In close proximity to a pawn, eject a mass of mechanites that will restrict the target's movement of key joints, severely reducing their movement and manipulation. The amount of mass required for this depends on the target's body size, and directly correlates to the amount of lost mechanites.\n\nTargets double this pawn's size are immune, due to the sheer amount of mechanites that would be required to restrain them.</ABF_Ability_Synstruct_EjectMechanites.description>
+
+
+</LanguageData>

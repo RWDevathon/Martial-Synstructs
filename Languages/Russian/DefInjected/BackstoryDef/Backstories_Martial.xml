@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Childhood -->
+
+  <ABF_Backstory_Synstruct_Childhood_PaladinGallant.title>paladin gallant</ABF_Backstory_Synstruct_Childhood_PaladinGallant.title>
+  <ABF_Backstory_Synstruct_Childhood_PaladinGallant.titleShort>gallant</ABF_Backstory_Synstruct_Childhood_PaladinGallant.titleShort>
+  <ABF_Backstory_Synstruct_Childhood_PaladinGallant.baseDesc>{PAWN_nameDef} was from its first thought a member of the warrior society of paladins - a society born not of faction, culture, or ideology, but of body and purpose. By virtue of creation, {PAWN_pronoun} was a gallant.</ABF_Backstory_Synstruct_Childhood_PaladinGallant.baseDesc>
+
+
+  <!-- Adulthood -->
+
+  <ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.title>paladin battlemaster</ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.title>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.titleShort>battlemaster</ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.titleShort>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.baseDesc>{PAWN_nameDef} is a paladin battlemaster, a clique that revels in war and bloodshed as an end in of itself. {PAWN_pronoun} seeks to leave a legacy of triumphs behind, and will do nothing besides fight - and mentally prepare for the next fight.</ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.baseDesc>
+
+  <ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.title>paladin sentinel</ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.title>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.titleShort>sentinel</ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.titleShort>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.baseDesc>{PAWN_nameDef} is a paladin sentinel, a clique that sees paladins as natural guardians and protectors. {PAWN_pronoun} will fight to protect {PAWN_possessive} comrades, and sees no task as beneath {PAWN_objective}.</ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.baseDesc>
+
+  <ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.title>paladin hospitaller</ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.title>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.titleShort>hospitaller</ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.titleShort>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.baseDesc>{PAWN_nameDef} is a paladin hospitaller, a clique that sees combat as inevitable but self-defeating. {PAWN_pronoun} seeks to end fights as swiftly as possible, to preserve well-being and to give mercy to opponents. Hospitallers adhere to a strict regime of tending and crafting.</ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.baseDesc>
+
+
+  <!-- Jellyman -->
+
+  <ABF_Backstory_Synstruct_Childhood_Jellyman.title>naturalborn jellyman</ABF_Backstory_Synstruct_Childhood_Jellyman.title>
+  <ABF_Backstory_Synstruct_Childhood_Jellyman.titleShort>Naturalborn</ABF_Backstory_Synstruct_Childhood_Jellyman.titleShort>
+  <ABF_Backstory_Synstruct_Childhood_Jellyman.baseDesc>{PAWN_nameDef} was born a jellyman, an assemblage of mechanites forming a sapient being. With natural aptitude and a capable body, {PAWN_pronoun} is capable of nearly anything.</ABF_Backstory_Synstruct_Childhood_Jellyman.baseDesc>
+
+  <ABF_Backstory_Synstruct_Adulthood_Jellyman.title>jellyman</ABF_Backstory_Synstruct_Adulthood_Jellyman.title>
+  <ABF_Backstory_Synstruct_Adulthood_Jellyman.titleShort>jellyman</ABF_Backstory_Synstruct_Adulthood_Jellyman.titleShort>
+  <ABF_Backstory_Synstruct_Adulthood_Jellyman.baseDesc>{PAWN_nameDef} is a jellyman, an assemblage of mechanites forming a sapient being. Their generic nature does not lead to a particular specialty, or any particular drawbacks.</ABF_Backstory_Synstruct_Adulthood_Jellyman.baseDesc>
+
+
+  <!-- Juggernaut -->
+
+  <ABF_Backstory_Synstruct_Adulthood_Juggernaut.title>juggernaut</ABF_Backstory_Synstruct_Adulthood_Juggernaut.title>
+  <ABF_Backstory_Synstruct_Adulthood_Juggernaut.titleShort>drone</ABF_Backstory_Synstruct_Adulthood_Juggernaut.titleShort>
+  <ABF_Backstory_Synstruct_Adulthood_Juggernaut.baseDesc>{PAWN_nameDef} is a juggernaut, built and abandoned for an unknown reason. {PAWN_pronoun} exists only to fight, and perish violently.</ABF_Backstory_Synstruct_Adulthood_Juggernaut.baseDesc>
+
+
+</LanguageData>

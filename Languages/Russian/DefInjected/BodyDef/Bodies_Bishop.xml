@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Body_Synstruct_Bishop.label>bishop body</ABF_Body_Synstruct_Bishop.label>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.2.customLabel>internal heatsink</ABF_Body_Synstruct_Bishop.corePart.parts.2.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.5.customLabel>internal visual sensor</ABF_Body_Synstruct_Bishop.corePart.parts.5.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.0.customLabel>left heatsink</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.1.customLabel>right heatsink</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.1.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.2.customLabel>external visual sensor</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.2.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.1.customLabel>left visual sensor</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.1.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.2.customLabel>right visual sensor</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.2.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.3.customLabel>left audial sensor</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.3.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.4.customLabel>right audial sensor</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.4.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.4.customLabel>first limb</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.4.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.4.parts.0.customLabel>first manipulator</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.4.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.5.customLabel>second limb</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.5.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.5.parts.0.customLabel>second manipulator</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.5.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.6.customLabel>third limb</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.6.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.6.parts.0.customLabel>third manipulator</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.7.customLabel>fourth limb</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.7.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.7.parts.0.customLabel>fourth manipulator</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.7.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.8.customLabel>fifth limb</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.8.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.8.parts.0.customLabel>fifth manipulator</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.8.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.9.customLabel>sixth limb</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.9.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.9.parts.0.customLabel>sixth manipulator</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.9.parts.0.customLabel>
+
+
+</LanguageData>

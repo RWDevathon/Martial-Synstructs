@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Body_Synstruct_Warrior.label>warrior body</ABF_Body_Synstruct_Warrior.label>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.2.customLabel>internal heatsink</ABF_Body_Synstruct_Warrior.corePart.parts.2.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.0.customLabel>left heatsink</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.1.customLabel>right heatsink</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.1.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.1.customLabel>left visual sensor</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.1.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.2.customLabel>right visual sensor</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.2.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.3.customLabel>left audial sensor</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.3.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.4.customLabel>right audial sensor</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.4.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.customLabel>left shoulder</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.customLabel>left arm</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.customLabel>left hand</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.0.customLabel>left pinky</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.1.customLabel>left ring finger</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.2.customLabel>left middle finger</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.3.customLabel>left index finger</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.4.customLabel>left thumb</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.customLabel>right shoulder</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.customLabel>right arm</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.customLabel>right hand</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.0.customLabel>right pinky</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.1.customLabel>right ring finger</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.2.customLabel>right middle finger</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.3.customLabel>right index finger</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.4.customLabel>right thumb</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.6.customLabel>left leg</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.6.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.6.parts.0.customLabel>left foot</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.7.customLabel>right leg</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.7.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.7.parts.0.customLabel>right foot</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.7.parts.0.customLabel>
+
+
+</LanguageData>
