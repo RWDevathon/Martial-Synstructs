@@ -3,42 +3,42 @@
 
   <!-- Childhood -->
 
-  <ABF_Backstory_Synstruct_Childhood_PaladinGallant.title>paladin gallant</ABF_Backstory_Synstruct_Childhood_PaladinGallant.title>
-  <ABF_Backstory_Synstruct_Childhood_PaladinGallant.titleShort>gallant</ABF_Backstory_Synstruct_Childhood_PaladinGallant.titleShort>
-  <ABF_Backstory_Synstruct_Childhood_PaladinGallant.baseDesc>{PAWN_nameDef} was from its first thought a member of the warrior society of paladins - a society born not of faction, culture, or ideology, but of body and purpose. By virtue of creation, {PAWN_pronoun} was a gallant.</ABF_Backstory_Synstruct_Childhood_PaladinGallant.baseDesc>
+  <ABF_Backstory_Synstruct_Childhood_PaladinGallant.title>бравый паладин</ABF_Backstory_Synstruct_Childhood_PaladinGallant.title>
+  <ABF_Backstory_Synstruct_Childhood_PaladinGallant.titleShort>бравый</ABF_Backstory_Synstruct_Childhood_PaladinGallant.titleShort>
+  <ABF_Backstory_Synstruct_Childhood_PaladinGallant.baseDesc>{PAWN_nameDef} с самого рождения {PAWN_gender ? был : была} членом воинского общества паладинов — общества, рождённого не фракцией, культурой или идеологией, а телом и целью. В силу своего происхождения {PAWN_pronoun} {PAWN_gender ? был : была} {PAWN_gender ? бравым : бравой} {PAWN_gender ? воителем : воительницей}.</ABF_Backstory_Synstruct_Childhood_PaladinGallant.baseDesc>
 
 
   <!-- Adulthood -->
 
-  <ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.title>paladin battlemaster</ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.title>
-  <ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.titleShort>battlemaster</ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.titleShort>
-  <ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.baseDesc>{PAWN_nameDef} is a paladin battlemaster, a clique that revels in war and bloodshed as an end in of itself. {PAWN_pronoun} seeks to leave a legacy of triumphs behind, and will do nothing besides fight - and mentally prepare for the next fight.</ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.baseDesc>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.title>паладин военачальник</ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.title>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.titleShort>военачальник</ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.titleShort>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.baseDesc>{PAWN_nameDef} — военачальник паладинов. Объединение, которое наслаждается войной и кровопролитием как самоцелью. {PAWN_pronoun} стремится оставить после себя наследие побед и не будет делать ничего, кроме сражений и, морально готовиться к следующему бою.</ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster.baseDesc>
 
-  <ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.title>paladin sentinel</ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.title>
-  <ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.titleShort>sentinel</ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.titleShort>
-  <ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.baseDesc>{PAWN_nameDef} is a paladin sentinel, a clique that sees paladins as natural guardians and protectors. {PAWN_pronoun} will fight to protect {PAWN_possessive} comrades, and sees no task as beneath {PAWN_objective}.</ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.baseDesc>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.title>паладин страж</ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.title>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.titleShort>страж</ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.titleShort>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.baseDesc>{PAWN_nameDef} — страж паладинов. Объединение, которое рассматривает паладинов как прирождённых хранителей и защитников. {PAWN_pronoun} будет сражаться, чтобы защитить своих товарищей, и не считает ни одно задание ниже {PAWN_objective} достоинства.</ABF_Backstory_Synstruct_Adulthood_PaladinSentinel.baseDesc>
 
-  <ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.title>paladin hospitaller</ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.title>
-  <ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.titleShort>hospitaller</ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.titleShort>
-  <ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.baseDesc>{PAWN_nameDef} is a paladin hospitaller, a clique that sees combat as inevitable but self-defeating. {PAWN_pronoun} seeks to end fights as swiftly as possible, to preserve well-being and to give mercy to opponents. Hospitallers adhere to a strict regime of tending and crafting.</ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.baseDesc>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.title>паладин госпитальер</ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.title>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.titleShort>госпитальер</ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.titleShort>
+  <ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.baseDesc>{PAWN_nameDef} — паладин госпитальер. Объединение, которое считает бой неизбежным, но саморазрушительным. {PAWN_pronoun} стремится как можно быстрее закончить бой, сохранить благополучие и оказать милосердие противникам. Госпитальеры придерживаются строгого режима ухода и ремесла.</ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller.baseDesc>
 
 
   <!-- Jellyman -->
 
-  <ABF_Backstory_Synstruct_Childhood_Jellyman.title>naturalborn jellyman</ABF_Backstory_Synstruct_Childhood_Jellyman.title>
-  <ABF_Backstory_Synstruct_Childhood_Jellyman.titleShort>Naturalborn</ABF_Backstory_Synstruct_Childhood_Jellyman.titleShort>
-  <ABF_Backstory_Synstruct_Childhood_Jellyman.baseDesc>{PAWN_nameDef} was born a jellyman, an assemblage of mechanites forming a sapient being. With natural aptitude and a capable body, {PAWN_pronoun} is capable of nearly anything.</ABF_Backstory_Synstruct_Childhood_Jellyman.baseDesc>
+  <ABF_Backstory_Synstruct_Childhood_Jellyman.title>прирождённый желейный</ABF_Backstory_Synstruct_Childhood_Jellyman.title>
+  <ABF_Backstory_Synstruct_Childhood_Jellyman.titleShort>желейный</ABF_Backstory_Synstruct_Childhood_Jellyman.titleShort>
+  <ABF_Backstory_Synstruct_Childhood_Jellyman.baseDesc>{PAWN_nameDef} {PAWN_gender ? родился : родилась} {PAWN_gender ? желейным : желейной} — совокупностью механитов, образующих разумное существо. Обладая природными способностями и крепким телом, {PAWN_pronoun} {PAWN_gender ? способен : способна} практически на всё.</ABF_Backstory_Synstruct_Childhood_Jellyman.baseDesc>
 
-  <ABF_Backstory_Synstruct_Adulthood_Jellyman.title>jellyman</ABF_Backstory_Synstruct_Adulthood_Jellyman.title>
-  <ABF_Backstory_Synstruct_Adulthood_Jellyman.titleShort>jellyman</ABF_Backstory_Synstruct_Adulthood_Jellyman.titleShort>
-  <ABF_Backstory_Synstruct_Adulthood_Jellyman.baseDesc>{PAWN_nameDef} is a jellyman, an assemblage of mechanites forming a sapient being. Their generic nature does not lead to a particular specialty, or any particular drawbacks.</ABF_Backstory_Synstruct_Adulthood_Jellyman.baseDesc>
+  <ABF_Backstory_Synstruct_Adulthood_Jellyman.title>желейный</ABF_Backstory_Synstruct_Adulthood_Jellyman.title>
+  <ABF_Backstory_Synstruct_Adulthood_Jellyman.titleShort>желейный</ABF_Backstory_Synstruct_Adulthood_Jellyman.titleShort>
+  <ABF_Backstory_Synstruct_Adulthood_Jellyman.baseDesc>{PAWN_nameDef} — это желейный человек, или совокупность механитов, образующих разумное существо. Их общая природа не приводит к определённой специализации или каким-либо особым недостаткам.</ABF_Backstory_Synstruct_Adulthood_Jellyman.baseDesc>
 
 
   <!-- Juggernaut -->
 
-  <ABF_Backstory_Synstruct_Adulthood_Juggernaut.title>juggernaut</ABF_Backstory_Synstruct_Adulthood_Juggernaut.title>
-  <ABF_Backstory_Synstruct_Adulthood_Juggernaut.titleShort>drone</ABF_Backstory_Synstruct_Adulthood_Juggernaut.titleShort>
-  <ABF_Backstory_Synstruct_Adulthood_Juggernaut.baseDesc>{PAWN_nameDef} is a juggernaut, built and abandoned for an unknown reason. {PAWN_pronoun} exists only to fight, and perish violently.</ABF_Backstory_Synstruct_Adulthood_Juggernaut.baseDesc>
+  <ABF_Backstory_Synstruct_Adulthood_Juggernaut.title>джаггернаут</ABF_Backstory_Synstruct_Adulthood_Juggernaut.title>
+  <ABF_Backstory_Synstruct_Adulthood_Juggernaut.titleShort>дрон</ABF_Backstory_Synstruct_Adulthood_Juggernaut.titleShort>
+  <ABF_Backstory_Synstruct_Adulthood_Juggernaut.baseDesc>{PAWN_nameDef} - это джаггернаут, построенный и брошенный по неизвестной причине. {PAWN_pronoun} существует только для того, чтобы сражаться и жестоко погибать.</ABF_Backstory_Synstruct_Adulthood_Juggernaut.baseDesc>
 
 
 </LanguageData>

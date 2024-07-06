@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_Thing_Synstruct_Juggernaut_DescentBeam.label>juggernaut descent</ABF_Thing_Synstruct_Juggernaut_DescentBeam.label>
+  <ABF_Thing_Synstruct_Juggernaut_DescentBeam.label>падение джаггернаута</ABF_Thing_Synstruct_Juggernaut_DescentBeam.label>
 
-  <ABF_Thing_Synstruct_Juggernaut_DescentTargeter.label>juggernaut deployment beacon</ABF_Thing_Synstruct_Juggernaut_DescentTargeter.label>
-  <ABF_Thing_Synstruct_Juggernaut_DescentTargeter.description>A targetting unit for a juggernaut that has drawn close to the planet. The device indicates one is standing by for the signal to drop. Devices like these are infamous for uploading improper commands, resulting in the juggernaut going rogue.</ABF_Thing_Synstruct_Juggernaut_DescentTargeter.description>
+  <ABF_Thing_Synstruct_Juggernaut_DescentTargeter.label>маяк развёртывания джаггернаута</ABF_Thing_Synstruct_Juggernaut_DescentTargeter.label>
+  <ABF_Thing_Synstruct_Juggernaut_DescentTargeter.description>Целеуказатель для джаггернаута, приблизившегося к планете. Устройство показывает, что находится в ожидании сигнала. Подобные устройства печально известны тем, что загружают неправильные команды, в результате чего джаггернаут выходит из строя.</ABF_Thing_Synstruct_Juggernaut_DescentTargeter.description>
 
 
 </LanguageData>

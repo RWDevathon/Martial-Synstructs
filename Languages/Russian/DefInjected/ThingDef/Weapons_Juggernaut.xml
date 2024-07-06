@@ -3,42 +3,42 @@
 
   <!-- Rotary Autocannon -->
 
-  <ABF_Thing_Synstruct_Juggernaut_AutocannonRound.label>autocannon round</ABF_Thing_Synstruct_Juggernaut_AutocannonRound.label>
+  <ABF_Thing_Synstruct_Juggernaut_AutocannonRound.label>снаряд автопушки</ABF_Thing_Synstruct_Juggernaut_AutocannonRound.label>
 
-  <ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.label>rotary autocannon</ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.label>
-  <ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.description>This massive weapon, larger than entire humans, is designed to bring even the largest opponents down under a barrage of direct-fire artillery shells. Rotating barrels integrated with a high efficiency autoloading magazine ensure steady rate of lethal fire.\n\nDue to a design flaw - typical for juggernauts - this weapon will self-destruct if it leaves the hands of a juggernaut.</ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.description>
-  <ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.0.label>barrel</ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.0.label>
-  <ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.1.label>stock</ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.1.label>
-  <ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.2.label>grip</ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.2.label>
+  <ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.label>роторная автопушка</ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.label>
+  <ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.description>Это массивное оружие, превосходящее по размерам человека, предназначено для того, чтобы уничтожать даже самых крупных противников под шквалом артиллерийских снарядов прямой наводки. Вращающиеся стволы, объединённые с высокоэффективным автозарядным магазином, обеспечивают постоянный темп смертоносного огня.\n\nИз-за недостатка конструкции, типичного для джаггернаутов, это оружие самоуничтожается, если покидает руки джаггернаута.</ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.description>
+  <ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.0.label>ствол</ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.0.label>
+  <ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.1.label>приклад</ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.1.label>
+  <ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.2.label>рукоять</ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon.tools.2.label>
 
 
   <!-- Rotary Shrapnelcannon -->
 
-  <ABF_Thing_Synstruct_Juggernaut_ShrapnelRound.label>shrapnel chunk</ABF_Thing_Synstruct_Juggernaut_ShrapnelRound.label>
+  <ABF_Thing_Synstruct_Juggernaut_ShrapnelRound.label>осколок шрапнели</ABF_Thing_Synstruct_Juggernaut_ShrapnelRound.label>
 
-  <ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.label>rotary shrapnelcannon</ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.label>
-  <ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.description>This massive weapon, larger than entire humans, is designed to shred densely packed targets with a barrage of shrapnel the size of a bench. Rotating barrels integrated with a high efficiency autoloading magazine ensure steady rate of lethal fire.\n\nDue to a design flaw - typical for juggernauts - this weapon will self-destruct if it leaves the hands of a juggernaut.</ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.description>
-  <ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.0.label>barrel</ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.0.label>
-  <ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.1.label>stock</ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.1.label>
-  <ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.2.label>grip</ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.2.label>
+  <ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.label>роторная шрапнельная пушка</ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.label>
+  <ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.description>Это массивное оружие, размером больше целого человека, предназначено для разрушения плотно упакованных целей шквалом осколков размером со скамейку. Вращающиеся стволы, объединённые с высокоэффективным автозарядным магазином, обеспечивают постоянный темп смертоносного огня.\n\nИз-за недостатка конструкции, типичного для джаггернаутов, это оружие самоуничтожается, если покидает руки джаггернаута.</ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.description>
+  <ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.0.label>ствол</ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.0.label>
+  <ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.1.label>приклад</ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.1.label>
+  <ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.2.label>рукоять</ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon.tools.2.label>
 
 
   <!-- Headhunter Cannon -->
 
-  <ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.label>headhunter cannon</ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.label>
-  <ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.description>This massive weapon, the size of a full-grown human, is designed to fire long-range direct-fire artillery shells with pinpoint accuracy to take out key targets before they can retaliate. With a great deal of internal auto-correcting components, this weapon is a tank-buster by nature.\n\nDue to a design flaw - typical for juggernauts - this weapon will self-destruct if it leaves the hands of a juggernaut.</ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.description>
-  <ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.0.label>barrel</ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.0.label>
-  <ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.1.label>stock</ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.1.label>
-  <ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.2.label>grip</ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.2.label>
+  <ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.label>охотничья пушка</ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.label>
+  <ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.description>Это массивное оружие, размером с человека, предназначено для стрельбы артиллерийскими снарядами прямой наводкой с большой дальностью и точностью, чтобы уничтожать ключевые цели до того, как они смогут нанести ответный удар. Имея большое количество внутренних компонентов автокоррекции, это оружие по своей природе является «танкодробителем».\n\nИз-за недостатка конструкции, типичного для джаггернаутов, это оружие самоуничтожается, если покидает руки джаггернаута.</ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.description>
+  <ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.0.label>ствол</ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.0.label>
+  <ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.1.label>приклад</ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.1.label>
+  <ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.2.label>рукоять</ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon.tools.2.label>
 
 
   <!-- Juggernaut Poleaxe -->
 
-  <ABF_Thing_Synstruct_Juggernaut_Poleaxe.label>juggernaut poleaxe</ABF_Thing_Synstruct_Juggernaut_Poleaxe.label>
-  <ABF_Thing_Synstruct_Juggernaut_Poleaxe.description>This massive weapon, the size of a full-grown human, serves the exact same purpose its smaller cousins serve: to close with the enemy and hack them apart. Of course, this tool is better at it than its ancestors - it is made of fine glitterworld grade materials and honed to perfection... and is large enough to splatter people rather than need to stab or cut.\n\nDue to a design flaw - typical for juggernauts - this weapon will self-destruct if it leaves the hands of a juggernaut.</ABF_Thing_Synstruct_Juggernaut_Poleaxe.description>
-  <ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.0.label>spike</ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.0.label>
-  <ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.1.label>axe</ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.1.label>
-  <ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.2.label>hammer</ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.2.label>
+  <ABF_Thing_Synstruct_Juggernaut_Poleaxe.label>секира джаггернаута</ABF_Thing_Synstruct_Juggernaut_Poleaxe.label>
+  <ABF_Thing_Synstruct_Juggernaut_Poleaxe.description>Это массивное оружие, размером со взрослого человека, служит той же цели, что и его меньшие родственники: сблизиться с врагом и разрубить его на части. Конечно, этот инструмент лучше, чем его предки — он сделан из прекрасных материалов утопических миров и отточен до совершенства... и достаточно велик, чтобы разрезать людей, а не колоть или резать.\n\nИз-за недостатка конструкции, типичного для джаггернаутов, это оружие самоуничтожается, если покидает руки джаггернаута.</ABF_Thing_Synstruct_Juggernaut_Poleaxe.description>
+  <ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.0.label>шип</ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.0.label>
+  <ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.1.label>топор</ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.1.label>
+  <ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.2.label>молот</ABF_Thing_Synstruct_Juggernaut_Poleaxe.tools.2.label>
 
 
 </LanguageData>

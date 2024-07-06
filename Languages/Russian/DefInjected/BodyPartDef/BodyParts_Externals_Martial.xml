@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_BodyPart_Synstruct_CoreCage.label>core cage</ABF_BodyPart_Synstruct_CoreCage.label>
-  <ABF_BodyPart_Synstruct_Limb.label>limb</ABF_BodyPart_Synstruct_Limb.label>
-  <ABF_BodyPart_Synstruct_Gripper.label>gripper</ABF_BodyPart_Synstruct_Gripper.label>
-  <ABF_BodyPart_Synstruct_MechaniteTorso.label>central mass</ABF_BodyPart_Synstruct_MechaniteTorso.label>
-  <ABF_BodyPart_Synstruct_MechaniteHead.label>upper mass</ABF_BodyPart_Synstruct_MechaniteHead.label>
+  <ABF_BodyPart_Synstruct_CoreCage.label>сердцевина каркаса</ABF_BodyPart_Synstruct_CoreCage.label>
+  <ABF_BodyPart_Synstruct_Limb.label>плечо</ABF_BodyPart_Synstruct_Limb.label>
+  <ABF_BodyPart_Synstruct_Gripper.label>захват</ABF_BodyPart_Synstruct_Gripper.label>
+  <ABF_BodyPart_Synstruct_MechaniteTorso.label>основная масса</ABF_BodyPart_Synstruct_MechaniteTorso.label>
+  <ABF_BodyPart_Synstruct_MechaniteHead.label>верхняя масса</ABF_BodyPart_Synstruct_MechaniteHead.label>
 
 
 </LanguageData>
