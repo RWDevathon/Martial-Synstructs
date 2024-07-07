@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Warrior.label>синтоид воин</ABF_Thing_Synstruct_Warrior.label>
+  <ABF_Thing_Synstruct_Warrior.description>Синтоид «воин» — это стандартный, базовый уровень для полностью автономных боевых дронов — дешёвых, прочных и мощных. Эти юниты, созданы для войны и только для войны, и они очень хороши в этом.\n\nБлагодаря своей маленькой, похожей на коробку форме он получил прозвища «боевой ящик», а его стандартный красный цвет окраски и военная роль, позволили ему получить название «красный плащ». Необычная форма также не позволяет носить человеческую одежду.\n\nСинтоиды воины могут быть отформатированы в следующие типы:\n — Дроны\n — Перепрограммируемые дроны</ABF_Thing_Synstruct_Warrior.description>
+  <ABF_Thing_Synstruct_Warrior.tools.0.label>правый кулак</ABF_Thing_Synstruct_Warrior.tools.0.label>
+  <ABF_Thing_Synstruct_Warrior.tools.1.label>левый кулак</ABF_Thing_Synstruct_Warrior.tools.1.label>
+  <ABF_Thing_Synstruct_Warrior.tools.2.label>туловище</ABF_Thing_Synstruct_Warrior.tools.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Body_Synstruct_Paladin.label>туловище паладина</ABF_Body_Synstruct_Paladin.label>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.2.customLabel>внутренний радиатор</ABF_Body_Synstruct_Paladin.corePart.parts.2.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.5.customLabel>внутренний оптический датчик</ABF_Body_Synstruct_Paladin.corePart.parts.5.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.0.customLabel>левый радиатор</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.1.customLabel>правый радиатор</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.1.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.2.customLabel>внешний оптический датчик</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.2.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.1.customLabel>левый оптический датчик</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.1.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.2.customLabel>правый оптический датчик</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.2.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.3.customLabel>левый звуковой датчик</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.3.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.4.customLabel>правый звуковой датчик</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.3.parts.4.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.customLabel>левое плечо</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.customLabel>левая рука</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.customLabel>левая кисть</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.0.customLabel>левый мизинец</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.1.customLabel>левый безымянный палец</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.2.customLabel>левый средний палец</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.3.customLabel>левый указательный палец</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.4.customLabel>левый большой палец</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.4.parts.0.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.customLabel>правое плечо</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.customLabel>правая рука</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.customLabel>правая кисть</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.0.customLabel>правый мизинец</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.1.customLabel>правый безымянный палец</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.2.customLabel>правый средний палец</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.3.customLabel>правый указательный палец</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.4.customLabel>правый большой палец</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.5.parts.0.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.6.customLabel>левое переднее плечо</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.6.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.6.parts.0.customLabel>левый передний манипулятор</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.7.customLabel>правое переднее плечо</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.7.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.7.parts.0.customLabel>передний правый манипулятор</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.7.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.8.customLabel>левое заднее плечо</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.8.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.8.parts.0.customLabel>левый задний манипулятор</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.8.parts.0.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.9.customLabel>правое заднее плечо</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.9.customLabel>
+  <ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.9.parts.0.customLabel>правый задний манипулятор</ABF_Body_Synstruct_Paladin.corePart.parts.6.parts.9.parts.0.customLabel>
+
+
+</LanguageData>

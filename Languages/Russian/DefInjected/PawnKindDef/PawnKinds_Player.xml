@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Warriors may be blank, drone, or reprogrammable -->
+
+  <ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.label>заготовка «воин»</ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.label>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.labelPlural>заготовки «воинов»</ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.labelPlural>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.labelMale>мужчина заготовка «воин»</ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.labelMale>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.labelMalePlural>мужчины заготовки «воинов»</ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.labelFemale>женщина заготовка «воин»</ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.labelFemale>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.labelFemalePlural>женщины заготовки «воинов»</ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base.labelFemalePlural>
+
+  <ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.label>«воин» дрон</ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.label>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.labelPlural>«воины» дроны</ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.labelPlural>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.labelMale>мужчина «воин» дрон</ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.labelMale>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.labelMalePlural>мужчины «воины» дроны</ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.labelFemale>женщина «воин» дрон</ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.labelFemale>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.labelFemalePlural>женщины «воины» дроны</ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base.labelFemalePlural>
+
+  <ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.label>«воин» дрон</ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.label>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.labelPlural>«воины» дроны</ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.labelPlural>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.labelMale>мужчина «воин» дрон</ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.labelMale>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.labelMalePlural>мужчины «воины» дроны</ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.labelFemale>женщина «воин» дрон</ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.labelFemale>
+  <ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.labelFemalePlural>женщины «воины» дроны</ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base.labelFemalePlural>
+
+
+  <!-- Bishops may be blank, drone, reprogrammable, or sapient -->
+
+  <ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.label>заготовка «епископ»</ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.label>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.labelPlural>заготовки «епископов»</ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.labelPlural>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.labelMale>мужчина заготовка «епископ»</ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.labelMale>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.labelMalePlural>мужчины заготовки «епископов»</ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.labelFemale>женщина заготовка «епископ»</ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.labelFemale>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.labelFemalePlural>женщины заготовки «епископов»</ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base.labelFemalePlural>
+
+  <ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.label>«епископ» дрон</ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.label>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.labelPlural>«епископы» дроны</ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.labelPlural>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.labelMale>мужчина «епископ» дрон</ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.labelMale>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.labelMalePlural>мужчины «епископы» дроны</ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.labelFemale>женщина «епископ» дрон</ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.labelFemale>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.labelFemalePlural>женщины «епископы» дроны</ABF_PawnKind_Synstruct_Player_Bishop_Drone_Base.labelFemalePlural>
+
+  <ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.label>«епископ» дрон</ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.label>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.labelPlural>«епископы» дроны</ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.labelPlural>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.labelMale>мужчина «епископ» дрон</ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.labelMale>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.labelMalePlural>мужчины «епископы» дроны</ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.labelFemale>женщина «епископ» дрон</ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.labelFemale>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.labelFemalePlural>женщины «епископы» дроны</ABF_PawnKind_Synstruct_Player_Bishop_Reprogrammable_Base.labelFemalePlural>
+
+  <ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.label>«епископ» поселенец</ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.label>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.labelPlural>«епископы» поселенцы</ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.labelPlural>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.labelMale>мужчина «епископ» поселенец</ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.labelMale>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.labelMalePlural>мужчины «епископы» поселенцы</ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.labelFemale>женщина «епископ» поселенец</ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.labelFemale>
+  <ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.labelFemalePlural>женщины «епископы» поселенцы</ABF_PawnKind_Synstruct_Player_Bishop_Sapient_Base.labelFemalePlural>
+
+
+  <!-- Paladins may be blank or sapient -->
+
+  <ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.label>заготовка «паладин»</ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.label>
+  <ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.labelPlural>заготовки «паладинов»</ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.labelPlural>
+  <ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.labelMale>мужчина заготовка «паладин»</ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.labelMale>
+  <ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.labelMalePlural>мужчины заготовки «паладинов»</ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.labelFemale>женщина заготовка «паладин»</ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.labelFemale>
+  <ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.labelFemalePlural>женщины заготовки «паладинов»</ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base.labelFemalePlural>
+
+  <ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.label>«паладин» поселенец</ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.label>
+  <ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.labelPlural>«паладины» поселенцы</ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.labelPlural>
+  <ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.labelMale>мужчина «паладин» поселенец</ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.labelMale>
+  <ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.labelMalePlural>мужчины «паладины» поселенцы</ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.labelFemale>женщина «паладин» поселенец</ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.labelFemale>
+  <ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.labelFemalePlural>женщины «паладины» поселенцы</ABF_PawnKind_Synstruct_Player_Paladin_Sapient_Base.labelFemalePlural>
+
+
+  <!-- Jellymen may be sapient only -->
+
+  <ABF_PawnKind_Synstruct_Jellyman_QuestCrash.label>желейный</ABF_PawnKind_Synstruct_Jellyman_QuestCrash.label>
+  <ABF_PawnKind_Synstruct_Jellyman_QuestCrash.labelPlural>желейные</ABF_PawnKind_Synstruct_Jellyman_QuestCrash.labelPlural>
+  <ABF_PawnKind_Synstruct_Jellyman_QuestCrash.labelMale>мужчина желейный</ABF_PawnKind_Synstruct_Jellyman_QuestCrash.labelMale>
+  <ABF_PawnKind_Synstruct_Jellyman_QuestCrash.labelMalePlural>мужчины желейные</ABF_PawnKind_Synstruct_Jellyman_QuestCrash.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Jellyman_QuestCrash.labelFemale>женщина желейная</ABF_PawnKind_Synstruct_Jellyman_QuestCrash.labelFemale>
+  <ABF_PawnKind_Synstruct_Jellyman_QuestCrash.labelFemalePlural>женщины желейные</ABF_PawnKind_Synstruct_Jellyman_QuestCrash.labelFemalePlural>
+
+
+  <!-- Titans may be drone only -->
+
+  <ABF_PawnKind_Synstruct_Juggernaut_Calldown.label>джаггернаут</ABF_PawnKind_Synstruct_Juggernaut_Calldown.label>
+  <ABF_PawnKind_Synstruct_Juggernaut_Calldown.labelPlural>джаггернауты</ABF_PawnKind_Synstruct_Juggernaut_Calldown.labelPlural>
+  <ABF_PawnKind_Synstruct_Juggernaut_Calldown.labelMale>мужчина джаггернаут</ABF_PawnKind_Synstruct_Juggernaut_Calldown.labelMale>
+  <ABF_PawnKind_Synstruct_Juggernaut_Calldown.labelMalePlural>мужчины джаггернауты</ABF_PawnKind_Synstruct_Juggernaut_Calldown.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Juggernaut_Calldown.labelFemale>женщина джаггернаут</ABF_PawnKind_Synstruct_Juggernaut_Calldown.labelFemale>
+  <ABF_PawnKind_Synstruct_Juggernaut_Calldown.labelFemalePlural>женщины джаггернауты</ABF_PawnKind_Synstruct_Juggernaut_Calldown.labelFemalePlural>
+
+
+</LanguageData>

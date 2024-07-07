@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Body_Synstruct_Bishop.label>тело епископа</ABF_Body_Synstruct_Bishop.label>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.2.customLabel>внутренний радиатор</ABF_Body_Synstruct_Bishop.corePart.parts.2.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.5.customLabel>внутренний оптический датчик</ABF_Body_Synstruct_Bishop.corePart.parts.5.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.0.customLabel>левый радиатор</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.1.customLabel>правый радиатор</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.1.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.2.customLabel>внешний оптический датчик</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.2.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.1.customLabel>левый оптический датчик</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.1.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.2.customLabel>правый оптический датчик</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.2.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.3.customLabel>левый звуковой датчик</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.3.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.4.customLabel>правый звуковой датчик</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.3.parts.4.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.4.customLabel>первое плечо</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.4.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.4.parts.0.customLabel>первый манипулятор</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.4.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.5.customLabel>второе плечо</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.5.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.5.parts.0.customLabel>второй манипулятор</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.5.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.6.customLabel>третье плечо</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.6.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.6.parts.0.customLabel>третий манипулятор</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.7.customLabel>четвёртое плечо</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.7.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.7.parts.0.customLabel>четвёртый манипулятор</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.7.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.8.customLabel>пятое плечо</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.8.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.8.parts.0.customLabel>пятый манипулятор</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.8.parts.0.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.9.customLabel>шестое плечо</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.9.customLabel>
+  <ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.9.parts.0.customLabel>шестой манипулятор</ABF_Body_Synstruct_Bishop.corePart.parts.6.parts.9.parts.0.customLabel>
+
+
+</LanguageData>

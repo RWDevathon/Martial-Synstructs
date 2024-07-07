@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_BodyPart_Synstruct_CoreCage.label>сердцевина каркаса</ABF_BodyPart_Synstruct_CoreCage.label>
+  <ABF_BodyPart_Synstruct_Limb.label>плечо</ABF_BodyPart_Synstruct_Limb.label>
+  <ABF_BodyPart_Synstruct_Gripper.label>захват</ABF_BodyPart_Synstruct_Gripper.label>
+  <ABF_BodyPart_Synstruct_MechaniteTorso.label>основная масса</ABF_BodyPart_Synstruct_MechaniteTorso.label>
+  <ABF_BodyPart_Synstruct_MechaniteHead.label>верхняя масса</ABF_BodyPart_Synstruct_MechaniteHead.label>
+
+
+</LanguageData>

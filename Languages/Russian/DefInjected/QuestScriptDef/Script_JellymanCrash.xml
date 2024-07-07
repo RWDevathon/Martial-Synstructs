@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.5.node.name>siteThreatChance</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.5.node.name>
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.5.elseNode.name>siteThreatChance</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.5.elseNode.name>
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.10.node.nodes.0.label>Срок задания истёк: [resolvedQuestName]</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.10.node.nodes.0.label>
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.10.node.nodes.0.text>Таинственная сила, звавшая вас к месту крушения зловещего метеорита, внезапно прекратилась. Время задания истекло: [resolvedQuestName]</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.root.nodes.10.node.nodes.0.text>
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.questDescriptionRules.rulesStrings.0>questDescription->С пронзительным рёвом, огненный шар проносится по небу. Кажется, что сам воздух дрожит, а неактивные механиты падают как пепел. Казалось, что он пришёл не из космоса. В конце концов, он приземляется за горизонтом — и всё же каким-то образом вам известно точное место его приземления. Имя и характер известны вам, но откуда? \nНеобъяснимым образом вы чувствуете, что [allSitePartsDescriptionsExceptFirst]</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.questDescriptionRules.rulesStrings.0>
+  <ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.questNameRules.rulesStrings.0>questName->Метеор Механитов</ABF_QuestScript_Synstruct_OpportunitySite_JellymanCrash.questNameRules.rulesStrings.0>
+
+
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Hediff_Synstruct_AblativeActiveArmor.label>активная броня</ABF_Hediff_Synstruct_AblativeActiveArmor.label>
+  <ABF_Hediff_Synstruct_AblativeActiveArmor.description>Всё тело этого юнита активно реагирует на полученный урон, значительно снижая урон полученный в будущем. Устойчивые повреждения значительно снижают стабильность, поскольку шасси постоянно деформируется для защиты уцелевших систем.</ABF_Hediff_Synstruct_AblativeActiveArmor.description>
+  <ABF_Hediff_Synstruct_AblativeActiveArmor.stages.0.label>уничтожена</ABF_Hediff_Synstruct_AblativeActiveArmor.stages.0.label>
+  <ABF_Hediff_Synstruct_AblativeActiveArmor.stages.1.label>максимальная реакция</ABF_Hediff_Synstruct_AblativeActiveArmor.stages.1.label>
+  <ABF_Hediff_Synstruct_AblativeActiveArmor.stages.2.label>интенсивная реакция</ABF_Hediff_Synstruct_AblativeActiveArmor.stages.2.label>
+  <ABF_Hediff_Synstruct_AblativeActiveArmor.stages.3.label>серьёзная реакция</ABF_Hediff_Synstruct_AblativeActiveArmor.stages.3.label>
+  <ABF_Hediff_Synstruct_AblativeActiveArmor.stages.4.label>умеренная реакция</ABF_Hediff_Synstruct_AblativeActiveArmor.stages.4.label>
+  <ABF_Hediff_Synstruct_AblativeActiveArmor.stages.5.label>нет реакции</ABF_Hediff_Synstruct_AblativeActiveArmor.stages.5.label>
+
+  <ABF_Hediff_Synstruct_ReplenishingMechanites.label>восполнение механитов</ABF_Hediff_Synstruct_ReplenishingMechanites.label>
+  <ABF_Hediff_Synstruct_ReplenishingMechanites.description>Множество механитов, составляющих массу тела этой пешки, было утрачено. Пока они не будут заменены, юнит будет уязвим и не сможет полноценно работать.</ABF_Hediff_Synstruct_ReplenishingMechanites.description>
+  <ABF_Hediff_Synstruct_ReplenishingMechanites.stages.0.label>полное восстановление</ABF_Hediff_Synstruct_ReplenishingMechanites.stages.0.label>
+  <ABF_Hediff_Synstruct_ReplenishingMechanites.stages.1.label>лёгкое</ABF_Hediff_Synstruct_ReplenishingMechanites.stages.1.label>
+  <ABF_Hediff_Synstruct_ReplenishingMechanites.stages.2.label>среднее</ABF_Hediff_Synstruct_ReplenishingMechanites.stages.2.label>
+  <ABF_Hediff_Synstruct_ReplenishingMechanites.stages.3.label>серьёзное</ABF_Hediff_Synstruct_ReplenishingMechanites.stages.3.label>
+  <ABF_Hediff_Synstruct_ReplenishingMechanites.stages.4.label>экстремальное</ABF_Hediff_Synstruct_ReplenishingMechanites.stages.4.label>
+
+  <ABF_Hediff_Synstruct_RestrictiveMechanites.label>сдерживающие механиты</ABF_Hediff_Synstruct_RestrictiveMechanites.label>
+  <ABF_Hediff_Synstruct_RestrictiveMechanites.description>Механиты покрывают суставы этой пешки, сильно затрудняя движения и манипуляции. Отрезанные от изначального носителя, механиты будут медленно разлагаться в течение суток.</ABF_Hediff_Synstruct_RestrictiveMechanites.description>
+  <ABF_Hediff_Synstruct_RestrictiveMechanites.stages.0.label>полное восстановление</ABF_Hediff_Synstruct_RestrictiveMechanites.stages.0.label>
+  <ABF_Hediff_Synstruct_RestrictiveMechanites.stages.1.label>ослаблен</ABF_Hediff_Synstruct_RestrictiveMechanites.stages.1.label>
+  <ABF_Hediff_Synstruct_RestrictiveMechanites.stages.2.label>обездвижен</ABF_Hediff_Synstruct_RestrictiveMechanites.stages.2.label>
+
+
+</LanguageData>

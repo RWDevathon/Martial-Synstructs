@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Bishop.label>синтоид епископ</ABF_Thing_Synstruct_Bishop.label>
+  <ABF_Thing_Synstruct_Bishop.description>«Епископы» — издалека смутно напоминают людей, в отличие от воинов или паладинов, хотя и необычайно высоких и худых. Благодаря шести конечностям, которые попеременно выполняют функции ног и рук, а также встроенным оптическим датчикам, этих стройных боевых единиц очень сложно вывести из строя. «Воины» — дешёвы и быстро собираются. «Епископы» — предпочитают качество и быстрый динамизм. Эти юниты, созданы для боя, как оборонительного, так и наступательного, и могут удерживать или продвигать линию обороны с непоколебимой решимостью.\n\nИз-за тонкого телосложения и значительного роста, они получили прозвища &quot;палочка — убивалочка&quot; и &quot;боевой шест&quot;, а их характерный сегмент «голова» послужил источником общепринятого названия.\n\nСинтоиды епископы могут быть отформатированы в следующие типы:\n — Дроны\n — Перепрограммируемые дроны\n — Синтоиды</ABF_Thing_Synstruct_Bishop.description>
+  <ABF_Thing_Synstruct_Bishop.tools.0.label>манипулятор</ABF_Thing_Synstruct_Bishop.tools.0.label>
+  <ABF_Thing_Synstruct_Bishop.tools.1.label>манипулятор</ABF_Thing_Synstruct_Bishop.tools.1.label>
+  <ABF_Thing_Synstruct_Bishop.tools.2.label>голова-шлем</ABF_Thing_Synstruct_Bishop.tools.2.label>
+
+
+</LanguageData>

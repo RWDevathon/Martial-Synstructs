@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Body_Synstruct_Warrior.label>туловище воина</ABF_Body_Synstruct_Warrior.label>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.2.customLabel>внутренний радиатор</ABF_Body_Synstruct_Warrior.corePart.parts.2.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.0.customLabel>левый радиатор</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.1.customLabel>правый радиатор</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.1.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.1.customLabel>левый оптический датчик</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.1.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.2.customLabel>правый оптический датчик</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.2.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.3.customLabel>левый звуковой датчик</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.3.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.4.customLabel>правый звуковой датчик</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.2.parts.4.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.customLabel>левое плечо</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.customLabel>левая рука</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.customLabel>левая кисть</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.0.customLabel>левый мизинец</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.1.customLabel>левый безымянный палец</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.2.customLabel>левый средний палец</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.3.customLabel>левый указательный палец</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.4.customLabel>левый большой палец</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.3.parts.0.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.customLabel>правое плечо</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.customLabel>правая рука</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.customLabel>правая кисть</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.0.customLabel>правый мизинец</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.1.customLabel>правый безымянный палец</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.2.customLabel>правый средний палец</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.3.customLabel>правый указательный палец</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.4.customLabel>правый большой палец</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.4.parts.0.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.6.customLabel>левая нога</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.6.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.6.parts.0.customLabel>левая стопа</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.7.customLabel>правая нога</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.7.customLabel>
+  <ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.7.parts.0.customLabel>правая стопа</ABF_Body_Synstruct_Warrior.corePart.parts.5.parts.7.parts.0.customLabel>
+
+
+</LanguageData>
