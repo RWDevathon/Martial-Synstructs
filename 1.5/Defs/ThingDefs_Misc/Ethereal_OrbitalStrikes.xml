@@ -28,7 +28,7 @@
     <ThingDef ParentName="OrbitalUtilityBase">
         <defName>ABF_Thing_Synstruct_Juggernaut_DescentTargeter</defName>
         <label>juggernaut deployment beacon</label>
-        <description>A targetting unit for a juggernaut that has drawn close to the planet. The device indicates one is standing by for the signal to drop. Devices like these are infamous for uploading improper commands, resulting in the juggernaut going rogue.</description>
+        <description>A targetting unit for a juggernaut that has drawn close to the planet. The device indicates one is standing by for the signal to drop. Devices like these are infamous for uploading improper commands if malfunctioning, leading to potentially unforeseen circumstances.\n\nWarning: Juggernauts deploy from orbit at high velocity. Do not deploy in a densely populated area, unless that area happens to contain hostile forces.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponSpecial/OrbitalTargeterPowerBeam/OrbitalTargeterPowerBeam</texPath>
             <drawSize>(0.7,0.7)</drawSize>
