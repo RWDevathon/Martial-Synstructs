@@ -115,6 +115,7 @@
             <li>ABF_Backstory_Synstruct_Adulthood_Juggernaut</li>
         </fixedAdultBackstories>
 		<aiAvoidCover>true</aiAvoidCover>
+        <forceDeathOnDowned>true</forceDeathOnDowned>
 		<weaponMoney>
 			<min>9999</min>
 			<max>9999</max>
