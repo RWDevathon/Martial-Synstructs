@@ -19,13 +19,7 @@ A mod using Artificial Beings Framework (ABF) and Synstructs Core (ABF:SC) to br
 
 
 ## Contributions
-* Thermo: Thumbnail/Preview
-
-Background by kotkoa on Freepik
-(https://www.freepik.com/free-vector/big-data-concept-background_21063019.htm#query=red%20circuit%20backround&position=0&from_view=search&track=robertav1_2_sidr%22%3EImage)
-
-Reflective Metal in Corner by macrovector on Freepik
-(https://www.freepik.com/free-vector/realistic-metal-button-with-circular-processing-cone-reflection_11060526.htm#query=shining%20metal&position=39&from_view=search&track=robertav1_2_sidr%22%3EImage)
+* Trapinlive: Thumbnail/Preview
 
 ## Links
 [Discord] (https://discord.gg/udNCpbkABT)
