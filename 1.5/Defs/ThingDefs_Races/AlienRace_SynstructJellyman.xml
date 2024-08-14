@@ -79,9 +79,6 @@
 			<SocialImpact>2</SocialImpact>
 			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
 			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-            <ABF_Stat_Synstruct_CoherenceRetention>4</ABF_Stat_Synstruct_CoherenceRetention>
-            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.6</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
-            <ABF_Stat_Synstruct_ChargingSpeed>2</ABF_Stat_Synstruct_ChargingSpeed>
 			<Mass>30.0</Mass>
 		</statBases>
 		<tools>
@@ -101,13 +98,18 @@
 			<makesFootprints>false</makesFootprints>
 			<bloodDef>ABF_Thing_Synstruct_MechaniteFilth</bloodDef>
 			<baseHealthScale>5</baseHealthScale>
-			<baseHungerRate>0.4</baseHungerRate>
+            <foodType>None</foodType>
             <hasCorpse>false</hasCorpse>
 			<hediffGiverSets Inherit="False">
                 <li>ABF_HediffGiverSet_Synstruct_LeaksMechanites</li>
 				<li>ABF_HediffGiverSet_Synstruct_AblativeActiveArmor</li>
 			</hediffGiverSets>
 		</race>
+        <comps>
+            <li>
+                <compClass>ArtificialBeings.CompCoherenceNeed</compClass>
+            </li>
+        </comps>
 		<modExtensions>
             <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
                 <canBeDrone>false</canBeDrone>

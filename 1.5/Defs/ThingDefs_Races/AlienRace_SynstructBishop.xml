@@ -84,11 +84,9 @@
 			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
             <IncomingDamageFactor>0.9</IncomingDamageFactor>
-            <ABF_Stat_Synstruct_CoherenceRetention>1.25</ABF_Stat_Synstruct_CoherenceRetention>
-            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.2</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
-            <ABF_Stat_Synstruct_ChargingSpeed>1.3</ABF_Stat_Synstruct_ChargingSpeed>
             <ABF_Stat_Artificial_ComplexityLimit>15</ABF_Stat_Artificial_ComplexityLimit>
             <ABF_Stat_Artificial_SkillLimit>5</ABF_Stat_Artificial_SkillLimit>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.5</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
 			<Mass>70.0</Mass>
 		</statBases>
 		<tools>
@@ -142,7 +140,6 @@
 		<race>
 			<body>ABF_Body_Synstruct_Bishop</body>
 			<baseHealthScale>1.3</baseHealthScale>
-			<baseHungerRate>0.8</baseHungerRate>
 		</race>
         <recipes>
             <li>ABF_Recipe_Synstruct_InjectCoolant</li>

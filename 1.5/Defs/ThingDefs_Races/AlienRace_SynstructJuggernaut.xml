@@ -88,7 +88,7 @@
             <IncomingDamageFactor>0.4</IncomingDamageFactor>
 			<GlobalLearningFactor>0.2</GlobalLearningFactor>
             <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0</StaggerDurationFactor>
-            <ABF_Stat_Synstruct_CoherenceRetention>0.5</ABF_Stat_Synstruct_CoherenceRetention>
+            <ABF_Stat_Synstruct_CoherenceRetention>0.33333</ABF_Stat_Synstruct_CoherenceRetention>
 			<Mass>450</Mass>
 		</statBases>
 		<tools>
@@ -132,10 +132,10 @@
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<lifeExpectancy>1000</lifeExpectancy>
 			<body>ABF_Body_Synstruct_Warrior</body>
-			<baseHungerRate>4</baseHungerRate>
 			<baseHealthScale>7.5</baseHealthScale>
 			<baseBodySize>5</baseBodySize>
 			<needsRest>false</needsRest>
+            <foodType>None</foodType>
             <bloodDef IsNull="True"/>
 			<hediffGiverSets Inherit="False">
 				<li>ABF_HediffGiverSet_Synstruct_AblativeActiveArmor</li>
@@ -162,6 +162,11 @@
             <li>ABF_Recipe_Synstruct_InjectCoolant</li>
             <li>ABF_Recipe_Synstruct_InjectLubricant</li>
         </recipes>
+        <comps>
+            <li>
+                <compClass>ArtificialBeings.CompCoherenceNeed</compClass>
+            </li>
+        </comps>
 		<modExtensions>
             <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
                 <canBeSapient>false</canBeSapient>

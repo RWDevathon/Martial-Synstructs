@@ -86,10 +86,10 @@
 			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
             <IncomingDamageFactor>0.8</IncomingDamageFactor>
             <InjuryHealingFactor>4</InjuryHealingFactor>
-            <ABF_Stat_Synstruct_CoherenceRetention>1.75</ABF_Stat_Synstruct_CoherenceRetention>
-            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.2</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
-            <ABF_Stat_Synstruct_ChargingSpeed>1.5</ABF_Stat_Synstruct_ChargingSpeed>
             <AimingDelayFactor>0.5</AimingDelayFactor>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.5</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <ABF_Stat_Synstruct_ChargingSpeed>0.8</ABF_Stat_Synstruct_ChargingSpeed>
+            <MaxNutrition>2</MaxNutrition>
             <RangedCooldownFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</RangedCooldownFactor>
             <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0.5</StaggerDurationFactor>
 			<Mass>210.0</Mass>
@@ -164,6 +164,7 @@
 			<body>ABF_Body_Synstruct_Paladin</body>
 			<baseHealthScale>3</baseHealthScale>
 			<baseBodySize>2.2</baseBodySize>
+            <baseHungerRate>1.1</baseHungerRate>
 			<hediffGiverSets>
                 <li>ABF_HediffGiverSet_Synstruct_TemperatureVulnerable</li>
 				<li>ABF_HediffGiverSet_Synstruct_AblativeActiveArmor</li>
