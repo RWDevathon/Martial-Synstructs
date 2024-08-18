@@ -73,6 +73,11 @@
 					<customDrawSize>(2)</customDrawSize>
                 </alienPartGenerator>
             </generalSettings>
+            <thoughtSettings>
+                <cannotReceiveThoughts>
+                    <li>Naked</li>
+                </cannotReceiveThoughts>
+            </thoughtSettings>
 		</alienRace>
 		<statBases>
 			<MarketValue>2000</MarketValue>

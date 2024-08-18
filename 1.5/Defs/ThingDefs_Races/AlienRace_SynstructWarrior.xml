@@ -72,6 +72,9 @@
 					<customDrawSize>(0.8)</customDrawSize>
                 </alienPartGenerator>
             </generalSettings>
+            <thoughtSettings>
+                <cannotReceiveThoughtsAtAll>true</cannotReceiveThoughtsAtAll>
+            </thoughtSettings>
 		</alienRace>
 		<statBases>
 			<MarketValue>750</MarketValue>

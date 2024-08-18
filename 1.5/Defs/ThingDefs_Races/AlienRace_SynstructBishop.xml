@@ -71,6 +71,11 @@
 					</colorChannels>
                 </alienPartGenerator>
             </generalSettings>
+            <thoughtSettings>
+                <cannotReceiveThoughts>
+                    <li>Naked</li>
+                </cannotReceiveThoughts>
+            </thoughtSettings>
 		</alienRace>
 		<statBases>
 			<MarketValue>1300</MarketValue>
