@@ -52,6 +52,16 @@
                 </categories>
             </li>
 		</backstoryFiltersOverride>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>4~12</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>4~12</range>
+            </li>
+        </skills>
 	</PawnKindDef>
 
     <!-- Paladins may be blank or sapient -->
