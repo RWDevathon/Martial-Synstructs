@@ -39,7 +39,7 @@ namespace ArtificialBeings
                 outExtraDescriptionRules.Add(new Rule_String("pawnInvolvedInQuestInfo", text));
             }
 
-            slate.Set("markFour", pawn);
+            slate.Set("jellyman", pawn);
         }
     }
 }

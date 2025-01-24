@@ -17,7 +17,7 @@ namespace ArtificialBeings
                 DownedJellymanComp component = map.Parent.GetComponent<DownedJellymanComp>();
                 if (component == null || !component.pawn.Any)
                 {
-                    pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(ABF_PawnKindDefOf.ABF_PawnKind_Synstruct_Jellyman_QuestCrash, Faction.OfAncients, PawnGenerationContext.NonPlayer, map.Tile, forceGenerateNewPawn: true, canGeneratePawnRelations: false, mustBeCapableOfViolence: false, allowFood: false, allowAddictions: false));
+                    pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(ABF_PawnKindDefOf.ABF_PawnKind_Synstruct_Jellyman_QuestCrash, Faction.OfAncients, PawnGenerationContext.NonPlayer, map.Tile, forceGenerateNewPawn: true, canGeneratePawnRelations: false, mustBeCapableOfViolence: false, allowFood: false, allowAddictions: false, forceRecruitable: true));
                 }
                 else
                 {
@@ -34,7 +34,9 @@ namespace ArtificialBeings
             }
 
             HealthUtility.DamageUntilDowned(pawn, false);
+            HealthUtility.DamageLegsUntilIncapableOfMoving(pawn, false);
             GenSpawn.Spawn(pawn, loc, map);
+            pawn.health.couldCrawl = false;
             pawn.mindState.WillJoinColonyIfRescued = true;
             MapGenerator.rootsToUnfog.Add(loc);
             MapGenerator.SetVar("RectOfInterest", CellRect.CenteredOn(loc, 1, 1));
