@@ -143,7 +143,7 @@
 		<race>
 			<body>ABF_Body_Synstruct_Warrior</body>
 			<baseHealthScale>1.2</baseHealthScale>
-            <baseHungerRate>0.4</baseHungerRate>
+            <baseHungerRate>0.25</baseHungerRate>
 			<baseBodySize>0.75</baseBodySize>
 		</race>
         <recipes>

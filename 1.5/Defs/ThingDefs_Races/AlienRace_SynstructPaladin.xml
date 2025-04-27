@@ -169,7 +169,7 @@
 			<body>ABF_Body_Synstruct_Paladin</body>
 			<baseHealthScale>3</baseHealthScale>
 			<baseBodySize>2.2</baseBodySize>
-            <baseHungerRate>1.1</baseHungerRate>
+            <baseHungerRate>0.6875</baseHungerRate>
 			<hediffGiverSets>
                 <li>ABF_HediffGiverSet_Synstruct_TemperatureVulnerable</li>
 				<li>ABF_HediffGiverSet_Synstruct_AblativeActiveArmor</li>
