@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Ultra Limb -->
+
+    <HediffDef ParentName="ABF_Hediff_Synstruct_UltrapartBase">
+        <defName>ABF_Hediff_Synstruct_Ultrapart_Limb</defName>
+        <label>ultra limb</label>
+        <description>Higher plasteel temperance with higher efficiency components grants this limb a significant advantage over standard issue parts. This is a highly specialized limb capable of filling both manipulation and mobility roles, and is only usable for select synstruct models.</description>
+        <descriptionHyperlinks><ThingDef>ABF_Thing_Synstruct_Ultrapart_Limb</ThingDef></descriptionHyperlinks>
+	    <comps>
+            <li Class="HediffCompProperties_VerbGiver">
+                <tools>
+                    <li>
+                        <label>fist</label>
+                        <capacities>
+                            <li>Blunt</li>
+                        </capacities>
+                        <power>12</power>
+                        <cooldownTime>2</cooldownTime>
+                    </li>
+                </tools>
+            </li>
+        </comps>
+        <spawnThingOnRemoved>ABF_Thing_Synstruct_Ultrapart_Limb</spawnThingOnRemoved>
+    </HediffDef>
+
+    <ThingDef ParentName="ABF_Thing_Synstruct_UltrapartBase">
+        <defName>ABF_Thing_Synstruct_Ultrapart_Limb</defName>
+        <label>ultra limb</label>
+        <description>Higher plasteel temperance with higher efficiency components grants this limb a significant advantage over standard issue parts. This is a highly specialized limb capable of filling both manipulation and mobility roles, and is only usable for select synstruct models.</description>
+        <costList>
+            <Steel>40</Steel>
+            <Plasteel>50</Plasteel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+        <statBases>
+            <Mass>5</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="ABF_Recipe_Synstruct_UltrapartBase">
+		<defName>ABF_Recipe_Synstruct_Ultrapart_Limb</defName>
+		<label>install ultra limb</label>
+		<description>Installs an ultra limb.</description>
+		<jobString>Installing ultra limb.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ABF_Thing_Synstruct_Ultrapart_Limb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+            <thingDefs>
+				<li>ABF_Thing_Synstruct_Ultrapart_Limb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ABF_BodyPart_Synstruct_Limb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ABF_Hediff_Synstruct_Ultrapart_Limb</addsHediff>
+	</RecipeDef>
+
+</Defs>

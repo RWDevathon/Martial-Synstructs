@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HediffDef>
+        <defName>ABF_Hediff_Synstruct_AblativeActiveArmor</defName>
+        <label>active armor</label>
+        <description>This unit's entire body is actively reacting to damage it has taken, significantly reducing the amount of future damage it will take as a result. Sustained damage will greatly reduce coherence retention as the chassis continually warps to protect surviving systems.</description>
+        <initialSeverity>1</initialSeverity>
+        <isBad>false</isBad>
+        <defaultLabelColor>(0.4, 0.6, 0.4)</defaultLabelColor>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <stages>
+            <li>
+                <minSeverity>0.01</minSeverity>
+                <label>destroyed</label>
+                <becomeVisible>false</becomeVisible>
+            </li>
+            <li>
+                <minSeverity>0.05</minSeverity>
+                <label>critical reaction</label>
+                <statOffsets>
+                    <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+                    <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+                    <ABF_Stat_Synstruct_CoherenceRetention>-1.25</ABF_Stat_Synstruct_CoherenceRetention>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.4</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.5</minSeverity>
+                <label>intense reaction</label>
+                <statOffsets>
+                    <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+                    <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+                    <ABF_Stat_Synstruct_CoherenceRetention>-1</ABF_Stat_Synstruct_CoherenceRetention>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.55</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.65</minSeverity>
+                <label>severe reaction</label>
+                <statOffsets>
+                    <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+                    <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+                    <ABF_Stat_Synstruct_CoherenceRetention>-0.75</ABF_Stat_Synstruct_CoherenceRetention>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.7</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.8</minSeverity>
+                <label>mild reaction</label>
+                <statOffsets>
+                    <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+                    <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+                    <ABF_Stat_Synstruct_CoherenceRetention>-0.5</ABF_Stat_Synstruct_CoherenceRetention>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.85</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.95</minSeverity>
+                <label>no reaction</label>
+                <becomeVisible>false</becomeVisible>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>ABF_Hediff_Synstruct_ReplenishingMechanites</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>mechanites replenishing</label>
+        <description>Many mechanites that form the mass of this pawn's body have been lost. Until they are replaced, the unit will be vulnerable and unable to operate fully.</description>
+        <isBad>false</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.25</severityPerDay>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0.01</minSeverity>
+                <label>full recovery</label>
+                <becomeVisible>false</becomeVisible>
+            </li>
+            <li>
+                <minSeverity>0.05</minSeverity>
+                <label>minor</label>
+            </li>
+            <li>
+                <minSeverity>0.3</minSeverity>
+                <label>major</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.95</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <IncomingDamageFactor>1.05</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.6</minSeverity>
+                <label>significant</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.9</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <IncomingDamageFactor>1.1</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.9</minSeverity>
+                <label>extreme</label>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.8</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <IncomingDamageFactor>1.25</IncomingDamageFactor>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>ABF_Hediff_Synstruct_RestrictiveMechanites</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>restrictive mechanites</label>
+        <description>Mechanites coat this pawn's joints, severely impairing movement and manipulation. Cut off from the original host, the mechanites will slowly decay over the span of a day.</description>
+        <isBad>true</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-1</severityPerDay>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0.01</minSeverity>
+                <label>full recovery</label>
+                <becomeVisible>false</becomeVisible>
+            </li>
+            <li>
+                <minSeverity>0.05</minSeverity>
+                <label>impaired</label>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.5</offset>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>-0.5</offset>
+                    </li>
+                </capMods>
+            </li>
+            <li>
+                <minSeverity>0.5</minSeverity>
+                <label>immobilized</label>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <setMax>0</setMax>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

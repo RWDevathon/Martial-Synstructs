@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
+		<defName>ABF_Thing_Synstruct_Warrior</defName>
+		<label>synstruct warrior</label>
+		<description>Synstruct warriors are the standard baseline for fully autonomous combat drones - cheap, durable, and powerful. These are units crafted for war and war alone, and they are very good at it.\n\nIts small, box-like shape earned it the nicknames of "battle-box" and "blaster-bucket," while its default red paint color and military role earned it the affectionate name "Redcoat." The unusual shape also prevents wearing humanlike apparel.\n\nSynstruct warriors may be formatted into the following types:\n - Drones\n - Reprogrammable drones</description>
+		<alienRace>
+			<raceRestriction>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<apparelList>
+				</apparelList>
+			</raceRestriction>
+			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
+                <body>
+                    <path>Things/Pawns/Humanlikes/Warrior/body/Naked_None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Warrior/body/Naked_None</Male>
+                        <Female>Things/Pawns/Humanlikes/Warrior/body/Naked_None</Female>
+                    </genderGraphics>
+                </body>
+                <head>
+                    <path>Things/Pawns/Humanlikes/Warrior/head/None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Warrior/head/None</Male>
+                        <Female>Things/Pawns/Humanlikes/Warrior/head/None</Female>
+                    </genderGraphics>
+                </head>
+                <skinShader>Cutout</skinShader>
+                <apparel>
+                    <bodyTypeFallback>Male</bodyTypeFallback>
+                </apparel>
+            </graphicPaths>
+            <generalSettings>
+                <alienPartGenerator>
+					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
+                    <headOffset>(0, -0.1)</headOffset>
+                    <headOffsetDirectional>
+                        <east>
+                            <offset>(-0.09, 0)</offset>
+                        </east>
+                        <west>
+                            <offset>(0.09, 0)</offset>
+                        </west>
+                    </headOffsetDirectional>
+                    <bodyTypes Inherit="False">
+                        <li>Thin</li>
+                    </bodyTypes>
+                    <colorChannels Inherit="False">
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li> <!--Crimson-->
+										<weight>4</weight>
+										<min>RGBA(180, 60, 60, 255)</min>
+										<max>RGBA(120, 40, 40, 255)</max>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>100</weight>
+										<min>RGBA(255, 255, 255, 255)</min>
+										<max>RGBA(255, 255, 255, 255)</max>
+									</li>
+								</options>
+							</second>
+						</li>
+					</colorChannels>
+					<customDrawSize>(0.8)</customDrawSize>
+                </alienPartGenerator>
+            </generalSettings>
+            <thoughtSettings>
+                <cannotReceiveThoughtsAtAll>true</cannotReceiveThoughtsAtAll>
+            </thoughtSettings>
+		</alienRace>
+		<statBases>
+			<MarketValue>750</MarketValue>
+			<MoveSpeed>4.10</MoveSpeed>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<MentalBreakThreshold>0.08</MentalBreakThreshold>
+			<GlobalLearningFactor>0.2</GlobalLearningFactor>
+			<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+			<SocialImpact>0.05</SocialImpact>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+            <ABF_Stat_Artificial_ComplexityLimit>10</ABF_Stat_Artificial_ComplexityLimit>
+            <ABF_Stat_Artificial_SkillLimit>4</ABF_Stat_Artificial_SkillLimit>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.5</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <MaxNutrition>0.6</MaxNutrition>
+			<Mass>60</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>body</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>ABF_Body_Synstruct_Warrior</body>
+			<baseHealthScale>1.2</baseHealthScale>
+            <baseHungerRate>0.25</baseHungerRate>
+			<baseBodySize>0.75</baseBodySize>
+		</race>
+        <recipes>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
+            <li>ABF_Recipe_Synstruct_InjectLubricant</li>
+        </recipes>
+        <comps>
+            <li>
+                <compClass>ArtificialBeings.CompCoherenceNeed</compClass>
+            </li>
+        </comps>
+		<modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
+                <canBeSapient>false</canBeSapient>
+                <maxDirectives>3</maxDirectives>
+                <inherentWorkTypes><li>Hunting</li></inherentWorkTypes>
+                <inherentSkills>
+                    <li><key>Shooting</key><value>4</value></li>
+                    <li><key>Melee</key><value>4</value></li>
+                </inherentSkills>
+                <droneSkillLevel>2</droneSkillLevel>
+                <blacklistedNeeds>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                    <li>Mood</li>
+                    <li>RoomSize</li>
+                    <li>Joy</li>
+                    <li>Beauty</li>
+                    <li>Comfort</li>
+                    <li>Outdoors</li>
+                    <li>Indoors</li>
+                </blacklistedNeeds>
+                <artificialNeeds>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>0.5</value></li>
+                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>1</value></li>
+                </artificialNeeds>
+                <medicineList>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
+                </medicineList>
+                <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
+                <hediffReplacements>
+                    <BloodRot MayRequire="Ludeon.RimWorld.Royalty">ABF_Hediff_Synstruct_CoreLockout</BloodRot>
+                    <Abasia MayRequire="Ludeon.RimWorld.Royalty">ABF_Hediff_Synstruct_CoreLockout</Abasia>
+                </hediffReplacements>
+            </li>
+            <li Class="ArtificialBeings.ABF_SynstructExtension">
+                <playerDronePawnKindDef>ABF_PawnKind_Synstruct_Player_Warrior_Drone_Base</playerDronePawnKindDef>
+                <playerReprogrammableDronePawnKindDef>ABF_PawnKind_Synstruct_Player_Warrior_Reprogrammable_Base</playerReprogrammableDronePawnKindDef>
+            </li>
+		</modExtensions>
+		<butcherProducts>
+            <Steel>40</Steel>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</butcherProducts>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

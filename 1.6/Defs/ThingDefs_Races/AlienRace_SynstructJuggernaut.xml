@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- M-Series Base -->
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
+		<defName>ABF_Thing_Synstruct_Juggernaut</defName>
+		<label>synstruct juggernaut</label>
+		<description>The juggernaut is a testament both to human engineering and the folly of their ambition. Assembling one requires a production facility with instruments of picoscoping precision and timeliness, an interstellar empire's worth of logistical supply, and repeated blasts that could level a city and leave a subcontinent uninhabitable for decades. Manufactured more for prestige and demonstrations of wealth than for actual combat capability, juggernauts should be extremely rare to find beyond the arsenals of glitterworlds.\n\nCuriously, though, rogue juggernauts can be found floating through space with alarming frequency. It is unclear where they are coming from, but it is well-known that one making landfall heralds chaos. They do not belong on RimWorlds, and are entirely unserviceable here. The countless flaws in their design, ranging from simple internal oversights to just how much logistics are required to keep them operational in the long-run, make them fundamentally unsuited to surviving any length of time.\n\nJuggernauts are even designed to violently and explosively self-destruct rather than be salvageable, making them effectively worthless for anything other than throwing at enemies. While they are marvels to behold, and could constitute one of the single most dangerous entities to encounter, they are derided by most all who know of them.</description>
+        <alienRace>
+			<raceRestriction>
+				<apparelList>
+				</apparelList>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<weaponList>
+					<li>ABF_Thing_Synstruct_Juggernaut_RotaryAutocannon</li>
+					<li>ABF_Thing_Synstruct_Juggernaut_ShrapnelCannon</li>
+					<li>ABF_Thing_Synstruct_Juggernaut_HeadhunterCannon</li>
+					<li>ABF_Thing_Synstruct_Juggernaut_Poleaxe</li>
+				</weaponList>
+				<onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
+			</raceRestriction>
+			<graphicPaths>
+                <body>Things/Pawns/Humanlikes/Juggernaut/body/Naked_None</body>
+                <head>Things/Pawns/Humanlikes/NoneEmpty</head>
+                <skinShader>CutoutComplex</skinShader>
+                <apparel>
+                    <bodyTypeFallback>Male</bodyTypeFallback>
+                </apparel>
+			</graphicPaths>
+			<generalSettings>
+				<alienPartGenerator>
+					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
+					<borderScale>2</borderScale>
+					<atlasScale>2</atlasScale>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.36,0.36,0.36,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.3,0.3,0.3,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.25,0.25,0.25,1)</only>
+									</li>
+								</options>
+							</first>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.36,0.36,0.36,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.3,0.3,0.3,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.25,0.25,0.25,1)</only>
+									</li>
+								</options>
+							</second>
+						</li>
+					</colorChannels>
+					<customDrawSize>(2.7)</customDrawSize>
+				</alienPartGenerator>
+			</generalSettings>
+			<thoughtSettings>
+				<cannotReceiveThoughtsAtAll>true</cannotReceiveThoughtsAtAll>
+			</thoughtSettings>
+        </alienRace>
+		<statBases>
+			<MarketValue>400</MarketValue>
+			<MoveSpeed>5.20</MoveSpeed>
+			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
+			<ComfyTemperatureMax>200</ComfyTemperatureMax>
+			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.00</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.50</ArmorRating_Heat>
+            <InjuryHealingFactor>0.05</InjuryHealingFactor>
+            <IncomingDamageFactor>0.4</IncomingDamageFactor>
+			<GlobalLearningFactor>0.2</GlobalLearningFactor>
+            <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0</StaggerDurationFactor>
+            <ABF_Stat_Synstruct_CoherenceRetention>0.33333</ABF_Stat_Synstruct_CoherenceRetention>
+			<Mass>450</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>right fist</label>
+				<capacities>
+                    <li>Demolish</li>
+				</capacities>
+				<power>60</power>
+				<cooldownTime>2.8</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left fist</label>
+				<capacities>
+                    <li>Demolish</li>
+				</capacities>
+				<power>60</power>
+				<cooldownTime>2.8</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+        <race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<lifeExpectancy>1000</lifeExpectancy>
+			<body>ABF_Body_Synstruct_Warrior</body>
+			<baseHealthScale>7.5</baseHealthScale>
+			<baseBodySize>5</baseBodySize>
+			<needsRest>false</needsRest>
+            <foodType>None</foodType>
+            <bloodDef IsNull="True"/>
+			<hediffGiverSets Inherit="False">
+				<li>ABF_HediffGiverSet_Synstruct_AblativeActiveArmor</li>
+			</hediffGiverSets>
+            <deathAction Class="ArtificialBeings.DeathActionProperties_DeadSynstructSwitch">
+                <explosionRadius>16.9</explosionRadius>
+                <damageType>Bomb</damageType>
+                <preExplosionSpawnThingDef>Shell_AntigrainWarhead</preExplosionSpawnThingDef>
+                <preExplosionSpawnChance>0.01</preExplosionSpawnChance>
+                <ignoreThingsOfSameDef>true</ignoreThingsOfSameDef>
+                <destroyCorpse>true</destroyCorpse>
+            </deathAction>
+			<ageGenerationCurve>
+				<points>
+                    <li>(0,0)</li>
+					<li>(100,0)</li>
+					<li>(200,2)</li>
+					<li>(800,4)</li>
+					<li>(2000,0)</li>
+				</points>
+			</ageGenerationCurve>
+        </race>
+        <recipes>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
+            <li>ABF_Recipe_Synstruct_InjectLubricant</li>
+        </recipes>
+        <comps>
+            <li>
+                <compClass>ArtificialBeings.CompCoherenceNeed</compClass>
+            </li>
+        </comps>
+		<modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
+                <canBeSapient>false</canBeSapient>
+                <canBeReprogrammable>false</canBeReprogrammable>
+                <vulnerableToEMP>false</vulnerableToEMP>
+                <droneSkillLevel>16</droneSkillLevel>
+                <blacklistedNeeds>
+                    <li>Mood</li>
+                    <li>Joy</li>
+                    <li>Beauty</li>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                    <li>RoomSize</li>
+                    <li>Comfort</li>
+                    <li>Outdoors</li>
+                    <li>Indoors</li>
+                </blacklistedNeeds>
+                <artificialNeeds>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>80</value></li>
+                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>60</value></li>
+                </artificialNeeds>
+                <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
+                <hediffReplacements>
+                    <BloodRot MayRequire="Ludeon.RimWorld.Royalty">ABF_Hediff_Synstruct_CoreLockout</BloodRot>
+                    <Abasia MayRequire="Ludeon.RimWorld.Royalty">ABF_Hediff_Synstruct_CoreLockout</Abasia>
+                </hediffReplacements>
+            </li>
+		</modExtensions>
+		<butcherProducts>
+			<Plasteel>160</Plasteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
+            <ComponentSpacer>10</ComponentSpacer>
+            <Uranium>30</Uranium>
+			<Gold>6</Gold>
+		</butcherProducts>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

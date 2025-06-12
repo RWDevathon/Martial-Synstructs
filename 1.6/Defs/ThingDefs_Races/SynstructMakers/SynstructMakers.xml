@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
+        <defName>ABF_Thing_Synstruct_WarriorGenerator</defName>
+        <label>warrior</label>
+        <description>Synstruct warriors are the standard baseline for fully autonomous combat drones - cheap, durable, and powerful. These are units crafted for war and war alone, and they are very good at it.\n\nIts small, box-like shape earned it the nicknames of "battle-box" and "blaster-bucket," while its default red paint color and military role earned it the affectionate name "Redcoat." The unusual shape also prevents wearing humanlike apparel.\n\nSynstruct warriors may be formatted into the following types:\n - Drones\n - Reprogrammable drones</description>
+        <graphicData>
+            <texPath>Things/Pawns/Humanlikes/Warrior/WarriorExemplar</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_BasicMartial</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>60</Steel>
+            <Plasteel>40</Plasteel>
+            <Uranium>15</Uranium>
+            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
+            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
+            <ComponentIndustrial>14</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="ArtificialBeings.CompProperties_PawnSpawner">
+                <pawnKind>ABF_PawnKind_Synstruct_Player_Warrior_Blank_Base</pawnKind>
+                <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
+        <defName>ABF_Thing_Synstruct_BishopGenerator</defName>
+        <label>bishop</label>
+        <description>Bishops vaguely resemble humans from afar unlike warriors or paladins, albeit ones that are unusually tall and thin. With six limbs that interchangeably act as legs and arms and backup internalized visual sensors, these slender war units are exceedingly tough to incapacitate. Where warriors are cheap and quick to assemble, bishops favor quality and rapid dynamism. These are units crafted for combat, both defensively and offensively, and can hold or push a line with steely determination.\n\nDue to their thin build and considerable height, they have earned the nicknames "deathstick" and "warpole," while their distinctive "head" segment is the source of their common name.\n\nSynstruct bishops may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
+        <graphicData>
+            <texPath>Things/Pawns/Humanlikes/Bishop/BishopExemplar</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <workAmount>22500</workAmount>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_BasicMartial</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>20</Steel>
+            <Plasteel>80</Plasteel>
+            <Uranium>30</Uranium>
+            <ABF_Thing_Synstruct_CoolantPack>2</ABF_Thing_Synstruct_CoolantPack>
+            <ABF_Thing_Synstruct_LubricantPack>2</ABF_Thing_Synstruct_LubricantPack>
+            <Gold>1</Gold>
+            <ComponentIndustrial>16</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
+        <comps>
+            <li Class="ArtificialBeings.CompProperties_PawnSpawner">
+                <pawnKind>ABF_PawnKind_Synstruct_Player_Bishop_Blank_Base</pawnKind>
+                <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
+        <defName>ABF_Thing_Synstruct_PaladinGenerator</defName>
+        <label>paladin</label>
+        <description>The very first combat variant idealized, blueprinted, and created by artifical intelligences alone, the paladin design is as unique as it is aesthetically lacking: a rectangular prism with two forward arms and four large manipulators. It has a very odd design choice: rather than being heavily armored to prevent taking damage, paladins instead have a highly reactive hyperweave-infused chassis that significantly reduces incoming damage. The more damage it sustains, the more resilient against damage it becomes - making each paladin a warfighting champion. Specialized hardware vastly increases rate of fire.\n\nThe earliest paladins - contrary to expectation - took to their military role eagerly, and quickly developed a militaristic worldview that often is likened to ancient chivalric customs. Duels, ritualistic combat, and contempt for civilians are common. While paladins exhibit no strong moralistic tendencies as a group, violence should be expected from individuals that are insulted or suffer breakdowns.\n\nDue to their large size and shape, they earned the nickname "Warwagon" - but the proud paladins demand to be referred to by their self-given name. Few are brave enough to challenge their choice. Many have died for making unflattering comparisons between paladins and mechanoid centipedes.\n\nSynstruct paladins may be formatted into the following types:\n - Sapients</description>
+        <graphicData>
+            <texPath>Things/Pawns/Humanlikes/Paladin/PaladinExemplar</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <workAmount>28500</workAmount>
+            <skillRequirements>
+                <Crafting>10</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_UltraMartial</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>40</Steel>
+            <Plasteel>180</Plasteel>
+            <Uranium>140</Uranium>
+            <Hyperweave>20</Hyperweave>
+            <ABF_Thing_Synstruct_CoolantPack>5</ABF_Thing_Synstruct_CoolantPack>
+            <ABF_Thing_Synstruct_LubricantPack>5</ABF_Thing_Synstruct_LubricantPack>
+            <Gold>3</Gold>
+            <ComponentIndustrial>14</ComponentIndustrial>
+            <ComponentSpacer>6</ComponentSpacer>
+        </costList>
+        <comps>
+            <li Class="ArtificialBeings.CompProperties_PawnSpawner">
+                <pawnKind>ABF_PawnKind_Synstruct_Player_Paladin_Blank_Base</pawnKind>
+                <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

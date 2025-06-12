@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ABF_ResearchProject_Synstruct_UltraMartial</defName>
+		<label>ultra martial synstructs</label>
+		<tab>ABF_ResearchTab_Synstruct_Primary</tab>
+		<description>Assemble ultratech martial synstructs to dominate the battlefield.</description>
+		<baseCost>2800</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+            <li>ABF_ResearchProject_Synstruct_Optimization</li>
+            <li>ABF_ResearchProject_Synstruct_BasicMartial</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>4</researchViewX>
+		<researchViewY>1.5</researchViewY>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+</Defs>

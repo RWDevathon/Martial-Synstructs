@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Paladin -->
+
+    <!-- Childhood -->
+	<BackstoryDef>
+		<defName>ABF_Backstory_Synstruct_Childhood_PaladinGallant</defName>
+		<title>paladin gallant</title>
+		<titleShort>gallant</titleShort>
+		<baseDesc>{PAWN_nameDef} was from its first thought a member of the warrior society of paladins - a society born not of faction, culture, or ideology, but of body and purpose. By virtue of creation, {PAWN_pronoun} was a gallant.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+            <li>ABF_SpawnCategory_Synstruct_Paladin</li>
+		</spawnCategories>
+        <skillGains>
+			<Shooting>8</Shooting>
+			<Melee>8</Melee>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Bloodlust />
+        </forcedTraits>
+        <disallowedTraits>
+            <Tough />
+        </disallowedTraits>
+	</BackstoryDef>
+
+    <!-- Adulthood -->
+	<BackstoryDef>
+		<defName>ABF_Backstory_Synstruct_Adulthood_PaladinBattlemaster</defName>
+		<title>paladin battlemaster</title>
+		<titleShort>battlemaster</titleShort>
+		<baseDesc>{PAWN_nameDef} is a paladin battlemaster, a clique that revels in war and bloodshed as an end in of itself. {PAWN_pronoun} seeks to leave a legacy of triumphs behind, and will do nothing besides fight - and mentally prepare for the next fight.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>ABF_SpawnCategory_Synstruct_Paladin</li>
+		</spawnCategories>
+        <skillGains>
+			<Shooting>8</Shooting>
+			<Melee>8</Melee>
+        </skillGains>
+		<workDisables>
+			<li>AllWork</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>ABF_Backstory_Synstruct_Adulthood_PaladinSentinel</defName>
+		<title>paladin sentinel</title>
+		<titleShort>sentinel</titleShort>
+		<baseDesc>{PAWN_nameDef} is a paladin sentinel, a clique that sees paladins as natural guardians and protectors. {PAWN_pronoun} will fight to protect {PAWN_possessive} comrades, and sees no task as beneath {PAWN_objective}.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>ABF_SpawnCategory_Synstruct_Paladin</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>ABF_Backstory_Synstruct_Adulthood_PaladinHospitaller</defName>
+		<title>paladin hospitaller</title>
+		<titleShort>hospitaller</titleShort>
+		<baseDesc>{PAWN_nameDef} is a paladin hospitaller, a clique that sees combat as inevitable but self-defeating. {PAWN_pronoun} seeks to end fights as swiftly as possible, to preserve well-being and to give mercy to opponents. Hospitallers adhere to a strict regime of tending and crafting.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>ABF_SpawnCategory_Synstruct_Paladin</li>
+		</spawnCategories>
+        <skillGains>
+			<Medicine>2</Medicine>
+			<Crafting>2</Crafting>
+			<Social>4</Social>
+        </skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+			<li>Animals</li>
+			<li>Artistic</li>
+			<li>Cooking</li>
+			<li>Cleaning</li>
+			<li>Hauling</li>
+			<li>PlantWork</li>
+            <li>Mining</li>
+			<li>Constructing</li>
+		</workDisables>
+	</BackstoryDef>
+
+    <!-- Jellyman -->
+
+	<BackstoryDef>
+		<defName>ABF_Backstory_Synstruct_Childhood_Jellyman</defName>
+		<title>naturalborn jellyman</title>
+		<titleShort>Naturalborn</titleShort>
+		<baseDesc>{PAWN_nameDef} was born a jellyman, an assemblage of mechanites forming a sapient being. With natural aptitude and a capable body, {PAWN_pronoun} is capable of nearly anything.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+            <li>ABF_SpawnCategory_Synstruct_Jellyman</li>
+		</spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+            <Mining>2</Mining>
+            <Cooking>2</Cooking>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+            <Crafting>2</Crafting>
+            <Artistic>2</Artistic>
+            <Medicine>2</Medicine>
+			<Social>2</Social>
+			<Intellectual>2</Intellectual>
+        </skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>ABF_Backstory_Synstruct_Adulthood_Jellyman</defName>
+		<title>jellyman</title>
+		<titleShort>jellyman</titleShort>
+		<baseDesc>{PAWN_nameDef} is a jellyman, an assemblage of mechanites forming a sapient being. Their generic nature does not lead to a particular specialty, or any particular drawbacks.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>ABF_SpawnCategory_Synstruct_Jellyman</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+    <!-- Juggernaut -->
+
+	<BackstoryDef>
+		<defName>ABF_Backstory_Synstruct_Adulthood_Juggernaut</defName>
+		<title>juggernaut</title>
+		<titleShort>drone</titleShort>
+		<baseDesc>{PAWN_nameDef} is a juggernaut, built and abandoned for an unknown reason. {PAWN_pronoun} exists only to fight, and perish violently.</baseDesc>
+		<slot>Adulthood</slot>
+        <shuffleable>false</shuffleable>
+        <bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+		<workDisables>
+			<li>AllWork</li>
+		</workDisables>
+	</BackstoryDef>
+
+</Defs>

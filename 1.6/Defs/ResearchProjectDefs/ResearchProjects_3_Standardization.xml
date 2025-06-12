@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ABF_ResearchProject_Synstruct_BasicMartial</defName>
+		<label>martial synstructs</label>
+		<tab>ABF_ResearchTab_Synstruct_Primary</tab>
+		<description>Assemble synstruct drones to fill combat roles.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+            <li>ABF_ResearchProject_Synstruct_Infrastructure</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1.5</researchViewY>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+	</ResearchProjectDef>
+
+</Defs>

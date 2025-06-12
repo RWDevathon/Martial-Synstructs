@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Archotech Limb -->
+
+    <HediffDef ParentName="ABF_Hediff_Synstruct_Archotech_AddedBodyPartBase">
+        <defName>ABF_Hediff_Synstruct_Archotech_Limb</defName>
+        <label>archotech limb</label>
+        <description>An archotech device in the form of a limb. Synstructs derive great benefit from these devices, but at a cost. Synstructs are manmade creations that are neither psychic nor organic in nature. It is not clear whether Archotechs despise them for being out of their grasp, or for some other esoteric reason. The displeasure of the unknowable beings manifests through even the simplest of their implants, steadily whittling away at the consciousness of synstructs.</description>
+        <stages>
+            <li>
+		        <statFactors>
+                    <ABF_Stat_Synstruct_CoherenceRetention>0.9</ABF_Stat_Synstruct_CoherenceRetention>
+		        </statFactors>
+            </li>
+        </stages>
+	    <comps>
+            <li Class="HediffCompProperties_VerbGiver">
+                <tools>
+                    <li>
+                        <label>fist</label>
+                        <capacities>
+                            <li>Blunt</li>
+                        </capacities>
+                        <power>16</power>
+                        <cooldownTime>2</cooldownTime>
+                    </li>
+                </tools>
+            </li>
+        </comps>
+        <spawnThingOnRemoved>ABF_Thing_Synstruct_ArchotechPartReplacer</spawnThingOnRemoved>
+    </HediffDef>
+
+    <RecipeDef ParentName="ABF_Recipe_Synstruct_Archotech_InstallBodyPartBase">
+		<defName>ABF_Recipe_Synstruct_Archotech_Limb</defName>
+		<label>install archotech limb</label>
+		<description>Installs an archotech limb.</description>
+		<jobString>Installing archotech limb.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ABF_Thing_Synstruct_ArchotechPartReplacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+            <thingDefs>
+				<li>ABF_Thing_Synstruct_ArchotechPartReplacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ABF_BodyPart_Synstruct_Limb</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ABF_Hediff_Synstruct_Archotech_Limb</addsHediff>
+	</RecipeDef>
+
+</Defs>

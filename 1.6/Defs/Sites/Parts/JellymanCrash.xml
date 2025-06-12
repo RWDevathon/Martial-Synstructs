@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <SitePartDef>
+        <defName>ABF_SitePart_Synstruct_JellymanCrash</defName>
+        <label>enigmatic crashsite</label>
+        <description>The location that seems to be beckoning across time and space. What could possibly land and make this happen?</description>
+        <workerClass>ArtificialBeings.SitePartWorker_JellymanCrash</workerClass>
+        <siteTexture>UI/Icons/Sites/StrangeCrash</siteTexture>
+        <expandingIconTexture>UI/Icons/Sites/StrangeCrash</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>16</forceExitAndRemoveMapCountdownDurationDays>
+        <increasesPopulation>true</increasesPopulation>
+        <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+        <tags>
+            <li>ABF_SitePartTag_Synstruct_JellymanCrash</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>ABF_GenStep_Synstruct_JellymanCrash</defName>
+        <linkWithSite>ABF_SitePart_Synstruct_JellymanCrash</linkWithSite>
+        <order>480</order>
+        <genStep Class="ArtificialBeings.GenStep_DownedJellyman">
+            <count>1</count>
+            <nearMapCenter>true</nearMapCenter>
+        </genStep>
+    </GenStepDef>
+
+</Defs>

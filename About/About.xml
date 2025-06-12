@@ -4,6 +4,7 @@
     <author>Killathon</author>
     <supportedVersions>
 		<li>1.5</li>
+		<li>1.6</li>
     </supportedVersions>
     <modDependencies>
         <li>
@@ -17,8 +18,5 @@
     <loadAfter>
         <li>Killathon.ArtificialBeings.SynCore</li><!-- Dependency -->
     </loadAfter>
-    <description><![CDATA[Synstructs have long been integrated into human societies, including its violent tendencies. Synstructs who take a shine to battle partake in the martial traditions of humanity, and often find themselves desiring a more purpose-built body. No one lives forever, but their battle-ready frames sure make an attempt at it.
-
-Version <color=#FFD800>1.0.0</color>.
-    ]]></description>
+    <description><![CDATA[Synstructs have long been integrated into human societies, including its violent tendencies. Synstructs who take a shine to battle partake in the martial traditions of humanity, and often find themselves desiring a more purpose-built body. No one lives forever, but their battle-ready frames sure make an attempt at it.]]></description>
 </ModMetaData>
