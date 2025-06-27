@@ -91,7 +91,8 @@
             <IncomingDamageFactor>0.9</IncomingDamageFactor>
             <ABF_Stat_Artificial_ComplexityLimit>15</ABF_Stat_Artificial_ComplexityLimit>
             <ABF_Stat_Artificial_SkillLimit>5</ABF_Stat_Artificial_SkillLimit>
-            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.5</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <ABF_Stat_Synstruct_MaxEnergy>300</ABF_Stat_Synstruct_MaxEnergy>
+            <ABF_Stat_Synstruct_EnergyConsumption>150</ABF_Stat_Synstruct_EnergyConsumption>
 			<Mass>70.0</Mass>
 		</statBases>
 		<tools>
@@ -182,6 +183,7 @@
                 <artificialNeeds>
                     <li><key>ABF_Need_Synstruct_Coolant</key><value>1</value></li>
                     <li><key>ABF_Need_Synstruct_Lubricant</key><value>2</value></li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value>200</value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>

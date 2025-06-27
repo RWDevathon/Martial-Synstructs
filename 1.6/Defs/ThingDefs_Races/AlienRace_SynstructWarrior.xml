@@ -89,7 +89,8 @@
 			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
             <ABF_Stat_Artificial_ComplexityLimit>10</ABF_Stat_Artificial_ComplexityLimit>
             <ABF_Stat_Artificial_SkillLimit>4</ABF_Stat_Artificial_SkillLimit>
-            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.5</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <ABF_Stat_Synstruct_MaxEnergy>300</ABF_Stat_Synstruct_MaxEnergy>
+            <ABF_Stat_Synstruct_EnergyConsumption>100</ABF_Stat_Synstruct_EnergyConsumption>
             <MaxNutrition>0.6</MaxNutrition>
 			<Mass>60</Mass>
 		</statBases>
@@ -181,6 +182,7 @@
                 <artificialNeeds>
                     <li><key>ABF_Need_Synstruct_Coolant</key><value>0.5</value></li>
                     <li><key>ABF_Need_Synstruct_Lubricant</key><value>1</value></li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value>100</value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>
