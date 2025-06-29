@@ -199,9 +199,23 @@
                     <li>RoomSize</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Need_Synstruct_Coolant</key><value>5</value></li>
-                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>7.5</value></li>
-                    <li><key>ABF_Need_Synstruct_Energy</key><value>600</value></li>
+                    <li>
+                        <key>ABF_Need_Synstruct_Coolant</key>
+                        <value>
+                            <maximumCapacity>30</maximumCapacity>
+                            <fallRatePerDay>0.25</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li>
+                        <key>ABF_Need_Synstruct_Lubricant</key>
+                        <value>
+                            <maximumCapacity>60</maximumCapacity>
+                            <fallRatePerDay>0.5</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value></value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>
