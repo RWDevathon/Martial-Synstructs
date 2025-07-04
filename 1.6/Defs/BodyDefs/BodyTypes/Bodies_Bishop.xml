@@ -13,14 +13,6 @@
             </groups>
             <parts>
                 <li>
-                    <def>ABF_BodyPart_Synstruct_Generator</def>
-                    <coverage>0.0005</coverage>
-                    <depth>Inside</depth>
-                    <groups>
-                        <li>Torso</li>
-                    </groups>
-                </li>
-                <li>
                     <def>ABF_BodyPart_Synstruct_CoolantPump</def>
                     <coverage>0.0005</coverage>
                     <depth>Inside</depth>
