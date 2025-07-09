@@ -12,7 +12,7 @@ namespace ArtificialBeings
         public override void Notify_GeneratedByQuestGen(SitePart part, Slate slate, List<Rule> outExtraDescriptionRules, Dictionary<string, string> outExtraDescriptionConstants)
         {
             base.Notify_GeneratedByQuestGen(part, slate, outExtraDescriptionRules, outExtraDescriptionConstants);
-            Pawn pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(ABF_PawnKindDefOf.ABF_PawnKind_Synstruct_Jellyman_QuestCrash, Faction.OfAncients, PawnGenerationContext.NonPlayer, part.site.Tile, forceGenerateNewPawn: true, canGeneratePawnRelations: false, mustBeCapableOfViolence: false, allowFood: false, allowAddictions: false));
+            Pawn pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(ABF_PawnKindDefOf.ABF_PawnKind_Synstruct_Jellyman_QuestCrash, Faction.OfAncients, PawnGenerationContext.NonPlayer, tile: part.site.Tile, forceGenerateNewPawn: true, canGeneratePawnRelations: false, mustBeCapableOfViolence: false, allowFood: false, allowAddictions: false));
 
             part.things = new ThingOwner<Pawn>(part, oneStackOnly: true);
             part.things.TryAdd(pawn);

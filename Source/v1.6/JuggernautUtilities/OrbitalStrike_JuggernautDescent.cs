@@ -12,7 +12,7 @@ namespace ArtificialBeings
             MoteMaker_JuggernautDescent.MakeMote_JuggernautDescent(Position, Map);
         }
 
-        public override void Tick()
+        protected override void Tick()
         {
             if (TicksLeft == 0)
             {
@@ -37,7 +37,7 @@ namespace ArtificialBeings
 
         private void CreatePod()
         {
-            ActiveDropPodInfo info = new ActiveDropPodInfo
+            ActiveTransporterInfo info = new ActiveTransporterInfo
             {
                 openDelay = 10,
                 leaveSlag = true
