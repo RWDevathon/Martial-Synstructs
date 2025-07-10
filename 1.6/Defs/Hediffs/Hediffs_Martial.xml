@@ -4,7 +4,7 @@
     <HediffDef>
         <defName>ABF_Hediff_Synstruct_AblativeActiveArmor</defName>
         <label>active armor</label>
-        <description>This unit's entire body is actively reacting to damage it has taken, significantly reducing the amount of future damage it will take as a result. Sustained damage will greatly reduce coherence retention as the chassis continually warps to protect surviving systems.</description>
+        <description>This unit's entire body can actively respond to damage it has taken. As it takes damage, it will use damaged and destroyed materials to significantly reduce the amount of future damage it will take. Actively manipulating its chassis will greatly reduce coherence retention due to continuous warping to protect surviving systems.</description>
         <initialSeverity>1</initialSeverity>
         <isBad>false</isBad>
         <defaultLabelColor>(0.4, 0.6, 0.4)</defaultLabelColor>
@@ -66,7 +66,6 @@
             <li>
                 <minSeverity>0.95</minSeverity>
                 <label>no reaction</label>
-                <becomeVisible>false</becomeVisible>
             </li>
         </stages>
     </HediffDef>
