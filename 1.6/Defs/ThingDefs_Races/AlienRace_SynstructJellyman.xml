@@ -78,7 +78,7 @@
 			<PsychicSensitivity>2</PsychicSensitivity>
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<ComfyTemperatureMax>100</ComfyTemperatureMax>
-			<MentalBreakThreshold>0.42</MentalBreakThreshold>
+			<MentalBreakThreshold>0.25</MentalBreakThreshold>
 			<GlobalLearningFactor>2</GlobalLearningFactor>
 			<WorkSpeedGlobal>2</WorkSpeedGlobal>
 			<SocialImpact>2</SocialImpact>
