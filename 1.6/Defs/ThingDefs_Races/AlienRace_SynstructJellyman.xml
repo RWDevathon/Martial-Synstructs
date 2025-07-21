@@ -141,6 +141,7 @@
                     <Abasia MayRequire="Ludeon.RimWorld.Royalty">ABF_Hediff_Synstruct_CoreLockout</Abasia>
                 </hediffReplacements>
             </li>
+            <li Class="ArtificialBeings.ABF_SynstructExtension" />
 		</modExtensions>
 		<butcherProducts>
             <Hyperweave>80</Hyperweave>
