@@ -19,8 +19,6 @@
             <Steel>60</Steel>
             <Plasteel>40</Plasteel>
             <Uranium>15</Uranium>
-            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
-            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
             <ComponentIndustrial>14</ComponentIndustrial>
         </costList>
         <comps>
@@ -50,8 +48,6 @@
             <Steel>20</Steel>
             <Plasteel>80</Plasteel>
             <Uranium>30</Uranium>
-            <ABF_Thing_Synstruct_CoolantPack>2</ABF_Thing_Synstruct_CoolantPack>
-            <ABF_Thing_Synstruct_LubricantPack>2</ABF_Thing_Synstruct_LubricantPack>
             <Gold>1</Gold>
             <ComponentIndustrial>16</ComponentIndustrial>
             <ComponentSpacer>1</ComponentSpacer>
@@ -84,8 +80,6 @@
             <Plasteel>180</Plasteel>
             <Uranium>140</Uranium>
             <Hyperweave>20</Hyperweave>
-            <ABF_Thing_Synstruct_CoolantPack>5</ABF_Thing_Synstruct_CoolantPack>
-            <ABF_Thing_Synstruct_LubricantPack>5</ABF_Thing_Synstruct_LubricantPack>
             <Gold>3</Gold>
             <ComponentIndustrial>14</ComponentIndustrial>
             <ComponentSpacer>6</ComponentSpacer>
