@@ -32,6 +32,7 @@
                 </apparel>
             </graphicPaths>
             <generalSettings>
+                <immuneToXenophobia>true</immuneToXenophobia>
                 <alienPartGenerator>
 					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
                     <headOffset>(0, -0.1)</headOffset>

@@ -32,6 +32,14 @@
                 </apparel>
             </graphicPaths>
             <generalSettings>
+                <notXenophobistTowards>
+                    <li>Human</li>
+                    <li MayRequire="Killathon.ArtificialBeings.SynCore.Civil">ABF_Thing_Synstruct_Commoner</li>
+                    <li MayRequire="Killathon.ArtificialBeings.SynCore.Civil">ABF_Thing_Synstruct_Simpleton</li>
+                    <li MayRequire="Killathon.ArtificialBeings.SynCore.Civil">ABF_Thing_Synstruct_Socialite</li>
+                    <li MayRequire="Killathon.ArtificialBeings.SynCore.Civil">ABF_Thing_Synstruct_Stoic</li>
+                    <li>ABF_Thing_Synstruct_Paladin</li>
+                </notXenophobistTowards>
                 <alienPartGenerator>
 					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
                     <headOffset>(0, 0.34)</headOffset>

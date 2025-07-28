@@ -28,6 +28,7 @@
                 </apparel>
 			</graphicPaths>
 			<generalSettings>
+                <immuneToXenophobia>true</immuneToXenophobia>
 				<alienPartGenerator>
 					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
 					<borderScale>2</borderScale>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- Humans should not be xenophobic to synstructs. -->
+
+    <!-- It's possible another mod is already adding the desired node. Patch it defensively. -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/notXenophobistTowards</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings</xpath>
+            <value>
+                <notXenophobistTowards/>
+            </value>
+        </nomatch>
+    </Operation>
+
+    <!-- Add only races which can be sapient. Drone-only races leverage immunity to all xenophobia. -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/notXenophobistTowards</xpath>
+        <value>
+            <li>ABF_Thing_Synstruct_Bishop</li>
+            <li>ABF_Thing_Synstruct_Paladin</li>
+        </value>
+    </Operation>
+
+</Patch>
