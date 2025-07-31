@@ -80,7 +80,7 @@
 		<statBases>
 			<MarketValue>750</MarketValue>
 			<MoveSpeed>4.10</MoveSpeed>
-			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<MentalBreakThreshold>0.08</MentalBreakThreshold>
 			<GlobalLearningFactor>0.2</GlobalLearningFactor>

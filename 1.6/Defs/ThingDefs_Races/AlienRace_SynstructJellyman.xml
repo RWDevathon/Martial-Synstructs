@@ -76,8 +76,8 @@
 			<MarketValue>4000</MarketValue>
 			<MoveSpeed>6.50</MoveSpeed>
 			<PsychicSensitivity>2</PsychicSensitivity>
-			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
-			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
+			<ComfyTemperatureMax>200</ComfyTemperatureMax>
 			<MentalBreakThreshold>0.25</MentalBreakThreshold>
 			<GlobalLearningFactor>2</GlobalLearningFactor>
 			<WorkSpeedGlobal>2</WorkSpeedGlobal>
