@@ -76,6 +76,7 @@
 			<MarketValue>4000</MarketValue>
 			<MoveSpeed>6.50</MoveSpeed>
 			<PsychicSensitivity>2</PsychicSensitivity>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
 			<ComfyTemperatureMax>200</ComfyTemperatureMax>
 			<MentalBreakThreshold>0.25</MentalBreakThreshold>

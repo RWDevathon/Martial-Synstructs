@@ -80,6 +80,7 @@
 		<statBases>
 			<MarketValue>400</MarketValue>
 			<MoveSpeed>5.20</MoveSpeed>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
 			<ComfyTemperatureMax>200</ComfyTemperatureMax>
 			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
