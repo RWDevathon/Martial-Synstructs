@@ -39,6 +39,10 @@
                     <li MayRequire="Killathon.ArtificialBeings.SynCore.Civil">ABF_Thing_Synstruct_Socialite</li>
                     <li MayRequire="Killathon.ArtificialBeings.SynCore.Civil">ABF_Thing_Synstruct_Stoic</li>
                     <li>ABF_Thing_Synstruct_Bishop</li>
+                    <li MayRequire="Killathon.ArtificialBeings.SynCore.Masquerade">ABF_Thing_Synstruct_Sage</li>
+                    <li MayRequire="Killathon.ArtificialBeings.SynCore.Masquerade">ABF_Thing_Synstruct_Noble</li>
+                    <li MayRequire="Killathon.ArtificialBeings.SynCore.Masquerade">ABF_Thing_Synstruct_Recluse</li>
+                    <li MayRequire="Killathon.ArtificialBeings.SynCore.Masquerade">ABF_Thing_Synstruct_Agitator</li>
                 </notXenophobistTowards>
                 <alienPartGenerator>
 					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
